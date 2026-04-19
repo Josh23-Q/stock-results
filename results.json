@@ -1,0 +1,501 @@
+{
+  "last_updated": "19 April 2026, 20:03",
+  "last_updated_iso": "2026-04-19T20:03:37.873775",
+  "cycle_info": {
+    "current_index": 400,
+    "total_tickers": 400,
+    "cycle_progress_pct": 100.0,
+    "days_per_full_cycle": 1,
+    "last_run_date": "2026-04-19"
+  },
+  "summary": {
+    "analyzed": 400,
+    "buy": 6,
+    "sell": 109,
+    "oversold": 7
+  },
+  "buy": [
+    {
+      "ticker": "SSE.LON",
+      "exchange": "LSE",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 80,
+      "entry_price": 2469.5,
+      "stop_loss": 2396.1959,
+      "target_price": 2780.4475,
+      "risk_reward": 4.24,
+      "rsi": 47.476225310899785,
+      "atr_pct": 3.1478788711114882,
+      "notes": [
+        "EMA20>50>200 güçlü trend",
+        "Hacim 2.2x"
+      ],
+      "score_breakdown": {
+        "RSI 40-60": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "company_name": "SSE"
+    },
+    {
+      "ticker": "D",
+      "exchange": "NYSE",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 62.42,
+      "stop_loss": 59.8429,
+      "target_price": 67.5743,
+      "risk_reward": 2.0,
+      "rsi": 59.649105195302475,
+      "atr_pct": 2.064355954516137,
+      "notes": [
+        "Insider net alış",
+        "OBV yükseliş",
+        "EMA20>50>200 güçlü trend"
+      ],
+      "score_breakdown": {
+        "RSI 40-60": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "company_name": "Dominion Energy"
+    },
+    {
+      "ticker": "SOKM.IST",
+      "exchange": "BIST",
+      "signal_direction": "BUY",
+      "signal_type": "POSITION",
+      "confidence_score": 75,
+      "entry_price": 52.75,
+      "stop_loss": 48.3786,
+      "target_price": 70.2357,
+      "risk_reward": 4.0,
+      "rsi": 59.73753274532914,
+      "atr_pct": 4.143533984308882,
+      "notes": [],
+      "score_breakdown": {
+        "RSI 40-60": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "company_name": "Şok Market"
+    },
+    {
+      "ticker": "TOASO.IST",
+      "exchange": "BIST",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 70,
+      "entry_price": 294.5,
+      "stop_loss": 271.8929,
+      "target_price": 339.7143,
+      "risk_reward": 2.0,
+      "rsi": 62.29946524064171,
+      "atr_pct": 3.8382245937424204,
+      "notes": [
+        "OBV yükseliş",
+        "EMA20>50>200 güçlü trend"
+      ],
+      "score_breakdown": {
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "company_name": "Tofaş"
+    },
+    {
+      "ticker": "TAVHL.IST",
+      "exchange": "BIST",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 70,
+      "entry_price": 320.0,
+      "stop_loss": 289.5714,
+      "target_price": 380.8571,
+      "risk_reward": 2.0,
+      "rsi": 60.57692307692308,
+      "atr_pct": 4.754464285714286,
+      "notes": [
+        "OBV yükseliş",
+        "EMA20>50>200 güçlü trend",
+        "Hacim 2.9x"
+      ],
+      "score_breakdown": {
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "company_name": "TAV Havalimanları"
+    },
+    {
+      "ticker": "DOHOL.IST",
+      "exchange": "BIST",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 70,
+      "entry_price": 21.44,
+      "stop_loss": 19.91,
+      "target_price": 24.5,
+      "risk_reward": 2.0,
+      "rsi": 60.1923194016208,
+      "atr_pct": 3.568098527364981,
+      "notes": [
+        "EMA20>50>200 güçlü trend"
+      ],
+      "score_breakdown": {
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "company_name": "Doğan Holding"
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "META",
+      "exchange": "NASDAQ",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 688.55,
+      "stop_loss": 646.9586,
+      "target_price": 646.9586,
+      "risk_reward": 2.0,
+      "rsi": 96.4565117830108,
+      "atr_pct": 3.0202180438684474,
+      "notes": [
+        "Sat kriterleri: RSI 96.5, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Meta"
+    },
+    {
+      "ticker": "ICG.LON",
+      "exchange": "LSE",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 1871.0,
+      "stop_loss": 1729.2857,
+      "target_price": 1729.2857,
+      "risk_reward": 2.0,
+      "rsi": 93.78109452736318,
+      "atr_pct": 3.7871268229365507,
+      "notes": [
+        "Sat kriterleri: RSI 93.8, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Intermediate Capital"
+    },
+    {
+      "ticker": "MSFT",
+      "exchange": "NASDAQ",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 422.79,
+      "stop_loss": 402.5757,
+      "target_price": 402.5757,
+      "risk_reward": 2.0,
+      "rsi": 92.93705472045932,
+      "atr_pct": 2.390582755669821,
+      "notes": [
+        "Sat kriterleri: RSI 92.9, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Microsoft"
+    },
+    {
+      "ticker": "BNTX",
+      "exchange": "NASDAQ",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 102.92,
+      "stop_loss": 96.87,
+      "target_price": 96.87,
+      "risk_reward": 2.0,
+      "rsi": 89.87050842074618,
+      "atr_pct": 2.939176005466935,
+      "notes": [
+        "Sat kriterleri: RSI 89.9, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "BioNTech"
+    },
+    {
+      "ticker": "AVB",
+      "exchange": "NYSE",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 173.89,
+      "stop_loss": 168.1167,
+      "target_price": 168.1167,
+      "risk_reward": 2.0,
+      "rsi": 89.85608252589786,
+      "atr_pct": 1.6600454355035605,
+      "notes": [
+        "Sat kriterleri: RSI 89.9, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "AvalonBay Communities"
+    },
+    {
+      "ticker": "UPS",
+      "exchange": "NYSE",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 106.44,
+      "stop_loss": 101.7457,
+      "target_price": 101.7457,
+      "risk_reward": 2.0,
+      "rsi": 89.80853428796568,
+      "atr_pct": 2.205132837147594,
+      "notes": [
+        "Sat kriterleri: RSI 89.8, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "UPS"
+    },
+    {
+      "ticker": "DEVA.IST",
+      "exchange": "BIST",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 67.9,
+      "stop_loss": 64.1,
+      "target_price": 64.1,
+      "risk_reward": 2.0,
+      "rsi": 89.03511531099838,
+      "atr_pct": 2.798231267858469,
+      "notes": [
+        "Sat kriterleri: RSI 89.0, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Deva Holding"
+    },
+    {
+      "ticker": "MONY.LON",
+      "exchange": "LSE",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 172.85,
+      "stop_loss": 160.1107,
+      "target_price": 160.1107,
+      "risk_reward": 2.0,
+      "rsi": 88.7122363311384,
+      "atr_pct": 3.6850696269637018,
+      "notes": [
+        "Sat kriterleri: RSI 88.7, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Moneysupermarket"
+    },
+    {
+      "ticker": "CMG",
+      "exchange": "NASDAQ",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 35.83,
+      "stop_loss": 33.6,
+      "target_price": 33.6,
+      "risk_reward": 2.0,
+      "rsi": 88.28969843309348,
+      "atr_pct": 3.111918110784242,
+      "notes": [
+        "Sat kriterleri: RSI 88.3, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Chipotle"
+    },
+    {
+      "ticker": "AES",
+      "exchange": "NYSE",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 14.47,
+      "stop_loss": 14.2757,
+      "target_price": 14.2757,
+      "risk_reward": 2.0,
+      "rsi": 87.30160171842998,
+      "atr_pct": 0.671339535778392,
+      "notes": [
+        "Sat kriterleri: RSI 87.3, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "AES Corp"
+    }
+  ],
+  "oversold": [
+    {
+      "ticker": "DVN",
+      "exchange": "NYSE",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 44.23,
+      "stop_loss": 41.5008,
+      "target_price": 46.4415,
+      "risk_reward": 1.5,
+      "rsi": 16.380787928020652,
+      "atr_pct": 4.681699111348391,
+      "notes": [
+        "RSI: 16.4 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Devon Energy"
+    },
+    {
+      "ticker": "XOM",
+      "exchange": "NYSE",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 146.44,
+      "stop_loss": 140.5503,
+      "target_price": 153.762,
+      "risk_reward": 1.5,
+      "rsi": 17.82438117925814,
+      "atr_pct": 4.262106539296338,
+      "notes": [
+        "RSI: 17.8 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "ExxonMobil"
+    },
+    {
+      "ticker": "OXY",
+      "exchange": "NYSE",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 53.79,
+      "stop_loss": 51.4404,
+      "target_price": 56.4795,
+      "risk_reward": 1.5,
+      "rsi": 17.98999917817713,
+      "atr_pct": 5.364778482226478,
+      "notes": [
+        "RSI: 18.0 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Occidental Petroleum"
+    },
+    {
+      "ticker": "MPC",
+      "exchange": "NYSE",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 213.69,
+      "stop_loss": 208.5336,
+      "target_price": 224.3745,
+      "risk_reward": 1.5,
+      "rsi": 20.672192240124062,
+      "atr_pct": 4.415942958123452,
+      "notes": [
+        "RSI: 20.7 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Marathon Petroleum"
+    },
+    {
+      "ticker": "COP",
+      "exchange": "NYSE",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 116.04,
+      "stop_loss": 111.0879,
+      "target_price": 121.842,
+      "risk_reward": 1.5,
+      "rsi": 22.456570544335094,
+      "atr_pct": 4.324863914616304,
+      "notes": [
+        "RSI: 22.5 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "ConocoPhillips"
+    },
+    {
+      "ticker": "IMB.LON",
+      "exchange": "LSE",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 2776.5,
+      "stop_loss": 2711.996,
+      "target_price": 2915.325,
+      "risk_reward": 1.5,
+      "rsi": 26.53946227233304,
+      "atr_pct": 3.140107186470955,
+      "notes": [
+        "RSI: 26.5 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Imperial Brands"
+    },
+    {
+      "ticker": "LCID",
+      "exchange": "NASDAQ",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 7.3,
+      "stop_loss": 7.1577,
+      "target_price": 7.665,
+      "risk_reward": 1.5,
+      "rsi": 29.166672185615298,
+      "atr_pct": 9.490213034226738,
+      "notes": [
+        "RSI: 29.2 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "company_name": "Lucid Motors"
+    }
+  ]
+}
