@@ -1,6 +1,6 @@
 {
-  "last_updated": "20 April 2026, 18:21",
-  "last_updated_iso": "2026-04-20T18:21:21.635047",
+  "last_updated": "20 April 2026, 18:42",
+  "last_updated_iso": "2026-04-20T18:42:19.876022",
   "run_type": "manual",
   "cycle_info": {
     "current_index": 400,
@@ -12,8 +12,8 @@
   "summary": {
     "analyzed": 400,
     "buy": 6,
-    "sell": 88,
-    "oversold": 5
+    "sell": 87,
+    "oversold": 6
   },
   "buy": [
     {
@@ -23,12 +23,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 156.25,
-      "stop_loss": 150.2043,
-      "target_price": 168.3414,
+      "entry_price": 156.55,
+      "stop_loss": 150.5043,
+      "target_price": 168.6414,
       "risk_reward": 2.0,
-      "rsi": 48.6369985069595,
-      "atr_pct": 1.9346282087053572,
+      "rsi": 49.344967820317954,
+      "atr_pct": 1.930920803050204,
       "notes": [
         "EMA20>50>200 güçlü trend"
       ],
@@ -39,7 +39,35 @@
         "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": -0.71
+    },
+    {
+      "ticker": "WMT",
+      "exchange": "NYSE",
+      "company_name": "Walmart",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 127.81,
+      "stop_loss": 122.1154,
+      "target_price": 139.1993,
+      "risk_reward": 2.0,
+      "rsi": 59.53116880487524,
+      "atr_pct": 2.2277718186855986,
+      "notes": [
+        "OBV yükseliş",
+        "EMA20>50>200 güçlü trend"
+      ],
+      "score_breakdown": {
+        "RSI 40-60": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.24
     },
     {
       "ticker": "TOASO.IST",
@@ -65,7 +93,8 @@
         "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": -0.85
     },
     {
       "ticker": "DOHOL.IST",
@@ -90,7 +119,8 @@
         "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": -2.05
     },
     {
       "ticker": "SSE.LON",
@@ -115,7 +145,8 @@
         "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 1.9
     },
     {
       "ticker": "KORDS.IST",
@@ -141,32 +172,8 @@
         "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
-      "veto_reasons": []
-    },
-    {
-      "ticker": "KO",
-      "exchange": "NYSE",
-      "company_name": "Coca-Cola",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 75.48,
-      "stop_loss": 73.3293,
-      "target_price": 80.6171,
-      "risk_reward": 2.39,
-      "rsi": 45.506284067631846,
-      "atr_pct": 1.7014894834109122,
-      "notes": [
-        "EMA20>50>200 güçlü trend"
-      ],
-      "score_breakdown": {
-        "RSI 40-60": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": -3.77
     }
   ],
   "sell": [
@@ -187,7 +194,8 @@
         "Sat kriterleri: RSI 93.8, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": -1.34
     },
     {
       "ticker": "BNTX",
@@ -196,17 +204,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 104.76,
-      "stop_loss": 98.4571,
-      "target_price": 98.4571,
+      "entry_price": 104.91,
+      "stop_loss": 98.6071,
+      "target_price": 98.6071,
       "risk_reward": 2.0,
-      "rsi": 92.35781509693112,
-      "atr_pct": 3.0082361191231324,
+      "rsi": 92.40726892603895,
+      "atr_pct": 3.003934908634895,
       "notes": [
         "Sat kriterleri: RSI 92.4, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 1.93
     },
     {
       "ticker": "AVB",
@@ -215,17 +224,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 176.0,
-      "stop_loss": 170.2514,
-      "target_price": 170.2514,
+      "entry_price": 175.885,
+      "stop_loss": 170.1364,
+      "target_price": 170.1364,
       "risk_reward": 2.0,
-      "rsi": 90.55006492624653,
-      "atr_pct": 1.6331189638608463,
+      "rsi": 90.49541084469463,
+      "atr_pct": 1.6341868073818984,
       "notes": [
-        "Sat kriterleri: RSI 90.6, EMA20<EMA50"
+        "Sat kriterleri: RSI 90.5, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 1.15
     },
     {
       "ticker": "UPS",
@@ -234,17 +244,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 107.08,
-      "stop_loss": 102.3477,
-      "target_price": 102.3477,
+      "entry_price": 106.97,
+      "stop_loss": 102.2377,
+      "target_price": 102.2377,
       "risk_reward": 2.0,
-      "rsi": 90.1390358778811,
-      "atr_pct": 2.2096896647437108,
+      "rsi": 90.06672166618009,
+      "atr_pct": 2.2119619579944874,
       "notes": [
         "Sat kriterleri: RSI 90.1, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 0.5
     },
     {
       "ticker": "BLNK",
@@ -253,17 +264,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 0.7938,
-      "stop_loss": 0.6854,
-      "target_price": 0.6854,
+      "entry_price": 0.797,
+      "stop_loss": 0.6886,
+      "target_price": 0.6886,
       "risk_reward": 2.0,
-      "rsi": 88.85350434340374,
-      "atr_pct": 6.827917186979985,
+      "rsi": 88.94736941171156,
+      "atr_pct": 6.800502760216452,
       "notes": [
         "Sat kriterleri: RSI 88.9, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 14.51
     },
     {
       "ticker": "CHPT",
@@ -272,17 +284,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 6.485,
-      "stop_loss": 5.706,
-      "target_price": 5.706,
+      "entry_price": 6.495,
+      "stop_loss": 5.716,
+      "target_price": 5.716,
       "risk_reward": 2.0,
-      "rsi": 88.34952265347448,
-      "atr_pct": 6.006168032159002,
+      "rsi": 88.39459109677381,
+      "atr_pct": 5.996920889415583,
       "notes": [
-        "Sat kriterleri: RSI 88.3, EMA20<EMA50"
+        "Sat kriterleri: RSI 88.4, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 4.42
     },
     {
       "ticker": "CMG",
@@ -291,36 +304,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 35.835,
-      "stop_loss": 33.685,
-      "target_price": 33.685,
+      "entry_price": 35.88,
+      "stop_loss": 33.73,
+      "target_price": 33.73,
       "risk_reward": 2.0,
-      "rsi": 87.73206090465344,
-      "atr_pct": 2.9998611565431843,
+      "rsi": 87.82053554944497,
+      "atr_pct": 2.996098623135215,
       "notes": [
-        "Sat kriterleri: RSI 87.7, EMA20<EMA50"
+        "Sat kriterleri: RSI 87.8, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
-    },
-    {
-      "ticker": "MSFT",
-      "exchange": "NASDAQ",
-      "company_name": "Microsoft",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 418.28,
-      "stop_loss": 398.3586,
-      "target_price": 398.3586,
-      "risk_reward": 2.0,
-      "rsi": 87.44949380131057,
-      "atr_pct": 2.3813515746727867,
-      "notes": [
-        "Sat kriterleri: RSI 87.4, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 0.14
     },
     {
       "ticker": "AES",
@@ -329,17 +324,38 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 14.485,
-      "stop_loss": 14.3021,
-      "target_price": 14.3021,
+      "entry_price": 14.4822,
+      "stop_loss": 14.2993,
+      "target_price": 14.2993,
       "risk_reward": 2.0,
-      "rsi": 87.19999267577008,
-      "atr_pct": 0.631194715375355,
+      "rsi": 87.14239074955972,
+      "atr_pct": 0.6313167505315085,
       "notes": [
-        "Sat kriterleri: RSI 87.2, EMA20<EMA50"
+        "Sat kriterleri: RSI 87.1, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 0.08
+    },
+    {
+      "ticker": "MSFT",
+      "exchange": "NASDAQ",
+      "company_name": "Microsoft",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 417.745,
+      "stop_loss": 397.8236,
+      "target_price": 397.8236,
+      "risk_reward": 2.0,
+      "rsi": 86.86272776228328,
+      "atr_pct": 2.384401358220433,
+      "notes": [
+        "Sat kriterleri: RSI 86.9, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.19
     },
     {
       "ticker": "NXPI",
@@ -348,20 +364,41 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 219.275,
-      "stop_loss": 205.6386,
-      "target_price": 205.6386,
+      "entry_price": 219.84,
+      "stop_loss": 206.2036,
+      "target_price": 206.2036,
       "risk_reward": 2.0,
-      "rsi": 86.21236556065163,
-      "atr_pct": 3.109435957679772,
+      "rsi": 86.38706942011484,
+      "atr_pct": 3.101444514190184,
       "notes": [
-        "Sat kriterleri: RSI 86.2, EMA20<EMA50"
+        "Sat kriterleri: RSI 86.4, EMA20<EMA50"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 1.76
     }
   ],
   "oversold": [
+    {
+      "ticker": "MPC",
+      "exchange": "NYSE",
+      "company_name": "Marathon Petroleum",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 215.04,
+      "stop_loss": 208.5336,
+      "target_price": 225.792,
+      "risk_reward": 1.5,
+      "rsi": 24.799185789306648,
+      "atr_pct": 4.121598973307935,
+      "notes": [
+        "RSI: 24.8 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.63
+    },
     {
       "ticker": "IMB.LON",
       "exchange": "LSE",
@@ -379,7 +416,8 @@
         "RSI: 25.7 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": 0.77
     },
     {
       "ticker": "EXC",
@@ -388,17 +426,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 46.705,
+      "entry_price": 46.67,
       "stop_loss": 45.3123,
-      "target_price": 49.0403,
+      "target_price": 49.0035,
       "risk_reward": 1.5,
-      "rsi": 27.417838895750165,
-      "atr_pct": 1.9468700266353802,
+      "rsi": 27.23878578769218,
+      "atr_pct": 1.94833022769081,
       "notes": [
-        "RSI: 27.4 — Bollinger alt bandına yakın"
+        "RSI: 27.2 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": -0.74
     },
     {
       "ticker": "LCID",
@@ -407,36 +446,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 6.975,
+      "entry_price": 6.9501,
       "stop_loss": 6.7617,
-      "target_price": 7.3237,
+      "target_price": 7.2976,
       "risk_reward": 1.5,
-      "rsi": 28.73900675990052,
-      "atr_pct": 9.90168804262812,
+      "rsi": 28.59978224632141,
+      "atr_pct": 9.937162587429995,
       "notes": [
-        "RSI: 28.7 — Bollinger alt bandına yakın"
+        "RSI: 28.6 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
-    },
-    {
-      "ticker": "SO",
-      "exchange": "NYSE",
-      "company_name": "Southern Company",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 94.06,
-      "stop_loss": 92.367,
-      "target_price": 98.763,
-      "risk_reward": 1.5,
-      "rsi": 29.051070175966174,
-      "atr_pct": 1.5229635488233522,
-      "notes": [
-        "RSI: 29.1 — Bollinger alt bandına yakın"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": -4.79
     },
     {
       "ticker": "JNJ",
@@ -445,17 +466,38 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 232.45,
+      "entry_price": 232.26,
       "stop_loss": 229.3236,
-      "target_price": 244.0725,
+      "target_price": 243.873,
       "risk_reward": 1.5,
-      "rsi": 29.100722029457998,
-      "atr_pct": 1.9844523613828577,
+      "rsi": 28.872336643922395,
+      "atr_pct": 1.9860757610316768,
       "notes": [
-        "RSI: 29.1 — Bollinger alt bandına yakın"
+        "RSI: 28.9 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
-      "veto_reasons": []
+      "veto_reasons": [],
+      "price_change_pct": -0.82
+    },
+    {
+      "ticker": "SO",
+      "exchange": "NYSE",
+      "company_name": "Southern Company",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 94.02,
+      "stop_loss": 92.367,
+      "target_price": 98.721,
+      "risk_reward": 1.5,
+      "rsi": 28.882409870156337,
+      "atr_pct": 1.5236114954138948,
+      "notes": [
+        "RSI: 28.9 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.52
     }
   ]
 }
