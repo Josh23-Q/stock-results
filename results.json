@@ -1,7 +1,7 @@
 {
-  "last_updated": "22 April 2026, 05:05",
-  "last_updated_iso": "2026-04-22T05:05:42.940917",
-  "run_type": "manual",
+  "last_updated": "22 April 2026, 10:57",
+  "last_updated_iso": "2026-04-22T10:57:43.664480",
+  "run_type": "scheduled",
   "cycle_info": {
     "current_index": 400,
     "total_tickers": 400,
@@ -12,37 +12,10 @@
   "summary": {
     "analyzed": 400,
     "buy": 6,
-    "sell": 65,
-    "oversold": 8
+    "sell": 58,
+    "oversold": 7
   },
   "buy": [
-    {
-      "ticker": "RR.LON",
-      "exchange": "LSE",
-      "company_name": "Rolls-Royce",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 90,
-      "entry_price": 1180.4,
-      "stop_loss": 1067.22,
-      "target_price": 1441.8822,
-      "risk_reward": 2.31,
-      "rsi": 56.03462385986499,
-      "atr_pct": 5.537999983128686,
-      "notes": [
-        "EMA20>50>200 güçlü trend"
-      ],
-      "score_breakdown": {
-        "RSI 40-60": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -6.5
-    },
     {
       "ticker": "NET",
       "exchange": "NASDAQ",
@@ -51,11 +24,11 @@
       "signal_type": "SWING",
       "confidence_score": 75,
       "entry_price": 207.67,
-      "stop_loss": 179.2907,
-      "target_price": 264.4285,
+      "stop_loss": 180.0457,
+      "target_price": 262.9186,
       "risk_reward": 2.0,
       "rsi": 50.591164443998316,
-      "atr_pct": 6.832780500634272,
+      "atr_pct": 6.651005263232089,
       "notes": [
         "OBV yükseliş",
         "EMA20>50>200 güçlü trend"
@@ -68,7 +41,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 1.69
+      "price_change_pct": null
     },
     {
       "ticker": "PEP",
@@ -78,11 +51,11 @@
       "signal_type": "SWING",
       "confidence_score": 75,
       "entry_price": 154.92,
-      "stop_loss": 148.8243,
-      "target_price": 167.1114,
+      "stop_loss": 148.8914,
+      "target_price": 166.9771,
       "risk_reward": 2.0,
       "rsi": 49.106723153435254,
-      "atr_pct": 1.9673748051195654,
+      "atr_pct": 1.9457038742682748,
       "notes": [
         "EMA20>50>200 güçlü trend"
       ],
@@ -94,7 +67,60 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.85
+      "price_change_pct": null
+    },
+    {
+      "ticker": "GE",
+      "exchange": "NYSE",
+      "company_name": "GE",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 286.73,
+      "stop_loss": 268.0821,
+      "target_price": 334.1529,
+      "risk_reward": 2.54,
+      "rsi": 51.348653126649424,
+      "atr_pct": 4.1348008984721565,
+      "notes": [
+        "Hacim 2.2x"
+      ],
+      "score_breakdown": {
+        "RSI 40-60": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "DE",
+      "exchange": "NYSE",
+      "company_name": "Deere",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 587.3,
+      "stop_loss": 556.6657,
+      "target_price": 648.5686,
+      "risk_reward": 2.0,
+      "rsi": 59.80391961312495,
+      "atr_pct": 2.6080619290907494,
+      "notes": [
+        "OBV yükseliş",
+        "EMA20>50>200 güçlü trend"
+      ],
+      "score_breakdown": {
+        "RSI 40-60": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": null
     },
     {
       "ticker": "TSCO.LON",
@@ -103,12 +129,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 487.55,
-      "stop_loss": 463.9311,
-      "target_price": 534.7877,
+      "entry_price": 491.25,
+      "stop_loss": 467.724,
+      "target_price": 538.302,
       "risk_reward": 2.0,
-      "rsi": 59.934846574190836,
-      "atr_pct": 2.4221985272121733,
+      "rsi": 58.70503559214218,
+      "atr_pct": 2.3945043599202562,
       "notes": [
         "OBV yükseliş",
         "EMA20>50>200 güçlü trend"
@@ -121,21 +147,21 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.32
+      "price_change_pct": null
     },
     {
-      "ticker": "TATGD.IST",
-      "exchange": "BIST",
-      "company_name": "Tat Gıda",
+      "ticker": "EMG.LON",
+      "exchange": "LSE",
+      "company_name": "Man Group",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 16.78,
-      "stop_loss": 15.5943,
-      "target_price": 19.1514,
+      "entry_price": 263.2,
+      "stop_loss": 244.9335,
+      "target_price": 299.733,
       "risk_reward": 2.0,
-      "rsi": 52.312138409677864,
-      "atr_pct": 3.533117593689323,
+      "rsi": 58.19158490740854,
+      "atr_pct": 3.4700760797042136,
       "notes": [
         "OBV yükseliş",
         "EMA20>50>200 güçlü trend"
@@ -148,34 +174,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.18
-    },
-    {
-      "ticker": "GUBRF.IST",
-      "exchange": "BIST",
-      "company_name": "Gübre Fabrikaları",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 512.0,
-      "stop_loss": 468.8214,
-      "target_price": 598.3571,
-      "risk_reward": 2.0,
-      "rsi": 57.24258289703316,
-      "atr_pct": 4.216657366071429,
-      "notes": [
-        "OBV yükseliş",
-        "EMA20>50>200 güçlü trend"
-      ],
-      "score_breakdown": {
-        "RSI 40-60": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.66
+      "price_change_pct": null
     }
   ],
   "sell": [
@@ -187,17 +186,17 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 111.6,
-      "stop_loss": 104.5529,
-      "target_price": 104.5529,
+      "stop_loss": 104.6936,
+      "target_price": 104.6936,
       "risk_reward": 2.0,
       "rsi": 93.2927013649178,
-      "atr_pct": 3.157321740664161,
+      "atr_pct": 3.094277665918946,
       "notes": [
         "Sat kriterleri: RSI 93.3, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 6.53
+      "price_change_pct": null
     },
     {
       "ticker": "CHPT",
@@ -207,17 +206,17 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 6.71,
-      "stop_loss": 5.9153,
-      "target_price": 5.9153,
+      "stop_loss": 5.9403,
+      "target_price": 5.9403,
       "risk_reward": 2.0,
       "rsi": 87.75511038199338,
-      "atr_pct": 5.921865201780693,
+      "atr_pct": 5.735575879085387,
       "notes": [
         "Sat kriterleri: RSI 87.8, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 3.47
+      "price_change_pct": null
     },
     {
       "ticker": "MONY.LON",
@@ -226,38 +225,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 170.4,
-      "stop_loss": 158.5821,
-      "target_price": 158.5821,
+      "entry_price": 171.1,
+      "stop_loss": 158.7321,
+      "target_price": 158.7321,
       "risk_reward": 2.0,
-      "rsi": 87.5457623632439,
-      "atr_pct": 3.4676821061960075,
+      "rsi": 87.72561088804412,
+      "atr_pct": 3.614218663267954,
       "notes": [
-        "Sat kriterleri: RSI 87.5, EMA20<EMA50"
+        "Sat kriterleri: RSI 87.7, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.64
-    },
-    {
-      "ticker": "MSFT",
-      "exchange": "NASDAQ",
-      "company_name": "Microsoft",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 424.16,
-      "stop_loss": 405.1071,
-      "target_price": 405.1071,
-      "risk_reward": 2.0,
-      "rsi": 86.54392432862976,
-      "atr_pct": 2.245952588660182,
-      "notes": [
-        "Sat kriterleri: RSI 86.5, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 1.41
+      "price_change_pct": null
     },
     {
       "ticker": "HUM",
@@ -267,17 +246,37 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 217.36,
-      "stop_loss": 201.4243,
-      "target_price": 201.4243,
+      "stop_loss": 201.3986,
+      "target_price": 201.3986,
       "risk_reward": 2.0,
       "rsi": 86.3448572650918,
-      "atr_pct": 3.6657422425772586,
+      "atr_pct": 3.67165764079959,
       "notes": [
         "Sat kriterleri: RSI 86.3, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 4.09
+      "price_change_pct": null
+    },
+    {
+      "ticker": "MSFT",
+      "exchange": "NASDAQ",
+      "company_name": "Microsoft",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 424.16,
+      "stop_loss": 404.8043,
+      "target_price": 404.8043,
+      "risk_reward": 2.0,
+      "rsi": 86.33733086749805,
+      "atr_pct": 2.281652805918259,
+      "notes": [
+        "Sat kriterleri: RSI 86.3, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
     },
     {
       "ticker": "CMG",
@@ -287,17 +286,17 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 36.05,
-      "stop_loss": 33.9957,
-      "target_price": 33.9957,
+      "stop_loss": 33.8586,
+      "target_price": 33.8586,
       "risk_reward": 2.0,
       "rsi": 86.33095943794939,
-      "atr_pct": 2.8492176287783852,
+      "atr_pct": 3.0394302143711767,
       "notes": [
         "Sat kriterleri: RSI 86.3, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.6
+      "price_change_pct": null
     },
     {
       "ticker": "CNC",
@@ -307,17 +306,17 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 39.14,
-      "stop_loss": 36.7443,
-      "target_price": 36.7443,
+      "stop_loss": 36.6514,
+      "target_price": 36.6514,
       "risk_reward": 2.0,
       "rsi": 85.63470267262235,
-      "atr_pct": 3.0604431954838707,
+      "atr_pct": 3.179064576847062,
       "notes": [
         "Sat kriterleri: RSI 85.6, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 2.34
+      "price_change_pct": null
     },
     {
       "ticker": "NXPI",
@@ -327,17 +326,17 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 224.5,
-      "stop_loss": 210.83,
-      "target_price": 210.83,
+      "stop_loss": 211.4386,
+      "target_price": 211.4386,
       "risk_reward": 2.0,
       "rsi": 84.74106289050768,
-      "atr_pct": 3.044543993006532,
+      "atr_pct": 2.909004388627754,
       "notes": [
         "Sat kriterleri: RSI 84.7, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 2.38
+      "price_change_pct": null
     },
     {
       "ticker": "SWKS",
@@ -347,17 +346,17 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 59.94,
-      "stop_loss": 56.5343,
-      "target_price": 56.5343,
+      "stop_loss": 56.6443,
+      "target_price": 56.6443,
       "risk_reward": 2.0,
       "rsi": 84.46602860653626,
-      "atr_pct": 2.840936257541876,
+      "atr_pct": 2.7491786849680495,
       "notes": [
         "Sat kriterleri: RSI 84.5, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.35
+      "price_change_pct": null
     },
     {
       "ticker": "SNPS",
@@ -367,17 +366,17 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 467.58,
-      "stop_loss": 435.9201,
-      "target_price": 435.9201,
+      "stop_loss": 436.0371,
+      "target_price": 436.0371,
       "risk_reward": 2.0,
       "rsi": 82.75893972466677,
-      "atr_pct": 3.385505750882455,
+      "atr_pct": 3.3729912554147083,
       "notes": [
         "Sat kriterleri: RSI 82.8, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.34
+      "price_change_pct": null
     }
   ],
   "oversold": [
@@ -389,17 +388,17 @@
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
       "entry_price": 226.16,
-      "stop_loss": 223.8984,
+      "stop_loss": 222.453,
       "target_price": 237.468,
       "risk_reward": 1.5,
       "rsi": 17.77149467341009,
-      "atr_pct": 2.2360917815106296,
+      "atr_pct": 2.207035293245426,
       "notes": [
         "RSI: 17.8 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.71
+      "price_change_pct": null
     },
     {
       "ticker": "IMB.LON",
@@ -408,38 +407,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 2734.0,
-      "stop_loss": 2706.66,
-      "target_price": 2870.7,
+      "entry_price": 2736.5,
+      "stop_loss": 2683.89,
+      "target_price": 2873.325,
       "risk_reward": 1.5,
-      "rsi": 20.34313725490196,
-      "atr_pct": 3.2764423253556405,
+      "rsi": 22.106179286335944,
+      "atr_pct": 3.180786365412349,
       "notes": [
-        "RSI: 20.3 — Bollinger alt bandına yakın"
+        "RSI: 22.1 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.29
-    },
-    {
-      "ticker": "ECILC.IST",
-      "exchange": "BIST",
-      "company_name": "Eczacıbaşı İlaç",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 88.15,
-      "stop_loss": 87.2685,
-      "target_price": 92.5575,
-      "risk_reward": 1.5,
-      "rsi": 21.399170666779966,
-      "atr_pct": 4.7767594440014385,
-      "notes": [
-        "RSI: 21.4 — Bollinger alt bandına yakın"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.54
+      "price_change_pct": null
     },
     {
       "ticker": "SO",
@@ -449,17 +428,17 @@
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
       "entry_price": 91.92,
-      "stop_loss": 91.0008,
+      "stop_loss": 90.9909,
       "target_price": 96.516,
       "risk_reward": 1.5,
       "rsi": 23.193463969759833,
-      "atr_pct": 1.6470067230068486,
+      "atr_pct": 1.5984390522182172,
       "notes": [
         "RSI: 23.2 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.28
+      "price_change_pct": null
     },
     {
       "ticker": "EXC",
@@ -473,13 +452,13 @@
       "target_price": 48.5835,
       "risk_reward": 1.5,
       "rsi": 25.749551251517133,
-      "atr_pct": 2.0006790818264393,
+      "atr_pct": 1.9281233968634495,
       "notes": [
         "RSI: 25.7 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.93
+      "price_change_pct": null
     },
     {
       "ticker": "ABT",
@@ -489,37 +468,37 @@
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
       "entry_price": 92.72,
-      "stop_loss": 91.7928,
+      "stop_loss": 91.7334,
       "target_price": 97.356,
       "risk_reward": 1.5,
       "rsi": 26.92469300483303,
-      "atr_pct": 2.724149545338495,
+      "atr_pct": 2.650964769690228,
       "notes": [
         "RSI: 26.9 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -3.46
+      "price_change_pct": null
     },
     {
-      "ticker": "BATS.LON",
-      "exchange": "LSE",
-      "company_name": "BAT",
+      "ticker": "DUK",
+      "exchange": "NYSE",
+      "company_name": "Duke Energy",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 4111.0,
-      "stop_loss": 4045.14,
-      "target_price": 4316.55,
+      "entry_price": 125.67,
+      "stop_loss": 124.3836,
+      "target_price": 131.9535,
       "risk_reward": 1.5,
-      "rsi": 29.194187582562748,
-      "atr_pct": 2.9173748444395695,
+      "rsi": 29.462208680015422,
+      "atr_pct": 1.6943463244745833,
       "notes": [
-        "RSI: 29.2 — Bollinger alt bandına yakın"
+        "RSI: 29.5 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.68
+      "price_change_pct": null
     },
     {
       "ticker": "FE",
@@ -533,13 +512,13 @@
       "target_price": 50.9355,
       "risk_reward": 1.5,
       "rsi": 29.831165949772043,
-      "atr_pct": 1.7750396879850063,
+      "atr_pct": 1.733075432812902,
       "notes": [
         "RSI: 29.8 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.52
+      "price_change_pct": null
     }
   ]
 }
