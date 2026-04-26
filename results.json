@@ -1,13 +1,13 @@
 {
-  "last_updated": "25 April 2026, 05:06",
-  "last_updated_iso": "2026-04-25T05:06:17.240831",
+  "last_updated": "26 April 2026, 05:05",
+  "last_updated_iso": "2026-04-26T05:05:40.010175",
   "run_type": "manual",
   "cycle_info": {
     "current_index": 400,
     "total_tickers": 400,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-04-25"
+    "last_run_date": "2026-04-26"
   },
   "summary": {
     "analyzed": 400,
@@ -125,32 +125,6 @@
       "price_change_pct": -1.6
     },
     {
-      "ticker": "LIN",
-      "exchange": "NYSE",
-      "company_name": "Linde",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 510.3,
-      "stop_loss": 490.9114,
-      "target_price": 549.0771,
-      "risk_reward": 2.0,
-      "rsi": 58.48878780673683,
-      "atr_pct": 1.899721633136857,
-      "notes": [
-        "EMA20>50>200 güçlü trend"
-      ],
-      "score_breakdown": {
-        "RSI 40-60": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.44
-    },
-    {
       "ticker": "NEE",
       "exchange": "NYSE",
       "company_name": "NextEra Energy",
@@ -176,6 +150,32 @@
       },
       "veto_reasons": [],
       "price_change_pct": -1.01
+    },
+    {
+      "ticker": "MTB",
+      "exchange": "NYSE",
+      "company_name": "M&T Bank",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 214.92,
+      "stop_loss": 205.8129,
+      "target_price": 233.1343,
+      "risk_reward": 2.0,
+      "rsi": 54.60316937466032,
+      "atr_pct": 2.118728581503121,
+      "notes": [
+        "EMA20>50>200 güçlü trend"
+      ],
+      "score_breakdown": {
+        "RSI 40-60": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -2.18
     }
   ],
   "sell": [
