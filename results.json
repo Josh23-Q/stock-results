@@ -1,7 +1,7 @@
 {
-  "last_updated": "30 April 2026, 11:27",
-  "last_updated_iso": "2026-04-30T11:27:11.501555",
-  "run_type": "manual",
+  "last_updated": "30 April 2026, 11:46",
+  "last_updated_iso": "2026-04-30T11:46:18.736518",
+  "run_type": "scheduled",
   "cycle_info": {
     "current_index": 400,
     "total_tickers": 400,
@@ -12,8 +12,8 @@
   "summary": {
     "analyzed": 400,
     "buy": 6,
-    "sell": 70,
-    "oversold": 19
+    "sell": 68,
+    "oversold": 20
   },
   "buy": [
     {
@@ -246,18 +246,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 14.09,
-      "stop_loss": 11.7429,
-      "target_price": 11.7429,
+      "entry_price": 14.08,
+      "stop_loss": 11.7329,
+      "target_price": 11.7329,
       "risk_reward": 2.0,
-      "rsi": 70.72808139871844,
-      "atr_pct": 8.329108854936033,
+      "rsi": 70.62314120193797,
+      "atr_pct": 8.335024550630807,
       "notes": [
-        "Sat kriterleri: RSI 70.7, MACD negatif"
+        "Sat kriterleri: RSI 70.6, MACD negatif"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.81
+      "price_change_pct": -1.88
     },
     {
       "ticker": "EXPN.LON",
@@ -266,18 +266,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 2691.0,
-      "stop_loss": 2540.2551,
-      "target_price": 2540.2551,
+      "entry_price": 2696.6499,
+      "stop_loss": 2545.5262,
+      "target_price": 2545.5262,
       "risk_reward": 2.0,
-      "rsi": 59.040590405904055,
-      "atr_pct": 2.8009080833681717,
+      "rsi": 59.37933987138792,
+      "atr_pct": 2.8020633033200166,
       "notes": [
         "Sat kriterleri: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.32
+      "price_change_pct": 1.53
     },
     {
       "ticker": "CEMTS.IST",
@@ -286,38 +286,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 10.99,
-      "stop_loss": 10.33,
-      "target_price": 10.33,
+      "entry_price": 10.98,
+      "stop_loss": 10.32,
+      "target_price": 10.32,
       "risk_reward": 2.0,
-      "rsi": 58.474579695761314,
-      "atr_pct": 3.002729742478177,
+      "rsi": 58.29787147697989,
+      "atr_pct": 3.0054645317265347,
       "notes": [
         "Sat kriterleri: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.92
-    },
-    {
-      "ticker": "CMBTN.IST",
-      "exchange": "BIST",
-      "company_name": "Çimbeton",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 1768.0,
-      "stop_loss": 1635.48,
-      "target_price": 1619.4286,
-      "risk_reward": 2.0,
-      "rsi": 56.737588652482266,
-      "atr_pct": 4.201680672268908,
-      "notes": [
-        "Sat kriterleri: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.11
+      "price_change_pct": 0.83
     },
     {
       "ticker": "JANTS.IST",
@@ -326,18 +306,38 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 17.64,
-      "stop_loss": 16.72,
-      "target_price": 16.72,
+      "entry_price": 17.63,
+      "stop_loss": 16.71,
+      "target_price": 16.71,
       "risk_reward": 2.0,
-      "rsi": 56.67653922147368,
-      "atr_pct": 2.6077092847164343,
+      "rsi": 56.547597422355025,
+      "atr_pct": 2.609188450396855,
       "notes": [
         "Sat kriterleri: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.46
+      "price_change_pct": 0.4
+    },
+    {
+      "ticker": "CMBTN.IST",
+      "exchange": "BIST",
+      "company_name": "Çimbeton",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 1764.0,
+      "stop_loss": 1635.48,
+      "target_price": 1615.4286,
+      "risk_reward": 2.0,
+      "rsi": 56.20608899297424,
+      "atr_pct": 4.211208292840946,
+      "notes": [
+        "Sat kriterleri: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.34
     },
     {
       "ticker": "BFREN.IST",
@@ -360,24 +360,24 @@
       "price_change_pct": -0.82
     },
     {
-      "ticker": "LAND.LON",
-      "exchange": "LSE",
-      "company_name": "Land Securities",
+      "ticker": "KLSER.IST",
+      "exchange": "BIST",
+      "company_name": "Kiler Alışveriş",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 590.0,
-      "stop_loss": 563.0471,
-      "target_price": 563.0471,
+      "entry_price": 26.42,
+      "stop_loss": 24.9282,
+      "target_price": 24.8314,
       "risk_reward": 2.0,
-      "rsi": 54.01785714285714,
-      "atr_pct": 2.2841402289365162,
+      "rsi": 53.3333220305362,
+      "atr_pct": 3.00637911892395,
       "notes": [
         "Sat kriterleri: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.9
+      "price_change_pct": -1.05
     }
   ],
   "oversold": [
@@ -408,18 +408,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 275.75,
+      "entry_price": 278.0,
       "stop_loss": 272.0025,
-      "target_price": 289.5375,
+      "target_price": 291.9,
       "risk_reward": 1.5,
-      "rsi": 16.06217616580311,
-      "atr_pct": 4.435953891982904,
+      "rsi": 16.445623342175068,
+      "atr_pct": 4.40005138746146,
       "notes": [
-        "RSI: 16.1 — Bollinger alt bandına yakın"
+        "RSI: 16.4 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.08
+      "price_change_pct": -0.27
     },
     {
       "ticker": "GILD",
@@ -442,24 +442,24 @@
       "price_change_pct": -0.32
     },
     {
-      "ticker": "GSK.LON",
+      "ticker": "JD.LON",
       "exchange": "LSE",
-      "company_name": "GSK",
+      "company_name": "JD Sports",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 1945.5,
-      "stop_loss": 1840.2143,
-      "target_price": 2042.775,
+      "entry_price": 66.96,
+      "stop_loss": 65.34,
+      "target_price": 70.308,
       "risk_reward": 1.5,
-      "rsi": 20.711562897077513,
-      "atr_pct": 2.7058780335572936,
+      "rsi": 20.933516352480197,
+      "atr_pct": 3.215353124736972,
       "notes": [
-        "RSI: 20.7 — Bollinger alt bandına yakın"
+        "RSI: 20.9 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.43
+      "price_change_pct": -0.27
     },
     {
       "ticker": "WEIR.LON",
@@ -468,18 +468,38 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 2600.0,
+      "entry_price": 2590.0,
       "stop_loss": 2465.1,
-      "target_price": 2730.0,
+      "target_price": 2719.5,
       "risk_reward": 1.5,
-      "rsi": 21.25221587579476,
-      "atr_pct": 3.62553805350931,
+      "rsi": 21.0095339733178,
+      "atr_pct": 3.639536269932125,
       "notes": [
-        "RSI: 21.3 — Bollinger alt bandına yakın"
+        "RSI: 21.0 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -5.93
+      "price_change_pct": -6.29
+    },
+    {
+      "ticker": "GSK.LON",
+      "exchange": "LSE",
+      "company_name": "GSK",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 1947.5,
+      "stop_loss": 1841.3571,
+      "target_price": 2044.875,
+      "risk_reward": 1.5,
+      "rsi": 21.11251580278129,
+      "atr_pct": 2.725105446543187,
+      "notes": [
+        "RSI: 21.1 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 1.54
     },
     {
       "ticker": "HCA",
@@ -502,26 +522,6 @@
       "price_change_pct": 0.66
     },
     {
-      "ticker": "AZN.LON",
-      "exchange": "LSE",
-      "company_name": "AstraZeneca",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 13862.2002,
-      "stop_loss": 12992.9308,
-      "target_price": 14555.3102,
-      "risk_reward": 1.5,
-      "rsi": 22.019480906051115,
-      "atr_pct": 3.135394740710117,
-      "notes": [
-        "RSI: 22.0 — Bollinger alt bandına yakın"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 1.24
-    },
-    {
       "ticker": "REGN",
       "exchange": "NASDAQ",
       "company_name": "Regeneron",
@@ -542,6 +542,26 @@
       "price_change_pct": -6.21
     },
     {
+      "ticker": "AZN.LON",
+      "exchange": "LSE",
+      "company_name": "AstraZeneca",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 13874.7852,
+      "stop_loss": 13002.3729,
+      "target_price": 14568.5244,
+      "risk_reward": 1.5,
+      "rsi": 22.418938621833348,
+      "atr_pct": 3.1438766044277955,
+      "notes": [
+        "RSI: 22.4 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 1.33
+    },
+    {
       "ticker": "LULU",
       "exchange": "NASDAQ",
       "company_name": "Lululemon",
@@ -560,26 +580,6 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": -2.97
-    },
-    {
-      "ticker": "LLY",
-      "exchange": "NYSE",
-      "company_name": "Eli Lilly",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 851.21,
-      "stop_loss": 842.0049,
-      "target_price": 893.7705,
-      "risk_reward": 1.5,
-      "rsi": 23.800642216508166,
-      "atr_pct": 3.0507846081236014,
-      "notes": [
-        "RSI: 23.8 — Bollinger alt bandına yakın"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.61
     }
   ]
 }
