@@ -1,13 +1,13 @@
 {
-  "last_updated": "02 May 2026, 05:07",
-  "last_updated_iso": "2026-05-02T05:07:07.998356",
+  "last_updated": "03 May 2026, 05:08",
+  "last_updated_iso": "2026-05-03T05:08:40.656199",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 400,
     "total_tickers": 400,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-05-02"
+    "last_run_date": "2026-05-03"
   },
   "summary": {
     "analyzed": 400,
@@ -58,7 +58,6 @@
       "rsi": 59.46953269443349,
       "atr_pct": 0.4057178254646225,
       "notes": [
-        "Insider net alış",
         "Alt Bollinger bandına yakın"
       ],
       "score_breakdown": {
@@ -71,6 +70,32 @@
       },
       "veto_reasons": [],
       "price_change_pct": 0.04
+    },
+    {
+      "ticker": "PEP",
+      "exchange": "NASDAQ",
+      "company_name": "PepsiCo",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 157.41,
+      "stop_loss": 150.9486,
+      "target_price": 170.3329,
+      "risk_reward": 2.0,
+      "rsi": 53.800294108729275,
+      "atr_pct": 2.052420427730213,
+      "notes": [
+        "EMA20>50>200 güçlü trend"
+      ],
+      "score_breakdown": {
+        "RSI 40-60": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.68
     },
     {
       "ticker": "XOM",
@@ -99,32 +124,6 @@
       "price_change_pct": -1.02
     },
     {
-      "ticker": "CVX",
-      "exchange": "NYSE",
-      "company_name": "Chevron",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 190.63,
-      "stop_loss": 181.1371,
-      "target_price": 209.6157,
-      "risk_reward": 2.0,
-      "rsi": 48.277935844507425,
-      "atr_pct": 2.489864256344997,
-      "notes": [
-        "EMA20>50>200 güçlü trend"
-      ],
-      "score_breakdown": {
-        "RSI 40-60": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -1.39
-    },
-    {
       "ticker": "LIN",
       "exchange": "NYSE",
       "company_name": "Linde",
@@ -151,18 +150,18 @@
       "price_change_pct": 1.35
     },
     {
-      "ticker": "TFC",
+      "ticker": "BA",
       "exchange": "NYSE",
-      "company_name": "Truist Financial",
+      "company_name": "Boeing",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 50.93,
-      "stop_loss": 48.7814,
-      "target_price": 55.2271,
+      "entry_price": 227.38,
+      "stop_loss": 213.9186,
+      "target_price": 254.3029,
       "risk_reward": 2.0,
-      "rsi": 57.565808254932286,
-      "atr_pct": 2.1093373272432,
+      "rsi": 55.18197239955249,
+      "atr_pct": 2.960117391993591,
       "notes": [
         "OBV yükseliş",
         "EMA20>50>200 güçlü trend"
@@ -175,7 +174,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.11
+      "price_change_pct": -0.72
     }
   ],
   "sell": [
