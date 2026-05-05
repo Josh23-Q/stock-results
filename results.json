@@ -1,6 +1,6 @@
 {
-  "last_updated": "05 May 2026, 21:11",
-  "last_updated_iso": "2026-05-05T21:11:36.103594",
+  "last_updated": "05 May 2026, 21:29",
+  "last_updated_iso": "2026-05-05T21:29:00.728372",
   "run_type": "manual",
   "cycle_info": {
     "current_index": 400,
@@ -109,6 +109,7 @@
       "rsi": 58.14535130796674,
       "atr_pct": 2.5710671548223627,
       "notes": [
+        "Insider net alış",
         "EMA20>50>200 güçlü trend"
       ],
       "score_breakdown": {
