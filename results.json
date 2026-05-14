@@ -1,19 +1,19 @@
 {
-  "last_updated": "13 May 2026, 20:27",
-  "last_updated_iso": "2026-05-13T20:27:33.430891",
+  "last_updated": "14 May 2026, 05:18",
+  "last_updated_iso": "2026-05-14T05:18:53.517999",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-05-13"
+    "last_run_date": "2026-05-14"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
     "sell": 91,
-    "oversold": 28
+    "oversold": 29
   },
   "buy": [
     {
@@ -23,14 +23,13 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 580.67,
+      "entry_price": 580.65,
       "stop_loss": 552.1824,
-      "target_price": 644.5185,
+      "target_price": 644.4986,
       "risk_reward": 2.24,
-      "rsi": 46.07623832501923,
-      "atr_pct": 2.748917842198614,
+      "rsi": 46.06984146392721,
+      "atr_pct": 2.7490123298653817,
       "notes": [
-        "OBV yükseliş",
         "EMA20>50>200 güçlü trend"
       ],
       "score_breakdown": {
@@ -111,6 +110,7 @@
       "rsi": 49.40162799259047,
       "atr_pct": 2.041388578392507,
       "notes": [
+        "Insider net alış",
         "OBV yükseliş",
         "EMA20>50>200 güçlü trend"
       ],
@@ -248,10 +248,10 @@
       "confidence_score": 65,
       "entry_price": 104.98,
       "stop_loss": 97.317,
-      "target_price": 92.1732,
+      "target_price": 92.1733,
       "risk_reward": 2.0,
       "rsi": 56.10518596381667,
-      "atr_pct": 6.099625254775579,
+      "atr_pct": 6.09959774219514,
       "notes": [
         "Sat kriterleri: MACD negatif, EMA20<EMA50"
       ],
@@ -267,11 +267,11 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 116.5,
-      "stop_loss": 111.4195,
-      "target_price": 103.7107,
+      "stop_loss": 111.4245,
+      "target_price": 103.7114,
       "risk_reward": 2.0,
       "rsi": 51.94639529558249,
-      "atr_pct": 5.48896438720254,
+      "atr_pct": 5.48865752743476,
       "notes": [
         "Sat kriterleri: MACD negatif, EMA20<EMA50"
       ],
@@ -326,18 +326,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 155.725,
+      "entry_price": 155.73,
       "stop_loss": 150.777,
-      "target_price": 142.9857,
+      "target_price": 142.9914,
       "risk_reward": 2.0,
-      "rsi": 49.53364669132274,
-      "atr_pct": 4.090314166356776,
+      "rsi": 49.53907149825793,
+      "atr_pct": 4.089954253026258,
       "notes": [
         "Sat kriterleri: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.32
+      "price_change_pct": -2.31
     },
     {
       "ticker": "ADSK",
@@ -347,11 +347,11 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 231.03,
-      "stop_loss": 223.0222,
-      "target_price": 214.6993,
+      "stop_loss": 223.0272,
+      "target_price": 214.7,
       "risk_reward": 2.0,
       "rsi": 49.16593721841891,
-      "atr_pct": 3.5343286760221497,
+      "atr_pct": 3.534173937836048,
       "notes": [
         "Sat kriterleri: MACD negatif, EMA20<EMA50"
       ],
@@ -442,24 +442,44 @@
       "price_change_pct": -4.64
     },
     {
+      "ticker": "BIMAS.IST",
+      "exchange": "BIST",
+      "company_name": "BİM",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 406.5,
+      "stop_loss": 389.3175,
+      "target_price": 426.825,
+      "risk_reward": 1.5,
+      "rsi": 17.29678638941398,
+      "atr_pct": 11.83008258654015,
+      "notes": [
+        "RSI: 17.3 — Bollinger alt bandına yakın"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -47.95
+    },
+    {
       "ticker": "SPGI",
       "exchange": "NYSE",
       "company_name": "S&P Global",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 406.595,
-      "stop_loss": 397.0098,
-      "target_price": 426.9248,
+      "entry_price": 406.55,
+      "stop_loss": 396.99,
+      "target_price": 426.8775,
       "risk_reward": 1.5,
-      "rsi": 18.57986661305962,
-      "atr_pct": 2.7985017874425946,
+      "rsi": 18.563677232033413,
+      "atr_pct": 2.7991628348786484,
       "notes": [
         "RSI: 18.6 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -4.14
+      "price_change_pct": -4.15
     },
     {
       "ticker": "FERG.LON",
@@ -468,12 +488,12 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 17200.0,
-      "stop_loss": 16948.8,
-      "target_price": 18060.0,
+      "entry_price": 17199.1094,
+      "stop_loss": 16947.9224,
+      "target_price": 18059.0648,
       "risk_reward": 1.5,
-      "rsi": 18.63013698630138,
-      "atr_pct": 3.182159727990033,
+      "rsi": 18.630097254671966,
+      "atr_pct": 3.182160129682665,
       "notes": [
         "RSI: 18.6 — Bollinger alt bandına yakın"
       ],
@@ -508,18 +528,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 250.09,
+      "entry_price": 250.1,
       "stop_loss": 244.53,
-      "target_price": 262.5945,
+      "target_price": 262.605,
       "risk_reward": 1.5,
-      "rsi": 22.360809185155034,
-      "atr_pct": 2.5025293018907133,
+      "rsi": 22.366180596598454,
+      "atr_pct": 2.502429143029577,
       "notes": [
         "RSI: 22.4 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.53
+      "price_change_pct": -0.52
     },
     {
       "ticker": "HD",
@@ -528,18 +548,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 302.6,
+      "entry_price": 302.55,
       "stop_loss": 296.2773,
-      "target_price": 317.73,
+      "target_price": 317.6775,
       "risk_reward": 1.5,
-      "rsi": 23.474550554920484,
-      "atr_pct": 2.596073064053963,
+      "rsi": 23.457978102274666,
+      "atr_pct": 2.5965022532589193,
       "notes": [
         "RSI: 23.5 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.53
+      "price_change_pct": -2.55
     },
     {
       "ticker": "PPL",
@@ -549,37 +569,17 @@
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
       "entry_price": 35.75,
-      "stop_loss": 35.3084,
+      "stop_loss": 35.3133,
       "target_price": 37.5375,
       "risk_reward": 1.5,
       "rsi": 23.728792859688042,
-      "atr_pct": 2.0949029303216316,
+      "atr_pct": 2.093904478090269,
       "notes": [
         "RSI: 23.7 — Bollinger alt bandına yakın"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": -1.65
-    },
-    {
-      "ticker": "ISRG",
-      "exchange": "NASDAQ",
-      "company_name": "Intuitive Surgical",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 432.27,
-      "stop_loss": 413.5626,
-      "target_price": 453.8835,
-      "risk_reward": 1.5,
-      "rsi": 24.107227428819755,
-      "atr_pct": 3.08272941680128,
-      "notes": [
-        "RSI: 24.1 — Bollinger alt bandına yakın"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.09
     }
   ]
 }
