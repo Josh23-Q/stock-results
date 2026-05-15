@@ -1,19 +1,19 @@
 {
-  "last_updated": "14 May 2026, 17:52",
-  "last_updated_iso": "2026-05-14T17:52:54.975563",
+  "last_updated": "15 May 2026, 05:19",
+  "last_updated_iso": "2026-05-15T05:19:16.027938",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-05-14"
+    "last_run_date": "2026-05-15"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
     "sell": 27,
-    "oversold": 17
+    "oversold": 19
   },
   "buy": [
     {
@@ -24,15 +24,16 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 90,
-      "entry_price": 192.375,
-      "stop_loss": 179.5336,
-      "target_price": 218.0579,
+      "entry_price": 191.37,
+      "stop_loss": 178.13,
+      "target_price": 217.85,
       "risk_reward": 2.0,
-      "rsi": 57.35306913030128,
-      "atr_pct": 3.33760324476556,
+      "rsi": 56.31207061423694,
+      "atr_pct": 3.4592672026707683,
       "notes": [
         "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
+        "OBV yükseliş",
+        "Hacim 2.3x"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -75,6 +76,36 @@
       "price_change_pct": null
     },
     {
+      "ticker": "AEP",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "American Electric Power",
+      "signal_direction": "BUY",
+      "signal_type": "POSITION",
+      "confidence_score": 80,
+      "entry_price": 128.6,
+      "stop_loss": 124.8885,
+      "target_price": 149.8385,
+      "risk_reward": 5.72,
+      "rsi": 38.143049940096574,
+      "atr_pct": 2.064396637344502,
+      "notes": [
+        "Insider net alış",
+        "Savunma hissesi destek bölgesinde",
+        "Alt Bollinger bandına yakın"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
       "ticker": "FTAI",
       "exchange": "NASDAQ",
       "group": "GROWTH",
@@ -82,15 +113,40 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 257.46,
-      "stop_loss": 219.5443,
-      "target_price": 333.2914,
+      "entry_price": 258.95,
+      "stop_loss": 221.0343,
+      "target_price": 334.7814,
       "risk_reward": 2.0,
-      "rsi": 57.7255191936816,
-      "atr_pct": 7.363418313497401,
+      "rsi": 58.26197368422305,
+      "atr_pct": 7.321048568082403,
       "notes": [
         "Güçlü büyüme trendi (EMA20>50>200)"
       ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "DE",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Deere",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 574.64,
+      "stop_loss": 552.1824,
+      "target_price": 633.58,
+      "risk_reward": 2.62,
+      "rsi": 54.98090814018532,
+      "atr_pct": 2.5642137781754317,
+      "notes": [],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
@@ -109,68 +165,14 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 47.135,
-      "stop_loss": 45.1264,
-      "target_price": 51.1521,
+      "entry_price": 47.06,
+      "stop_loss": 45.0486,
+      "target_price": 51.0829,
       "risk_reward": 2.0,
-      "rsi": 56.4584867043633,
-      "atr_pct": 2.1306584239743795,
+      "rsi": 55.743247597126604,
+      "atr_pct": 2.1370896454641866,
       "notes": [
         "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "HOC.LON",
-      "exchange": "LSE",
-      "group": "VALUE",
-      "company_name": "Hochschild Mining",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 658.0,
-      "stop_loss": 584.2266,
-      "target_price": 805.5467,
-      "risk_reward": 2.0,
-      "rsi": 51.136905904149906,
-      "atr_pct": 5.605878183875456,
-      "notes": [
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "YKBNK.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Yapı Kredi",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 37.82,
-      "stop_loss": 35.3628,
-      "target_price": 42.8371,
-      "risk_reward": 2.04,
-      "rsi": 49.37500571211043,
-      "atr_pct": 3.3164588381423963,
-      "notes": [
         "OBV yükseliş"
       ],
       "score_breakdown": {
@@ -214,12 +216,12 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 93.3599,
+      "entry_price": 93.68,
       "stop_loss": 90.684,
-      "target_price": 90.2999,
+      "target_price": 90.61,
       "risk_reward": 2.0,
-      "rsi": 49.46461941888036,
-      "atr_pct": 1.6388208220816707,
+      "rsi": 50.76183810267316,
+      "atr_pct": 1.6385583660139653,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
@@ -261,7 +263,7 @@
       "target_price": 597.5756,
       "risk_reward": 2.0,
       "rsi": 45.59098695932978,
-      "atr_pct": 2.42232096206068,
+      "atr_pct": 2.4223251273352195,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
@@ -398,27 +400,6 @@
   ],
   "oversold": [
     {
-      "ticker": "BIMAS.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "BİM",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 414.0,
-      "stop_loss": 389.3175,
-      "target_price": 434.7,
-      "risk_reward": 1.5,
-      "rsi": 16.825095057034233,
-      "atr_pct": 11.6243961352657,
-      "notes": [
-        "RSI: 16.8 — Bollinger alt bandına yakın (BIST)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
       "ticker": "FERG.LON",
       "exchange": "LSE",
       "group": "VALUE",
@@ -468,14 +449,14 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 405.82,
+      "entry_price": 403.92,
       "stop_loss": 396.99,
-      "target_price": 426.111,
+      "target_price": 424.116,
       "risk_reward": 1.5,
-      "rsi": 19.122627128700216,
-      "atr_pct": 2.8181034248453867,
+      "rsi": 18.424589023988403,
+      "atr_pct": 2.881581506104773,
       "notes": [
-        "RSI: 19.1 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 18.4 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
@@ -503,6 +484,27 @@
       "price_change_pct": null
     },
     {
+      "ticker": "ISRG",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Intuitive Surgical",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 428.06,
+      "stop_loss": 413.5626,
+      "target_price": 449.463,
+      "risk_reward": 1.5,
+      "rsi": 20.1433216119341,
+      "atr_pct": 3.055312792395792,
+      "notes": [
+        "RSI: 20.1 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
       "ticker": "PPL",
       "exchange": "NYSE",
       "group": "DEFENSIVE",
@@ -510,14 +512,14 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 35.735,
+      "entry_price": 35.78,
       "stop_loss": 35.3133,
-      "target_price": 37.5218,
+      "target_price": 37.569,
       "risk_reward": 1.5,
-      "rsi": 20.5278528950693,
-      "atr_pct": 2.044812356456091,
+      "rsi": 21.052604182933052,
+      "atr_pct": 2.042240729429359,
       "notes": [
-        "RSI: 20.5 — Bollinger alt bandına yakın (DEFENSIVE)"
+        "RSI: 21.1 — Bollinger alt bandına yakın (DEFENSIVE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
@@ -573,14 +575,14 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 9.625,
+      "entry_price": 9.6,
       "stop_loss": 9.0189,
-      "target_price": 10.1063,
+      "target_price": 10.08,
       "risk_reward": 1.5,
-      "rsi": 27.80142799516588,
-      "atr_pct": 4.876437213734926,
+      "rsi": 27.60564628893107,
+      "atr_pct": 4.888393145409357,
       "notes": [
-        "RSI: 27.8 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 27.6 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
