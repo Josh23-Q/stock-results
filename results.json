@@ -1,6 +1,6 @@
 {
-  "last_updated": "17 May 2026, 05:18",
-  "last_updated_iso": "2026-05-17T05:18:57.298296",
+  "last_updated": "17 May 2026, 16:49",
+  "last_updated_iso": "2026-05-17T16:49:29.693767",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
@@ -40,7 +40,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -10.04
     },
     {
       "ticker": "HOC.LON",
@@ -68,7 +68,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -6.23
     },
     {
       "ticker": "NETAS.IST",
@@ -96,7 +96,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": 2.75
     },
     {
       "ticker": "CNA.LON",
@@ -125,7 +125,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -6.4
     },
     {
       "ticker": "SVT.LON",
@@ -154,7 +154,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -8.04
     },
     {
       "ticker": "TURSG.IST",
@@ -183,7 +183,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -7.05
     }
   ],
   "sell": [
@@ -206,7 +206,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -1.24
     },
     {
       "ticker": "BRSAN.IST",
@@ -227,7 +227,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -2.99
     },
     {
       "ticker": "SO",
@@ -248,7 +248,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -1.21
     },
     {
       "ticker": "DOCS.LON",
@@ -269,7 +269,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -3.26
     },
     {
       "ticker": "EKGYO.IST",
@@ -290,7 +290,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -0.2
     },
     {
       "ticker": "ES",
@@ -311,7 +311,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -2.38
     },
     {
       "ticker": "ALKA.IST",
@@ -332,7 +332,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -4.16
     },
     {
       "ticker": "OTKAR.IST",
@@ -353,7 +353,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -1.74
     },
     {
       "ticker": "BFREN.IST",
@@ -374,7 +374,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -0.07
     },
     {
       "ticker": "PHP.LON",
@@ -395,7 +395,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -1.83
     }
   ],
   "oversold": [
@@ -418,7 +418,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -2.14
     },
     {
       "ticker": "FERG.LON",
@@ -439,7 +439,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -2.78
     },
     {
       "ticker": "SPGI",
@@ -460,7 +460,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -0.19
     },
     {
       "ticker": "PPL",
@@ -481,7 +481,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -2.52
     },
     {
       "ticker": "SSE.LON",
@@ -502,7 +502,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -7.65
     },
     {
       "ticker": "ISRG",
@@ -523,7 +523,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -1.62
     },
     {
       "ticker": "DHI",
@@ -544,7 +544,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -2.85
     },
     {
       "ticker": "TSCO.LON",
@@ -565,7 +565,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -0.42
     },
     {
       "ticker": "NKE",
@@ -586,7 +586,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -0.33
     },
     {
       "ticker": "PHM",
@@ -607,7 +607,7 @@
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -3.3
     }
   ]
 }
