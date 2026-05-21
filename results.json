@@ -1,21 +1,49 @@
 {
-  "last_updated": "20 May 2026, 05:19",
-  "last_updated_iso": "2026-05-20T05:19:12.371387",
+  "last_updated": "21 May 2026, 05:19",
+  "last_updated_iso": "2026-05-21T05:19:51.233384",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-05-20"
+    "last_run_date": "2026-05-21"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
-    "sell": 34,
-    "oversold": 21
+    "sell": 37,
+    "oversold": 11
   },
   "buy": [
+    {
+      "ticker": "TURSG.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Türkiye Sigorta",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 80,
+      "entry_price": 13.45,
+      "stop_loss": 13.068,
+      "target_price": 15.4986,
+      "risk_reward": 5.36,
+      "rsi": 45.90570884020444,
+      "atr_pct": 3.8077536792203603,
+      "notes": [
+        "Alt Bollinger bandına yakın"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -1.82
+    },
     {
       "ticker": "JANTS.IST",
       "exchange": "BIST",
@@ -26,14 +54,12 @@
       "confidence_score": 80,
       "entry_price": 17.8,
       "stop_loss": 16.9686,
-      "target_price": 20.6343,
-      "risk_reward": 3.41,
-      "rsi": 47.716888813020816,
-      "atr_pct": 3.9807400947753306,
+      "target_price": 20.7629,
+      "risk_reward": 3.56,
+      "rsi": 50.119883784540335,
+      "atr_pct": 4.161317492399154,
       "notes": [
-        "BIST güçlü hacim: 2.7x",
         "OBV yükseliş",
-        "Hacim 2.7x",
         "52H yüksüğünden %43 aşağıda"
       ],
       "score_breakdown": {
@@ -44,7 +70,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -5.02
+      "price_change_pct": 0.0
     },
     {
       "ticker": "HAL",
@@ -54,12 +80,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 42.98,
-      "stop_loss": 40.6829,
-      "target_price": 47.5743,
+      "entry_price": 42.3,
+      "stop_loss": 39.9486,
+      "target_price": 47.0029,
       "risk_reward": 2.0,
-      "rsi": 56.138501148011876,
-      "atr_pct": 2.672338358858285,
+      "rsi": 50.0,
+      "atr_pct": 2.7794656478646322,
       "notes": [
         "Insider net alış",
         "OBV yükseliş"
@@ -72,7 +98,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.47
+      "price_change_pct": -1.58
     },
     {
       "ticker": "OXY",
@@ -82,12 +108,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 60.7,
-      "stop_loss": 56.81,
-      "target_price": 68.48,
+      "entry_price": 58.87,
+      "stop_loss": 54.8971,
+      "target_price": 66.8157,
       "risk_reward": 2.0,
-      "rsi": 49.83957875960763,
-      "atr_pct": 3.204282817755323,
+      "rsi": 45.79852072298132,
+      "atr_pct": 3.374262668733522,
       "notes": [
         "OBV yükseliş"
       ],
@@ -99,22 +125,22 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 1.68
+      "price_change_pct": -3.01
     },
     {
-      "ticker": "BP.LON",
-      "exchange": "LSE",
+      "ticker": "VLO",
+      "exchange": "NYSE",
       "group": "VALUE",
-      "company_name": "BP",
+      "company_name": "Valero Energy",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 569.0,
-      "stop_loss": 540.3725,
-      "target_price": 626.2551,
+      "entry_price": 253.77,
+      "stop_loss": 235.6157,
+      "target_price": 290.0786,
       "risk_reward": 2.0,
-      "rsi": 45.39764191083783,
-      "atr_pct": 2.515600008375933,
+      "rsi": 50.819899973633,
+      "atr_pct": 3.576918081308688,
       "notes": [
         "OBV yükseliş"
       ],
@@ -126,22 +152,22 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.34
+      "price_change_pct": -3.37
     },
     {
-      "ticker": "SHEL.LON",
-      "exchange": "LSE",
+      "ticker": "DVN",
+      "exchange": "NYSE",
       "group": "VALUE",
-      "company_name": "Shell",
+      "company_name": "Devon Energy",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 3284.5,
-      "stop_loss": 3153.9953,
-      "target_price": 3545.5094,
+      "entry_price": 48.46,
+      "stop_loss": 45.0029,
+      "target_price": 55.3743,
       "risk_reward": 2.0,
-      "rsi": 49.674418604651166,
-      "atr_pct": 1.986675421317389,
+      "rsi": 38.8676263834857,
+      "atr_pct": 3.5670051553629447,
       "notes": [
         "OBV yükseliş"
       ],
@@ -153,37 +179,31 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.15
-    },
-    {
-      "ticker": "MGROS.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Migros",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 664.5,
-      "stop_loss": 619.8818,
-      "target_price": 753.7365,
-      "risk_reward": 2.0,
-      "rsi": 57.960247963781676,
-      "atr_pct": 3.357278556576667,
-      "notes": [
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.64
+      "price_change_pct": -2.48
     }
   ],
   "sell": [
+    {
+      "ticker": "DOAS.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Doğuş Otomotiv",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 184.3,
+      "stop_loss": 175.8857,
+      "target_price": 175.8857,
+      "risk_reward": 2.0,
+      "rsi": 53.977273958772685,
+      "atr_pct": 2.2827696860227142,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 3.54
+    },
     {
       "ticker": "SOKM.IST",
       "exchange": "BIST",
@@ -192,123 +212,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 49.44,
+      "entry_price": 49.9,
       "stop_loss": 47.9556,
-      "target_price": 45.6157,
+      "target_price": 46.0457,
       "risk_reward": 2.0,
-      "rsi": 50.23446075591373,
-      "atr_pct": 3.8676030399549095,
+      "rsi": 53.62233056201532,
+      "atr_pct": 3.86200955013199,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.42
-    },
-    {
-      "ticker": "PETS.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 181.4,
-      "stop_loss": 172.359,
-      "target_price": 169.1836,
-      "risk_reward": 2.0,
-      "rsi": 47.95640394948885,
-      "atr_pct": 3.3672632511315816,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 1.34
-    },
-    {
-      "ticker": "DUK",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "Duke Energy",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 124.56,
-      "stop_loss": 120.422,
-      "target_price": 120.422,
-      "risk_reward": 2.0,
-      "rsi": 47.44788381328587,
-      "atr_pct": 1.6610441960226798,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 1.4
-    },
-    {
-      "ticker": "SVT.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "Severn Trent",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 3012.0,
-      "stop_loss": 2815.56,
-      "target_price": 2785.0849,
-      "risk_reward": 2.0,
-      "rsi": 44.4967074317968,
-      "atr_pct": 3.7668516549501394,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 2.45
-    },
-    {
-      "ticker": "PNN.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "Pennon Group",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 508.0,
-      "stop_loss": 477.18,
-      "target_price": 467.891,
-      "risk_reward": 2.0,
-      "rsi": 44.06485276462379,
-      "atr_pct": 3.9477362273380376,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.79
-    },
-    {
-      "ticker": "BFREN.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Bosch Fren",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 147.5,
-      "stop_loss": 139.491,
-      "target_price": 137.8857,
-      "risk_reward": 2.0,
-      "rsi": 43.79309945668245,
-      "atr_pct": 3.2590785730837624,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 1.1
+      "price_change_pct": 0.93
     },
     {
       "ticker": "AV.LON",
@@ -318,39 +233,144 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 616.2,
+      "entry_price": 624.0,
       "stop_loss": 594.1743,
-      "target_price": 581.4395,
+      "target_price": 589.168,
       "risk_reward": 2.0,
-      "rsi": 43.13567897996451,
-      "atr_pct": 2.8205574224367544,
+      "rsi": 52.545307666624886,
+      "atr_pct": 2.791023953057034,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.35
+      "price_change_pct": 1.27
     },
     {
-      "ticker": "EKGYO.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Emlak Konut GYO",
+      "ticker": "SVT.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "Severn Trent",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 19.86,
-      "stop_loss": 19.3446,
-      "target_price": 18.1986,
+      "entry_price": 3080.0,
+      "stop_loss": 2844.5134,
+      "target_price": 2844.5134,
       "risk_reward": 2.0,
-      "rsi": 42.460319062189676,
-      "atr_pct": 4.182849585904225,
+      "rsi": 51.572926596758826,
+      "atr_pct": 3.8228339653510552,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 2.26
+    },
+    {
+      "ticker": "STJ.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "St. James's Place",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 1186.5,
+      "stop_loss": 1121.67,
+      "target_price": 1100.7143,
+      "risk_reward": 2.0,
+      "rsi": 51.207217367896746,
+      "atr_pct": 3.6150743483234007,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 4.12
+    },
+    {
+      "ticker": "PHP.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "Primary Health Properties",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 92.8,
+      "stop_loss": 89.397,
+      "target_price": 88.7901,
+      "risk_reward": 2.0,
+      "rsi": 51.07914814204952,
+      "atr_pct": 2.1604827348898006,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 1.64
+    },
+    {
+      "ticker": "PNN.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "Pennon Group",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 520.0,
+      "stop_loss": 480.3173,
+      "target_price": 480.3173,
+      "risk_reward": 2.0,
+      "rsi": 51.01331782067399,
+      "atr_pct": 3.815645490373884,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 2.36
+    },
+    {
+      "ticker": "NG.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "National Grid",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 1255.0,
+      "stop_loss": 1184.6867,
+      "target_price": 1184.6867,
+      "risk_reward": 2.0,
+      "rsi": 45.45119916458364,
+      "atr_pct": 2.801326085168255,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.32
+    },
+    {
+      "ticker": "ISCTR.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "İş Bankası",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 13.7,
+      "stop_loss": 13.4244,
+      "target_price": 12.8743,
+      "risk_reward": 2.0,
+      "rsi": 44.964036551090324,
+      "atr_pct": 3.0135566844580133,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.26
+      "price_change_pct": -0.15
     },
     {
       "ticker": "ALKA.IST",
@@ -360,42 +380,42 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 10.95,
-      "stop_loss": 10.7217,
-      "target_price": 10.0071,
+      "entry_price": 10.82,
+      "stop_loss": 10.5534,
+      "target_price": 9.8714,
       "risk_reward": 2.0,
-      "rsi": 41.90980311803558,
-      "atr_pct": 4.305283459072982,
+      "rsi": 44.63276379548578,
+      "atr_pct": 4.383416673440852,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.99
-    },
-    {
-      "ticker": "GOZDE.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Gözde Girişim",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 19.6,
-      "stop_loss": 18.7308,
-      "target_price": 18.1229,
-      "risk_reward": 2.0,
-      "rsi": 41.54135345085044,
-      "atr_pct": 3.7682222517098194,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.78
+      "price_change_pct": -1.19
     }
   ],
   "oversold": [
+    {
+      "ticker": "ISGSY.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "İş Girişim",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 109.1,
+      "stop_loss": 106.92,
+      "target_price": 114.555,
+      "risk_reward": 1.5,
+      "rsi": 15.530316275771227,
+      "atr_pct": 5.100170894643674,
+      "notes": [
+        "RSI: 15.5 — Bollinger alt bandına yakın (BIST)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.98
+    },
     {
       "ticker": "FROTO.IST",
       "exchange": "BIST",
@@ -404,39 +424,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 87.35,
-      "stop_loss": 86.4765,
-      "target_price": 91.7175,
+      "entry_price": 86.65,
+      "stop_loss": 84.5955,
+      "target_price": 90.9825,
       "risk_reward": 1.5,
-      "rsi": 14.117647058823522,
-      "atr_pct": 2.988796799479856,
+      "rsi": 16.216216216216225,
+      "atr_pct": 2.864561815848947,
       "notes": [
-        "RSI: 14.1 — Bollinger alt bandına yakın (BIST)"
+        "RSI: 16.2 — Bollinger alt bandına yakın (BIST)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -4.48
-    },
-    {
-      "ticker": "FERG.LON",
-      "exchange": "LSE",
-      "group": "VALUE",
-      "company_name": "Ferguson",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 16390.0,
-      "stop_loss": 15879.6,
-      "target_price": 17209.5,
-      "risk_reward": 1.5,
-      "rsi": 15.96819619760359,
-      "atr_pct": 3.330961114578295,
-      "notes": [
-        "RSI: 16.0 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.85
+      "price_change_pct": -0.8
     },
     {
       "ticker": "CMBTN.IST",
@@ -446,60 +445,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 1641.0,
-      "stop_loss": 1622.61,
-      "target_price": 1723.05,
+      "entry_price": 1585.0,
+      "stop_loss": 1564.2,
+      "target_price": 1664.25,
       "risk_reward": 1.5,
-      "rsi": 20.504731861198735,
-      "atr_pct": 2.803168799512492,
+      "rsi": 19.69696969696969,
+      "atr_pct": 2.9517800811176205,
       "notes": [
-        "RSI: 20.5 — Bollinger alt bandına yakın (BIST)"
+        "RSI: 19.7 — Bollinger alt bandına yakın (BIST)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.44
-    },
-    {
-      "ticker": "VTY.LON",
-      "exchange": "LSE",
-      "group": "VALUE",
-      "company_name": "Vistry Group",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 254.6,
-      "stop_loss": 251.658,
-      "target_price": 267.33,
-      "risk_reward": 1.5,
-      "rsi": 24.246769492396652,
-      "atr_pct": 6.577487000619923,
-      "notes": [
-        "RSI: 24.2 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -3.78
-    },
-    {
-      "ticker": "THYAO.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Türk Hava Yolları",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 294.5,
-      "stop_loss": 291.555,
-      "target_price": 309.225,
-      "risk_reward": 1.5,
-      "rsi": 25.47169811320755,
-      "atr_pct": 2.3769100169779285,
-      "notes": [
-        "RSI: 25.5 — Bollinger alt bandına yakın (BIST)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.83
+      "price_change_pct": -3.41
     },
     {
       "ticker": "HCA",
@@ -509,18 +466,102 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 404.69,
-      "stop_loss": 394.9605,
-      "target_price": 424.9245,
+      "entry_price": 396.67,
+      "stop_loss": 390.7926,
+      "target_price": 416.5035,
       "risk_reward": 1.5,
-      "rsi": 26.46648154698569,
-      "atr_pct": 2.6118753962648507,
+      "rsi": 23.624718611822587,
+      "atr_pct": 2.620926046226531,
       "notes": [
-        "RSI: 26.5 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 23.6 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -4.28
+      "price_change_pct": -1.98
+    },
+    {
+      "ticker": "NEE",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "NextEra Energy",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 88.27,
+      "stop_loss": 85.7637,
+      "target_price": 92.6835,
+      "risk_reward": 1.5,
+      "rsi": 24.509269820043343,
+      "atr_pct": 2.8273650163928457,
+      "notes": [
+        "RSI: 24.5 — Bollinger alt bandına yakın (DEFENSIVE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.99
+    },
+    {
+      "ticker": "EGPRO.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Ege Profil",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 36.7,
+      "stop_loss": 35.7788,
+      "target_price": 38.535,
+      "risk_reward": 1.5,
+      "rsi": 27.7566599302326,
+      "atr_pct": 6.964464640412384,
+      "notes": [
+        "RSI: 27.8 — Bollinger alt bandına yakın (BIST)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -5.85
+    },
+    {
+      "ticker": "PEP",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "PepsiCo",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 149.29,
+      "stop_loss": 146.0052,
+      "target_price": 156.7545,
+      "risk_reward": 1.5,
+      "rsi": 28.09520903087798,
+      "atr_pct": 2.156398601470587,
+      "notes": [
+        "RSI: 28.1 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.72
+    },
+    {
+      "ticker": "THYAO.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Türk Hava Yolları",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 295.0,
+      "stop_loss": 286.8525,
+      "target_price": 309.75,
+      "risk_reward": 1.5,
+      "rsi": 28.717948717948715,
+      "atr_pct": 2.5,
+      "notes": [
+        "RSI: 28.7 — Bollinger alt bandına yakın (BIST)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.17
     },
     {
       "ticker": "EGEEN.IST",
@@ -530,81 +571,39 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 5830.0,
-      "stop_loss": 5724.675,
-      "target_price": 6121.5,
+      "entry_price": 5650.0,
+      "stop_loss": 5568.75,
+      "target_price": 5932.5,
       "risk_reward": 1.5,
-      "rsi": 27.692307692307693,
-      "atr_pct": 3.9481744670423917,
+      "rsi": 28.753993610223645,
+      "atr_pct": 3.998103666245259,
       "notes": [
-        "RSI: 27.7 — Bollinger alt bandına yakın (BIST)"
+        "RSI: 28.8 — Bollinger alt bandına yakın (BIST)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.39
+      "price_change_pct": -3.09
     },
     {
-      "ticker": "SSE.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "SSE",
+      "ticker": "TUPRS.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Tüpraş",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 2325.0,
-      "stop_loss": 2219.58,
-      "target_price": 2441.25,
+      "entry_price": 250.0,
+      "stop_loss": 246.114,
+      "target_price": 262.5,
       "risk_reward": 1.5,
-      "rsi": 27.99850074962518,
-      "atr_pct": 3.332464027697772,
+      "rsi": 30.303030303030297,
+      "atr_pct": 3.2971426827566965,
       "notes": [
-        "RSI: 28.0 — Bollinger alt bandına yakın (DEFENSIVE)"
+        "RSI: 30.3 — Bollinger alt bandına yakın (BIST)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.85
-    },
-    {
-      "ticker": "ABNB",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Airbnb",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 131.16,
-      "stop_loss": 128.7099,
-      "target_price": 137.718,
-      "risk_reward": 1.5,
-      "rsi": 28.731357092631654,
-      "atr_pct": 3.5220874671683924,
-      "notes": [
-        "RSI: 28.7 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.34
-    },
-    {
-      "ticker": "TOL",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Toll Brothers",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 124.14,
-      "stop_loss": 121.9185,
-      "target_price": 130.347,
-      "risk_reward": 1.5,
-      "rsi": 29.018213024621957,
-      "atr_pct": 3.261868639240964,
-      "notes": [
-        "RSI: 29.0 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.23
+      "price_change_pct": -1.57
     }
   ]
 }
