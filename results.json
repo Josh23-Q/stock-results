@@ -1,19 +1,19 @@
 {
-  "last_updated": "25 May 2026, 05:18",
-  "last_updated_iso": "2026-05-25T05:18:44.907952",
+  "last_updated": "26 May 2026, 05:18",
+  "last_updated_iso": "2026-05-26T05:18:37.910168",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-05-25"
+    "last_run_date": "2026-05-26"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
     "sell": 47,
-    "oversold": 7
+    "oversold": 4
   },
   "buy": [
     {
@@ -177,6 +177,48 @@
   ],
   "sell": [
     {
+      "ticker": "DOAS.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Doğuş Otomotiv",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 184.0,
+      "stop_loss": 173.1429,
+      "target_price": 173.1429,
+      "risk_reward": 2.0,
+      "rsi": 56.38297457887393,
+      "atr_pct": 2.950311151350507,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 1.71
+    },
+    {
+      "ticker": "VAKBN.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Vakıfbank",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 31.48,
+      "stop_loss": 29.14,
+      "target_price": 29.14,
+      "risk_reward": 2.0,
+      "rsi": 56.23341504073987,
+      "atr_pct": 3.71664578560165,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 4.93
+    },
+    {
       "ticker": "TTRAK.IST",
       "exchange": "BIST",
       "group": "BIST",
@@ -185,59 +227,38 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 451.5,
-      "stop_loss": 422.5357,
-      "target_price": 422.5357,
+      "stop_loss": 422.3929,
+      "target_price": 422.3929,
       "risk_reward": 2.0,
-      "rsi": 53.424657534246585,
-      "atr_pct": 3.207562094605284,
+      "rsi": 54.418604651162795,
+      "atr_pct": 3.2233823762062963,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 3.79
+      "price_change_pct": 0.0
     },
     {
-      "ticker": "HALKB.IST",
+      "ticker": "GENIL.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "Halkbank",
+      "company_name": "Gen İlaç",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 38.08,
-      "stop_loss": 34.5906,
-      "target_price": 33.8171,
+      "entry_price": 9.22,
+      "stop_loss": 7.8743,
+      "target_price": 7.8743,
       "risk_reward": 2.0,
-      "rsi": 50.6302563520003,
-      "atr_pct": 5.5972400861237706,
+      "rsi": 54.16667597989436,
+      "atr_pct": 7.29779744534389,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 8.74
-    },
-    {
-      "ticker": "DOAS.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Doğuş Otomotiv",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 180.9,
-      "stop_loss": 169.7571,
-      "target_price": 169.7571,
-      "risk_reward": 2.0,
-      "rsi": 50.43102767890263,
-      "atr_pct": 3.079839607142381,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 2.61
+      "price_change_pct": 9.89
     },
     {
       "ticker": "CEMAS.IST",
@@ -247,102 +268,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 4.78,
-      "stop_loss": 4.2414,
-      "target_price": 4.2414,
+      "entry_price": 4.86,
+      "stop_loss": 4.3129,
+      "target_price": 4.3129,
       "risk_reward": 2.0,
-      "rsi": 49.696977053139044,
-      "atr_pct": 5.63359278584459,
+      "rsi": 53.892221040122294,
+      "atr_pct": 5.629041473380244,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 6.46
-    },
-    {
-      "ticker": "SOKM.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Şok Market",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 49.74,
-      "stop_loss": 45.9954,
-      "target_price": 45.4557,
-      "risk_reward": 2.0,
-      "rsi": 46.937699407997044,
-      "atr_pct": 4.306681096150998,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 4.36
-    },
-    {
-      "ticker": "OTKAR.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Otokar",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 375.0,
-      "stop_loss": 348.0357,
-      "target_price": 348.0357,
-      "risk_reward": 2.0,
-      "rsi": 46.453089244851256,
-      "atr_pct": 3.595238095238095,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 4.17
-    },
-    {
-      "ticker": "INTEM.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "İntem",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 279.75,
-      "stop_loss": 249.975,
-      "target_price": 245.4286,
-      "risk_reward": 2.0,
-      "rsi": 46.18736383442266,
-      "atr_pct": 6.134303587386697,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 5.97
-    },
-    {
-      "ticker": "SVT.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "Severn Trent",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 3128.0,
-      "stop_loss": 2930.0203,
-      "target_price": 2930.0203,
-      "risk_reward": 2.0,
-      "rsi": 45.70361145703611,
-      "atr_pct": 3.1646377290301313,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.9
+      "price_change_pct": 1.67
     },
     {
       "ticker": "JANTS.IST",
@@ -352,18 +289,39 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 16.95,
+      "entry_price": 17.6,
       "stop_loss": 16.1667,
-      "target_price": 15.2057,
+      "target_price": 15.7986,
       "risk_reward": 2.0,
-      "rsi": 43.72823289576213,
-      "atr_pct": 5.145385774224525,
+      "rsi": 53.10924935446697,
+      "atr_pct": 5.117694941979369,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 3.23
+      "price_change_pct": 3.83
+    },
+    {
+      "ticker": "SNGYO.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Sinpaş GYO",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 3.6,
+      "stop_loss": 3.3,
+      "target_price": 3.3,
+      "risk_reward": 2.0,
+      "rsi": 50.434782067859715,
+      "atr_pct": 4.166668480035537,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 2.56
     },
     {
       "ticker": "TTKOM.IST",
@@ -373,18 +331,60 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 59.45,
+      "entry_price": 60.4,
       "stop_loss": 55.6875,
-      "target_price": 54.1714,
+      "target_price": 55.3643,
       "risk_reward": 2.0,
-      "rsi": 43.69158407872968,
-      "atr_pct": 4.439505020875785,
+      "rsi": 50.0,
+      "atr_pct": 4.168637999548263,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 3.48
+      "price_change_pct": 1.6
+    },
+    {
+      "ticker": "BUCIM.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Bursa Çimento",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 6.05,
+      "stop_loss": 5.7614,
+      "target_price": 5.7614,
+      "risk_reward": 2.0,
+      "rsi": 49.28571501556703,
+      "atr_pct": 2.384887178755605,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 2.02
+    },
+    {
+      "ticker": "INTEM.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "İntem",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 280.5,
+      "stop_loss": 249.975,
+      "target_price": 247.2857,
+      "risk_reward": 2.0,
+      "rsi": 48.86363636363636,
+      "atr_pct": 5.920550038197097,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.27
     }
   ],
   "oversold": [
@@ -396,18 +396,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 250.0,
-      "stop_loss": 241.56,
-      "target_price": 262.5,
+      "entry_price": 238.4,
+      "stop_loss": 236.016,
+      "target_price": 250.32,
       "risk_reward": 1.5,
-      "rsi": 15.533084368210325,
-      "atr_pct": 4.427142769949778,
+      "rsi": 14.083328247070312,
+      "atr_pct": 4.653044314110374,
       "notes": [
-        "RSI: 15.5 — Bollinger alt bandına yakın (BIST)"
+        "RSI: 14.1 — Bollinger alt bandına yakın (BIST)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.89
+      "price_change_pct": -4.64
     },
     {
       "ticker": "TUPRS.IST",
@@ -417,18 +417,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 243.1,
-      "stop_loss": 236.61,
-      "target_price": 255.255,
+      "entry_price": 234.1,
+      "stop_loss": 229.977,
+      "target_price": 245.805,
       "risk_reward": 1.5,
-      "rsi": 21.355249586101536,
-      "atr_pct": 3.427454632654145,
+      "rsi": 18.024275485345754,
+      "atr_pct": 3.591261178969231,
       "notes": [
-        "RSI: 21.4 — Bollinger alt bandına yakın (BIST)"
+        "RSI: 18.0 — Bollinger alt bandına yakın (BIST)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.58
+      "price_change_pct": -3.7
     },
     {
       "ticker": "HCA",
@@ -452,27 +452,6 @@
       "price_change_pct": 0.38
     },
     {
-      "ticker": "ARENA.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Arena Bilgisayar",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 28.2,
-      "stop_loss": 26.4528,
-      "target_price": 29.61,
-      "risk_reward": 1.5,
-      "rsi": 27.510923941117753,
-      "atr_pct": 10.476189381123746,
-      "notes": [
-        "RSI: 27.5 — Bollinger alt bandına yakın (BIST)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.71
-    },
-    {
       "ticker": "DE",
       "exchange": "NYSE",
       "group": "VALUE",
@@ -492,48 +471,6 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": -0.41
-    },
-    {
-      "ticker": "ALKIM.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Alkim Kimya",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 17.41,
-      "stop_loss": 16.7112,
-      "target_price": 18.2805,
-      "risk_reward": 1.5,
-      "rsi": 30.312031576408614,
-      "atr_pct": 4.701731018672547,
-      "notes": [
-        "RSI: 30.3 — Bollinger alt bandına yakın (BIST)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 2.23
-    },
-    {
-      "ticker": "AKBNK.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Akbank",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 63.6,
-      "stop_loss": 60.0435,
-      "target_price": 66.78,
-      "risk_reward": 1.5,
-      "rsi": 30.32785475621249,
-      "atr_pct": 4.5990542292475105,
-      "notes": [
-        "RSI: 30.3 — Bollinger alt bandına yakın (BIST)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 2.25
     }
   ]
 }
