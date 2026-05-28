@@ -1,37 +1,39 @@
 {
-  "last_updated": "27 May 2026, 05:18",
-  "last_updated_iso": "2026-05-27T05:18:43.170388",
+  "last_updated": "28 May 2026, 05:18",
+  "last_updated_iso": "2026-05-28T05:18:29.904972",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-05-27"
+    "last_run_date": "2026-05-28"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
-    "sell": 44,
-    "oversold": 6
+    "sell": 45,
+    "oversold": 11
   },
   "buy": [
     {
-      "ticker": "SHEL.LON",
-      "exchange": "LSE",
-      "group": "VALUE",
-      "company_name": "Shell",
+      "ticker": "MRVL",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Marvell",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 90,
-      "entry_price": 3194.5,
-      "stop_loss": 3061.1557,
-      "target_price": 3461.1886,
+      "entry_price": 198.7,
+      "stop_loss": 169.7471,
+      "target_price": 256.6057,
       "risk_reward": 2.0,
-      "rsi": 38.57244393665639,
-      "atr_pct": 2.087091614901148,
+      "rsi": 62.07586697690417,
+      "atr_pct": 7.285568894431986,
       "notes": [
-        "Hacim 2.4x"
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş",
+        "Hacim 2.1x"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -42,105 +44,81 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.33
+      "price_change_pct": -4.59
     },
     {
-      "ticker": "SWKS",
+      "ticker": "BARC.LON",
+      "exchange": "LSE",
+      "group": "VALUE",
+      "company_name": "Barclays",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 90,
+      "entry_price": 456.25,
+      "stop_loss": 430.5153,
+      "target_price": 507.7195,
+      "risk_reward": 2.0,
+      "rsi": 57.195768101358375,
+      "atr_pct": 2.8202441788466244,
+      "notes": [
+        "OBV yükseliş",
+        "Hacim 2.2x"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.6
+    },
+    {
+      "ticker": "BLND.LON",
+      "exchange": "LSE",
+      "group": "VALUE",
+      "company_name": "British Land",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 90,
+      "entry_price": 406.4,
+      "stop_loss": 382.45,
+      "target_price": 454.3,
+      "risk_reward": 2.0,
+      "rsi": 56.6737324778497,
+      "atr_pct": 2.946603194937738,
+      "notes": [
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.69
+    },
+    {
+      "ticker": "ROST",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "Skyworks",
+      "company_name": "Ross Stores",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 83.42,
-      "stop_loss": 74.7012,
-      "target_price": 100.8575,
+      "entry_price": 233.47,
+      "stop_loss": 218.7557,
+      "target_price": 262.8986,
       "risk_reward": 2.0,
-      "rsi": 65.1694428489374,
-      "atr_pct": 5.225819050854855,
+      "rsi": 54.069973628057,
+      "atr_pct": 3.1512154960705323,
       "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 2.09
-    },
-    {
-      "ticker": "OXY",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Occidental Petroleum",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 57.46,
-      "stop_loss": 53.4743,
-      "target_price": 65.4314,
-      "risk_reward": 2.0,
-      "rsi": 44.59769973825484,
-      "atr_pct": 3.4682505023399286,
-      "notes": [],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.3
-    },
-    {
-      "ticker": "SO",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "Southern Company",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 94.09,
-      "stop_loss": 91.1572,
-      "target_price": 99.9556,
-      "risk_reward": 2.0,
-      "rsi": 45.72758560449467,
-      "atr_pct": 1.5585010471572434,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.49
-    },
-    {
-      "ticker": "AEP",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "American Electric Power",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 130.9,
-      "stop_loss": 125.8048,
-      "target_price": 141.0905,
-      "risk_reward": 2.0,
-      "rsi": 38.7962237855057,
-      "atr_pct": 1.9462321977192332,
-      "notes": [
-        "Insider net alış"
+        "Güçlü büyüme trendi (EMA20>50>200)"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -153,20 +131,21 @@
       "price_change_pct": -0.52
     },
     {
-      "ticker": "CNP",
+      "ticker": "PNC",
       "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "CenterPoint Energy",
+      "group": "VALUE",
+      "company_name": "PNC Financial",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 42.93,
-      "stop_loss": 41.3371,
-      "target_price": 46.1157,
+      "entry_price": 220.8,
+      "stop_loss": 212.4286,
+      "target_price": 237.5429,
       "risk_reward": 2.0,
-      "rsi": 46.996206745023564,
-      "atr_pct": 1.8551836597680744,
+      "rsi": 46.98661677285753,
+      "atr_pct": 1.8957036113740489,
       "notes": [
+        "Insider net alış",
         "OBV yükseliş"
       ],
       "score_breakdown": {
@@ -177,7 +156,32 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.23
+      "price_change_pct": -0.0
+    },
+    {
+      "ticker": "OXY",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Occidental Petroleum",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 56.89,
+      "stop_loss": 53.2457,
+      "target_price": 64.1786,
+      "risk_reward": 2.0,
+      "rsi": 56.4363635153022,
+      "atr_pct": 3.2029222786484124,
+      "notes": [],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.99
     }
   ],
   "sell": [
@@ -415,6 +419,48 @@
       "price_change_pct": -0.34
     },
     {
+      "ticker": "UBER",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Uber",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 70.73,
+      "stop_loss": 68.904,
+      "target_price": 74.2665,
+      "risk_reward": 1.5,
+      "rsi": 18.27068527474721,
+      "atr_pct": 3.331382183306677,
+      "notes": [
+        "RSI: 18.3 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.87
+    },
+    {
+      "ticker": "DE",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Deere",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 529.39,
+      "stop_loss": 509.9985,
+      "target_price": 555.8595,
+      "risk_reward": 1.5,
+      "rsi": 19.362131635074647,
+      "atr_pct": 2.8252202655034906,
+      "notes": [
+        "RSI: 19.4 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.05
+    },
+    {
       "ticker": "TUPRS.IST",
       "exchange": "BIST",
       "group": "BIST",
@@ -436,6 +482,27 @@
       "price_change_pct": 0.9
     },
     {
+      "ticker": "UHS",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Universal Health Services",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 154.29,
+      "stop_loss": 152.6976,
+      "target_price": 162.0045,
+      "risk_reward": 1.5,
+      "rsi": 21.780583982155235,
+      "atr_pct": 3.525364906998918,
+      "notes": [
+        "RSI: 21.8 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.49
+    },
+    {
       "ticker": "HCA",
       "exchange": "NYSE",
       "group": "VALUE",
@@ -443,39 +510,39 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 392.42,
+      "entry_price": 392.15,
       "stop_loss": 382.1499,
-      "target_price": 412.041,
+      "target_price": 411.7575,
       "risk_reward": 1.5,
-      "rsi": 24.025169021267686,
-      "atr_pct": 2.7233932936276206,
+      "rsi": 23.2117409682415,
+      "atr_pct": 2.7624264677328845,
       "notes": [
-        "RSI: 24.0 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 23.2 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.42
+      "price_change_pct": -0.07
     },
     {
-      "ticker": "NEE",
+      "ticker": "MOH",
       "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "NextEra Energy",
+      "group": "VALUE",
+      "company_name": "Molina Healthcare",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 87.65,
-      "stop_loss": 85.7637,
-      "target_price": 92.0325,
+      "entry_price": 177.87,
+      "stop_loss": 170.9829,
+      "target_price": 186.7635,
       "risk_reward": 1.5,
-      "rsi": 27.490885124913888,
-      "atr_pct": 2.8180282061154354,
+      "rsi": 26.8292656488362,
+      "atr_pct": 4.504092957130338,
       "notes": [
-        "RSI: 27.5 — Bollinger alt bandına yakın (DEFENSIVE)"
+        "RSI: 26.8 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.02
+      "price_change_pct": 0.95
     },
     {
       "ticker": "TCELL.IST",
@@ -499,6 +566,27 @@
       "price_change_pct": -4.81
     },
     {
+      "ticker": "AUTO.LON",
+      "exchange": "LSE",
+      "group": "VALUE",
+      "company_name": "Auto Trader",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 444.4,
+      "stop_loss": 427.086,
+      "target_price": 466.62,
+      "risk_reward": 1.5,
+      "rsi": 29.605240996471068,
+      "atr_pct": 4.549232320736964,
+      "notes": [
+        "RSI: 29.6 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 1.18
+    },
+    {
       "ticker": "WMT",
       "exchange": "NYSE",
       "group": "VALUE",
@@ -506,18 +594,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 118.57,
+      "entry_price": 118.54,
       "stop_loss": 116.7408,
-      "target_price": 124.4985,
+      "target_price": 124.467,
       "risk_reward": 1.5,
-      "rsi": 28.92929227818982,
-      "atr_pct": 2.8633631404333695,
+      "rsi": 29.637333927664898,
+      "atr_pct": 2.8504148664766715,
       "notes": [
-        "RSI: 28.9 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 29.6 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.41
+      "price_change_pct": -0.03
     }
   ]
 }
