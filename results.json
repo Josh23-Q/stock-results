@@ -1,13 +1,13 @@
 {
-  "last_updated": "07 June 2026, 05:18",
-  "last_updated_iso": "2026-06-07T05:18:44.118534",
+  "last_updated": "08 June 2026, 05:19",
+  "last_updated_iso": "2026-06-08T05:19:32.037614",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-06-07"
+    "last_run_date": "2026-06-08"
   },
   "summary": {
     "analyzed": 396,
@@ -101,6 +101,59 @@
       "price_change_pct": -5.6
     },
     {
+      "ticker": "ROST",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Ross Stores",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 230.37,
+      "stop_loss": 215.8271,
+      "target_price": 259.4557,
+      "risk_reward": 2.0,
+      "rsi": 65.03926966139946,
+      "atr_pct": 3.1564131369245163,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -1.15
+    },
+    {
+      "ticker": "ETN",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Eaton",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 395.94,
+      "stop_loss": 366.51,
+      "target_price": 454.8,
+      "risk_reward": 2.0,
+      "rsi": 48.47481249002607,
+      "atr_pct": 3.7164712449251054,
+      "notes": [],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -5.42
+    },
+    {
       "ticker": "BP.LON",
       "exchange": "LSE",
       "group": "VALUE",
@@ -126,58 +179,6 @@
       },
       "veto_reasons": [],
       "price_change_pct": 0.24
-    },
-    {
-      "ticker": "ANTO.LON",
-      "exchange": "LSE",
-      "group": "VALUE",
-      "company_name": "Antofagasta",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 3970.0,
-      "stop_loss": 3612.8571,
-      "target_price": 4684.2857,
-      "risk_reward": 2.0,
-      "rsi": 55.35475234270415,
-      "atr_pct": 4.49802087081684,
-      "notes": [],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -5.7
-    },
-    {
-      "ticker": "SBRY.LON",
-      "exchange": "LSE",
-      "group": "VALUE",
-      "company_name": "Sainsbury's",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 300.5,
-      "stop_loss": 290.763,
-      "target_price": 330.6493,
-      "risk_reward": 3.1,
-      "rsi": 48.43359370156249,
-      "atr_pct": 2.508264504342949,
-      "notes": [
-        "Hacim 2.1x"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 1.8
     }
   ],
   "sell": [
