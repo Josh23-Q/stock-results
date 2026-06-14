@@ -1,18 +1,18 @@
 {
-  "last_updated": "13 June 2026, 05:19",
-  "last_updated_iso": "2026-06-13T05:19:44.948803",
+  "last_updated": "14 June 2026, 05:18",
+  "last_updated_iso": "2026-06-14T05:18:20.679329",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-06-13"
+    "last_run_date": "2026-06-14"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
-    "sell": 33,
+    "sell": 32,
     "oversold": 14
   },
   "buy": [
@@ -126,6 +126,34 @@
       "price_change_pct": 0.39
     },
     {
+      "ticker": "SBUX",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Starbucks",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 103.04,
+      "stop_loss": 97.4514,
+      "target_price": 114.2171,
+      "risk_reward": 2.0,
+      "rsi": 49.83277665120982,
+      "atr_pct": 2.711844716351864,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.74
+    },
+    {
       "ticker": "MRK",
       "exchange": "NYSE",
       "group": "VALUE",
@@ -152,33 +180,6 @@
       },
       "veto_reasons": [],
       "price_change_pct": -1.42
-    },
-    {
-      "ticker": "CNP",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "CenterPoint Energy",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 42.9,
-      "stop_loss": 41.3314,
-      "target_price": 46.0371,
-      "risk_reward": 2.0,
-      "rsi": 50.569103774755234,
-      "atr_pct": 1.8281723220768982,
-      "notes": [
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.82
     }
   ],
   "sell": [
