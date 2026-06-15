@@ -1,13 +1,13 @@
 {
-  "last_updated": "14 June 2026, 05:18",
-  "last_updated_iso": "2026-06-14T05:18:20.679329",
+  "last_updated": "15 June 2026, 05:19",
+  "last_updated_iso": "2026-06-15T05:19:02.860456",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-06-14"
+    "last_run_date": "2026-06-15"
   },
   "summary": {
     "analyzed": 396,
@@ -71,6 +71,34 @@
       "price_change_pct": -0.36
     },
     {
+      "ticker": "ENTG",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Entegris",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 150.52,
+      "stop_loss": 129.8186,
+      "target_price": 191.9229,
+      "risk_reward": 2.0,
+      "rsi": 60.20354184634264,
+      "atr_pct": 6.876638246320821,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 3.86
+    },
+    {
       "ticker": "BIIB",
       "exchange": "NASDAQ",
       "group": "GROWTH",
@@ -126,19 +154,19 @@
       "price_change_pct": 0.39
     },
     {
-      "ticker": "SBUX",
+      "ticker": "ROST",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "Starbucks",
+      "company_name": "Ross Stores",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 103.04,
-      "stop_loss": 97.4514,
-      "target_price": 114.2171,
+      "entry_price": 240.13,
+      "stop_loss": 227.8907,
+      "target_price": 264.6086,
       "risk_reward": 2.0,
-      "rsi": 49.83277665120982,
-      "atr_pct": 2.711844716351864,
+      "rsi": 56.018206327788896,
+      "atr_pct": 2.548477104974935,
       "notes": [
         "Güçlü büyüme trendi (EMA20>50>200)",
         "OBV yükseliş"
@@ -151,35 +179,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.74
-    },
-    {
-      "ticker": "MRK",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Merck",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 119.05,
-      "stop_loss": 112.59,
-      "target_price": 131.97,
-      "risk_reward": 2.0,
-      "rsi": 42.01521670864521,
-      "atr_pct": 2.713145283022012,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -1.42
+      "price_change_pct": 0.43
     }
   ],
   "sell": [
