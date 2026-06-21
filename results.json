@@ -1,19 +1,19 @@
 {
-  "last_updated": "20 June 2026, 05:18",
-  "last_updated_iso": "2026-06-20T05:18:39.500933",
+  "last_updated": "21 June 2026, 05:19",
+  "last_updated_iso": "2026-06-21T05:19:37.002066",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-06-20"
+    "last_run_date": "2026-06-21"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
     "sell": 17,
-    "oversold": 7
+    "oversold": 8
   },
   "buy": [
     {
@@ -43,6 +43,34 @@
       },
       "veto_reasons": [],
       "price_change_pct": -0.35
+    },
+    {
+      "ticker": "ALGN",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Align Tech",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 80,
+      "entry_price": 182.08,
+      "stop_loss": 167.6086,
+      "target_price": 211.0229,
+      "risk_reward": 2.0,
+      "rsi": 55.46528209235652,
+      "atr_pct": 3.973920491505014,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 4.93
     },
     {
       "ticker": "MRK",
@@ -133,22 +161,23 @@
       "price_change_pct": 0.17
     },
     {
-      "ticker": "DOHOL.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Doğan Holding",
+      "ticker": "AVB",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "AvalonBay Communities",
       "signal_direction": "BUY",
-      "signal_type": "SWING",
+      "signal_type": "POSITION",
       "confidence_score": 80,
-      "entry_price": 21.4,
-      "stop_loss": 20.8692,
-      "target_price": 25.2629,
-      "risk_reward": 7.28,
-      "rsi": 43.24323881019836,
-      "atr_pct": 4.5126844479691774,
+      "entry_price": 177.32,
+      "stop_loss": 175.4181,
+      "target_price": 206.3772,
+      "risk_reward": 15.28,
+      "rsi": 39.95356791578425,
+      "atr_pct": 2.0483556468507302,
       "notes": [
-        "BIST güçlü hacim: 2.5x",
-        "Hacim 2.5x"
+        "Savunma hissesi destek bölgesinde",
+        "Alt Bollinger bandına yakın",
+        "Hacim 2.2x"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -159,33 +188,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -4.46
-    },
-    {
-      "ticker": "MAVI.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 80,
-      "entry_price": 42.0,
-      "stop_loss": 40.6098,
-      "target_price": 47.4914,
-      "risk_reward": 3.95,
-      "rsi": 54.22221468701455,
-      "atr_pct": 3.2687050955636163,
-      "notes": [],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.0
+      "price_change_pct": -1.29
     }
   ],
   "sell": [
@@ -547,6 +550,27 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": -1.18
+    },
+    {
+      "ticker": "FICO",
+      "exchange": "NYSE",
+      "group": "GROWTH",
+      "company_name": "",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 1096.48,
+      "stop_loss": 1069.2,
+      "target_price": 1151.304,
+      "risk_reward": 1.5,
+      "rsi": 31.305058879034164,
+      "atr_pct": 5.808978253704386,
+      "notes": [
+        "RSI: 31.3 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -2.69
     }
   ]
 }
