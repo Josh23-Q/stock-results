@@ -1,50 +1,21 @@
 {
-  "last_updated": "27 June 2026, 05:18",
-  "last_updated_iso": "2026-06-27T05:18:27.141390",
+  "last_updated": "28 June 2026, 05:19",
+  "last_updated_iso": "2026-06-28T05:19:34.269144",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-06-27"
+    "last_run_date": "2026-06-28"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
     "sell": 30,
-    "oversold": 19
+    "oversold": 14
   },
   "buy": [
-    {
-      "ticker": "FAST",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Fastenal",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 90,
-      "entry_price": 47.1,
-      "stop_loss": 44.9543,
-      "target_price": 51.3914,
-      "risk_reward": 2.0,
-      "rsi": 52.09175037374748,
-      "atr_pct": 2.277828471998837,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.38
-    },
     {
       "ticker": "RCL",
       "exchange": "NYSE",
@@ -136,46 +107,19 @@
       "price_change_pct": -9.95
     },
     {
-      "ticker": "PG",
+      "ticker": "AVB",
       "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Procter & Gamble",
-      "signal_direction": "BUY",
-      "signal_type": "POSITION",
-      "confidence_score": 80,
-      "entry_price": 149.02,
-      "stop_loss": 143.4072,
-      "target_price": 171.4714,
-      "risk_reward": 4.0,
-      "rsi": 55.28111121364505,
-      "atr_pct": 1.8832544836789078,
-      "notes": [
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.35
-    },
-    {
-      "ticker": "TFC",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Truist Financial",
+      "group": "DEFENSIVE",
+      "company_name": "AvalonBay Communities",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 50.49,
-      "stop_loss": 47.8443,
-      "target_price": 55.7814,
+      "entry_price": 190.12,
+      "stop_loss": 182.6314,
+      "target_price": 205.0971,
       "risk_reward": 2.0,
-      "rsi": 56.04499126945425,
-      "atr_pct": 2.6200373521483757,
+      "rsi": 50.64432052131611,
+      "atr_pct": 1.9694328211970364,
       "notes": [
         "OBV yükseliş"
       ],
@@ -187,7 +131,59 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.36
+      "price_change_pct": 2.14
+    },
+    {
+      "ticker": "TCELL.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Turkcell",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 110.9,
+      "stop_loss": 104.3429,
+      "target_price": 124.0143,
+      "risk_reward": 2.0,
+      "rsi": 56.60377358490566,
+      "atr_pct": 2.956331372815818,
+      "notes": [
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.36
+    },
+    {
+      "ticker": "MGROS.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Migros",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 688.5,
+      "stop_loss": 650.8571,
+      "target_price": 763.7857,
+      "risk_reward": 2.0,
+      "rsi": 59.663865546218496,
+      "atr_pct": 2.7336860670194008,
+      "notes": [],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.79
     }
   ],
   "sell": [
@@ -530,27 +526,6 @@
       "price_change_pct": 0.42
     },
     {
-      "ticker": "OXY",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Occidental Petroleum",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 49.99,
-      "stop_loss": 49.3515,
-      "target_price": 52.4895,
-      "risk_reward": 1.5,
-      "rsi": 23.484677979019338,
-      "atr_pct": 3.56010481048643,
-      "notes": [
-        "RSI: 23.5 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.38
-    },
-    {
       "ticker": "MAVI.IST",
       "exchange": "BIST",
       "group": "BIST",
@@ -612,6 +587,27 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": -1.63
+    },
+    {
+      "ticker": "ERBOS.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Erbosan",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 168.8,
+      "stop_loss": 165.33,
+      "target_price": 177.24,
+      "risk_reward": 1.5,
+      "rsi": 25.171609133073147,
+      "atr_pct": 3.749152589037182,
+      "notes": [
+        "RSI: 25.2 — Bollinger alt bandına yakın (BIST)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.57
     }
   ]
 }
