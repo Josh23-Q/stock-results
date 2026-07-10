@@ -1,67 +1,36 @@
 {
-  "last_updated": "09 July 2026, 05:19",
-  "last_updated_iso": "2026-07-09T05:19:12.396902",
+  "last_updated": "10 July 2026, 05:18",
+  "last_updated_iso": "2026-07-10T05:18:40.658415",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-07-09"
+    "last_run_date": "2026-07-10"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
-    "sell": 38,
-    "oversold": 4
+    "sell": 43,
+    "oversold": 3
   },
   "buy": [
     {
-      "ticker": "RIVN",
-      "exchange": "NASDAQ",
-      "group": "SPECULATIVE",
-      "company_name": "Rivian",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 90,
-      "entry_price": 16.66,
-      "stop_loss": 14.2065,
-      "target_price": 22.0529,
-      "risk_reward": 2.2,
-      "rsi": 53.00906674667154,
-      "atr_pct": 8.092524024137331,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş",
-        "Hacim 2.8x"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 1.03
-    },
-    {
-      "ticker": "AMGN",
+      "ticker": "ALGN",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "Amgen",
+      "company_name": "Align Tech",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 367.99,
-      "stop_loss": 350.3957,
-      "target_price": 403.1786,
-      "risk_reward": 2.0,
-      "rsi": 67.4157232243229,
-      "atr_pct": 2.3905930465986716,
+      "entry_price": 178.17,
+      "stop_loss": 163.845,
+      "target_price": 211.09,
+      "risk_reward": 2.3,
+      "rsi": 52.944910104252926,
+      "atr_pct": 4.619184021873977,
       "notes": [
-        "Insider net alış",
         "Güçlü büyüme trendi (EMA20>50>200)",
         "OBV yükseliş"
       ],
@@ -73,7 +42,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.03
+      "price_change_pct": 2.0
     },
     {
       "ticker": "HOOD",
@@ -83,12 +52,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 113.53,
-      "stop_loss": 99.2233,
-      "target_price": 142.1434,
+      "entry_price": 115.11,
+      "stop_loss": 102.0816,
+      "target_price": 141.1669,
       "risk_reward": 2.0,
-      "rsi": 64.35643306457673,
-      "atr_pct": 6.300850710476152,
+      "rsi": 59.5897049416965,
+      "atr_pct": 5.659120430432794,
       "notes": [
         "Insider net alış",
         "Güçlü büyüme trendi (EMA20>50>200)",
@@ -102,25 +71,24 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.56
+      "price_change_pct": 1.39
     },
     {
-      "ticker": "ITW",
+      "ticker": "BA",
       "exchange": "NYSE",
       "group": "VALUE",
-      "company_name": "Illinois Tool Works",
+      "company_name": "Boeing",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 265.1,
-      "stop_loss": 253.4772,
-      "target_price": 288.3457,
+      "entry_price": 223.11,
+      "stop_loss": 210.5914,
+      "target_price": 248.1471,
       "risk_reward": 2.0,
-      "rsi": 51.0677400865358,
-      "atr_pct": 2.1921613422924273,
+      "rsi": 47.4442133099427,
+      "atr_pct": 2.8054698875477557,
       "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
+        "Insider net alış"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -130,66 +98,111 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -2.21
+      "price_change_pct": -0.82
     },
     {
-      "ticker": "OXY",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Occidental Petroleum",
-      "signal_direction": "BUY",
-      "signal_type": "POSITION",
-      "confidence_score": 75,
-      "entry_price": 53.59,
-      "stop_loss": 50.5786,
-      "target_price": 65.6357,
-      "risk_reward": 4.0,
-      "rsi": 49.68355203970184,
-      "atr_pct": 2.8096938928408393,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 3.7
-    },
-    {
-      "ticker": "DUK",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "Duke Energy",
+      "ticker": "NOW",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "ServiceNow",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 126.79,
-      "stop_loss": 122.0129,
-      "target_price": 136.3443,
+      "confidence_score": 65,
+      "entry_price": 108.84,
+      "stop_loss": 97.8414,
+      "target_price": 130.8371,
       "risk_reward": 2.0,
-      "rsi": 51.70163916350554,
-      "atr_pct": 1.8838801054579635,
+      "rsi": 67.38675905602875,
+      "atr_pct": 5.052634492466999,
       "notes": [
         "Insider net alış",
-        "OBV yükseliş"
+        "OBV yükseliş",
+        "52H yüksüğünden %48 aşağıda"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
         "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.12
+      "price_change_pct": 0.98
+    },
+    {
+      "ticker": "BIIB",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Biogen",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 65,
+      "entry_price": 198.91,
+      "stop_loss": 191.268,
+      "target_price": 227.4957,
+      "risk_reward": 3.74,
+      "rsi": 50.20812135053277,
+      "atr_pct": 3.5927945140645035,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.72
+    },
+    {
+      "ticker": "BRK.B",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Berkshire Hathaway",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 65,
+      "entry_price": 495.45,
+      "stop_loss": 481.5043,
+      "target_price": 523.3414,
+      "risk_reward": 2.0,
+      "rsi": 53.72655070904907,
+      "atr_pct": 1.4073789084897865,
+      "notes": [],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.13
     }
   ],
   "sell": [
+    {
+      "ticker": "PPL",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "PPL Corp",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 35.66,
+      "stop_loss": 34.7094,
+      "target_price": 34.1471,
+      "risk_reward": 2.0,
+      "rsi": 52.68291170058027,
+      "atr_pct": 2.121225064618102,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.92
+    },
     {
       "ticker": "VOD.LON",
       "exchange": "LSE",
@@ -237,6 +250,27 @@
       "exchange": "BIST",
       "group": "BIST",
       "company_name": "Koç Holding",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
+      "risk_reward": 2.0,
+      "rsi": NaN,
+      "atr_pct": NaN,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": NaN
+    },
+    {
+      "ticker": "VAKBN.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Vakıfbank",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -357,48 +391,6 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": NaN
-    },
-    {
-      "ticker": "SOKM.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Şok Market",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": NaN,
-      "stop_loss": NaN,
-      "target_price": NaN,
-      "risk_reward": 2.0,
-      "rsi": NaN,
-      "atr_pct": NaN,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": NaN
-    },
-    {
-      "ticker": "ULKER.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Ülker",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": NaN,
-      "stop_loss": NaN,
-      "target_price": NaN,
-      "risk_reward": 2.0,
-      "rsi": NaN,
-      "atr_pct": NaN,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": NaN
     }
   ],
   "oversold": [
@@ -410,81 +402,60 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 71.4,
-      "stop_loss": 70.686,
-      "target_price": 74.97,
+      "entry_price": 70.5,
+      "stop_loss": 69.696,
+      "target_price": 74.025,
       "risk_reward": 1.5,
       "rsi": 18.181818181818173,
-      "atr_pct": 1.794116656187571,
+      "atr_pct": 1.897668500318595,
       "notes": [
         "RSI: 18.2 — Bollinger alt bandına yakın (DEFENSIVE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.56
+      "price_change_pct": -1.26
     },
     {
-      "ticker": "SWKS",
+      "ticker": "ORIT.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "Octopus Renewables",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 62.5,
+      "stop_loss": 60.885,
+      "target_price": 65.625,
+      "risk_reward": 1.5,
+      "rsi": 27.95696851763131,
+      "atr_pct": 3.498059953962054,
+      "notes": [
+        "RSI: 28.0 — Bollinger alt bandına yakın (DEFENSIVE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.64
+    },
+    {
+      "ticker": "COST",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "Skyworks",
+      "company_name": "Costco",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 58.49,
-      "stop_loss": 56.6379,
-      "target_price": 61.4145,
+      "entry_price": 912.97,
+      "stop_loss": 898.6032,
+      "target_price": 958.6185,
       "risk_reward": 1.5,
-      "rsi": 25.79559828954241,
-      "atr_pct": 6.836333187089144,
+      "rsi": 33.34388194213412,
+      "atr_pct": 2.2741328873892503,
       "notes": [
-        "RSI: 25.8 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 33.3 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.13
-    },
-    {
-      "ticker": "FTAI",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 216.1,
-      "stop_loss": 208.4445,
-      "target_price": 226.905,
-      "risk_reward": 1.5,
-      "rsi": 26.38740806928311,
-      "atr_pct": 8.115619796621438,
-      "notes": [
-        "RSI: 26.4 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -5.03
-    },
-    {
-      "ticker": "EMR",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Emerson Electric",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 136.48,
-      "stop_loss": 132.858,
-      "target_price": 143.304,
-      "risk_reward": 1.5,
-      "rsi": 29.10874809006367,
-      "atr_pct": 2.910422124120421,
-      "notes": [
-        "RSI: 29.1 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.04
+      "price_change_pct": -4.21
     }
   ]
 }
