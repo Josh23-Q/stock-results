@@ -1,147 +1,65 @@
 {
-  "last_updated": "14 July 2026, 05:19",
-  "last_updated_iso": "2026-07-14T05:19:59.119034",
+  "last_updated": "15 July 2026, 05:18",
+  "last_updated_iso": "2026-07-15T05:18:33.307009",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-07-14"
+    "last_run_date": "2026-07-15"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 6,
-    "sell": 54,
-    "oversold": 6
+    "buy": 2,
+    "sell": 57,
+    "oversold": 1
   },
   "buy": [
     {
-      "ticker": "ALGN",
+      "ticker": "NOW",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "Align Tech",
+      "company_name": "ServiceNow",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 180.59,
-      "stop_loss": 165.0886,
-      "target_price": 211.5929,
+      "confidence_score": 65,
+      "entry_price": 104.85,
+      "stop_loss": 93.0543,
+      "target_price": 128.4414,
       "risk_reward": 2.0,
-      "rsi": 55.30856900104343,
-      "atr_pct": 4.291884406954386,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.64
-    },
-    {
-      "ticker": "HOOD",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 109.86,
-      "stop_loss": 96.4551,
-      "target_price": 136.6697,
-      "risk_reward": 2.0,
-      "rsi": 54.0267814959741,
-      "atr_pct": 6.100881087818197,
+      "rsi": 60.099740746012905,
+      "atr_pct": 5.625044198150207,
       "notes": [
         "Insider net alış",
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
+        "OBV yükseliş",
+        "52H yüksüğünden %50 aşağıda"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
         "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.88
+      "price_change_pct": -5.76
     },
     {
-      "ticker": "BIIB",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Biogen",
+      "ticker": "ORIT.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "Octopus Renewables",
       "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 70,
-      "entry_price": 209.03,
-      "stop_loss": 194.0643,
-      "target_price": 238.9614,
-      "risk_reward": 2.0,
-      "rsi": 57.448844870803924,
-      "atr_pct": 3.5797998872283907,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 4.96
-    },
-    {
-      "ticker": "BRK.B",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Berkshire Hathaway",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
+      "signal_type": "POSITION",
       "confidence_score": 65,
-      "entry_price": 496.85,
-      "stop_loss": 482.6943,
-      "target_price": 525.1614,
-      "risk_reward": 2.0,
-      "rsi": 57.00548781158776,
-      "atr_pct": 1.4245455599282544,
-      "notes": [],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.64
-    },
-    {
-      "ticker": "BA",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Boeing",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 215.51,
-      "stop_loss": 211.8105,
-      "target_price": 240.2986,
-      "risk_reward": 6.7,
-      "rsi": 44.89442435971632,
-      "atr_pct": 2.8755692789166254,
+      "entry_price": 62.6,
+      "stop_loss": 60.885,
+      "target_price": 80.8789,
+      "risk_reward": 10.66,
+      "rsi": 34.210497256426265,
+      "atr_pct": 3.6499341202984916,
       "notes": [
-        "Insider net alış"
+        "Savunma hissesi destek bölgesinde"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -151,34 +69,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -3.05
-    },
-    {
-      "ticker": "MMM",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "3M",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 157.7,
-      "stop_loss": 152.0244,
-      "target_price": 173.0,
-      "risk_reward": 2.7,
-      "rsi": 38.843971206905806,
-      "atr_pct": 2.425490242343551,
-      "notes": [
-        "Insider net alış"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.11
+      "price_change_pct": 0.0
     }
   ],
   "sell": [
@@ -190,18 +81,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 36.07,
-      "stop_loss": 34.7094,
-      "target_price": 34.6329,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
       "risk_reward": 2.0,
-      "rsi": 53.80952063781746,
-      "atr_pct": 1.9921583940760434,
+      "rsi": NaN,
+      "atr_pct": NaN,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.81
+      "price_change_pct": NaN
     },
     {
       "ticker": "AZN.LON",
@@ -246,10 +137,10 @@
       "price_change_pct": NaN
     },
     {
-      "ticker": "BIMAS.IST",
+      "ticker": "GARAN.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "BİM",
+      "company_name": "Garanti BBVA",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -395,48 +286,6 @@
   ],
   "oversold": [
     {
-      "ticker": "PLUG",
-      "exchange": "NASDAQ",
-      "group": "SPECULATIVE",
-      "company_name": "Plug Power",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 2.17,
-      "stop_loss": 2.1186,
-      "target_price": 2.2785,
-      "risk_reward": 1.5,
-      "rsi": 17.708340576953077,
-      "atr_pct": 8.262014946129018,
-      "notes": [
-        "RSI: 17.7 — Bollinger alt bandına yakın (SPECULATIVE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.69
-    },
-    {
-      "ticker": "INTC",
-      "exchange": "NASDAQ",
-      "group": "VALUE",
-      "company_name": "Intel",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 103.12,
-      "stop_loss": 100.7721,
-      "target_price": 108.276,
-      "risk_reward": 1.5,
-      "rsi": 23.43354907791833,
-      "atr_pct": 9.731381036742142,
-      "notes": [
-        "RSI: 23.4 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -6.12
-    },
-    {
       "ticker": "FTAI",
       "exchange": "NASDAQ",
       "group": "GROWTH",
@@ -444,81 +293,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 209.88,
-      "stop_loss": 207.1971,
-      "target_price": 220.374,
+      "entry_price": 206.22,
+      "stop_loss": 203.0539,
+      "target_price": 216.531,
       "risk_reward": 1.5,
-      "rsi": 25.525563659561286,
-      "atr_pct": 8.11807369019902,
+      "rsi": 26.85777034944647,
+      "atr_pct": 8.035454650370527,
       "notes": [
-        "RSI: 25.5 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 26.9 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -7.68
-    },
-    {
-      "ticker": "EMR",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Emerson Electric",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 135.38,
-      "stop_loss": 132.858,
-      "target_price": 142.149,
-      "risk_reward": 1.5,
-      "rsi": 27.604930192474754,
-      "atr_pct": 2.899247104717095,
-      "notes": [
-        "RSI: 27.6 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.52
-    },
-    {
-      "ticker": "PWR",
-      "exchange": "NYSE",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 646.7,
-      "stop_loss": 635.4909,
-      "target_price": 679.035,
-      "risk_reward": 1.5,
-      "rsi": 29.28756734966342,
-      "atr_pct": 4.4254509438458784,
-      "notes": [
-        "RSI: 29.3 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.8
-    },
-    {
-      "ticker": "SNPS",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Synopsys",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 433.82,
-      "stop_loss": 421.542,
-      "target_price": 455.511,
-      "risk_reward": 1.5,
-      "rsi": 31.8546431517387,
-      "atr_pct": 3.7530382764190233,
-      "notes": [
-        "RSI: 31.9 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.62
+      "price_change_pct": -1.74
     }
   ]
 }
