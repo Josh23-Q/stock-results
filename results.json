@@ -1,103 +1,47 @@
 {
-  "last_updated": "24 July 2026, 05:19",
-  "last_updated_iso": "2026-07-24T05:19:45.965634",
+  "last_updated": "25 July 2026, 05:18",
+  "last_updated_iso": "2026-07-25T05:18:43.090922",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-07-24"
+    "last_run_date": "2026-07-25"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 3,
-    "sell": 33,
-    "oversold": 20
+    "buy": 1,
+    "sell": 36,
+    "oversold": 0
   },
   "buy": [
     {
-      "ticker": "MRK",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Merck",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 130.48,
-      "stop_loss": 123.3057,
-      "target_price": 144.8286,
-      "risk_reward": 2.0,
-      "rsi": 51.52925295816716,
-      "atr_pct": 2.7491895438666725,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 2.36
-    },
-    {
-      "ticker": "KHC",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Kraft Heinz",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 25.36,
-      "stop_loss": 23.8864,
-      "target_price": 28.3071,
-      "risk_reward": 2.0,
-      "rsi": 49.893840308124304,
-      "atr_pct": 2.905305987621918,
-      "notes": [
-        "Insider net alış"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.31
-    },
-    {
-      "ticker": "DUK",
-      "exchange": "NYSE",
+      "ticker": "ORIT.LON",
+      "exchange": "LSE",
       "group": "DEFENSIVE",
-      "company_name": "Duke Energy",
+      "company_name": "Octopus Renewables",
       "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 129.26,
-      "stop_loss": 124.2386,
-      "target_price": 139.3029,
-      "risk_reward": 2.0,
-      "rsi": 49.15335765519243,
-      "atr_pct": 1.9423754459256586,
+      "signal_type": "POSITION",
+      "confidence_score": 60,
+      "entry_price": 61.9,
+      "stop_loss": 59.895,
+      "target_price": 85.6737,
+      "risk_reward": 11.86,
+      "rsi": 31.11114501953125,
+      "atr_pct": 4.800831605744172,
       "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
+        "Savunma hissesi destek bölgesinde"
       ],
       "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
         "EMA20>EMA50": 15,
         "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 1.02
+      "price_change_pct": 0.49
     }
   ],
   "sell": [
@@ -109,18 +53,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 36.24,
-      "stop_loss": 34.9014,
-      "target_price": 34.9014,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
       "risk_reward": 2.0,
-      "rsi": 43.61495391261271,
-      "atr_pct": 1.8468130850907074,
+      "rsi": NaN,
+      "atr_pct": NaN,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.39
+      "price_change_pct": NaN
     },
     {
       "ticker": "AZN.LON",
@@ -312,216 +256,5 @@
       "price_change_pct": NaN
     }
   ],
-  "oversold": [
-    {
-      "ticker": "CELH",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 27.17,
-      "stop_loss": 26.7993,
-      "target_price": 28.5285,
-      "risk_reward": 1.5,
-      "rsi": 15.45558042711869,
-      "atr_pct": 5.105420900615744,
-      "notes": [
-        "RSI: 15.5 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -4.57
-    },
-    {
-      "ticker": "LIN",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Linde",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 506.32,
-      "stop_loss": 497.079,
-      "target_price": 531.636,
-      "risk_reward": 1.5,
-      "rsi": 20.88384708756051,
-      "atr_pct": 2.068568060843796,
-      "notes": [
-        "RSI: 20.9 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.46
-    },
-    {
-      "ticker": "ISRG",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Intuitive Surgical",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 332.02,
-      "stop_loss": 325.2843,
-      "target_price": 348.621,
-      "risk_reward": 1.5,
-      "rsi": 22.269412307266222,
-      "atr_pct": 5.463526290551582,
-      "notes": [
-        "RSI: 22.3 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.54
-    },
-    {
-      "ticker": "SNPS",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Synopsys",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 373.52,
-      "stop_loss": 362.34,
-      "target_price": 392.196,
-      "risk_reward": 1.5,
-      "rsi": 22.821999761239354,
-      "atr_pct": 4.233471384768296,
-      "notes": [
-        "RSI: 22.8 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.08
-    },
-    {
-      "ticker": "DKNG",
-      "exchange": "NASDAQ",
-      "group": "VALUE",
-      "company_name": "DraftKings",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 22.81,
-      "stop_loss": 22.0869,
-      "target_price": 23.9505,
-      "risk_reward": 1.5,
-      "rsi": 25.51670475802912,
-      "atr_pct": 4.723805769716012,
-      "notes": [
-        "RSI: 25.5 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.09
-    },
-    {
-      "ticker": "HD",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Home Depot",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 324.71,
-      "stop_loss": 319.8195,
-      "target_price": 340.9455,
-      "risk_reward": 1.5,
-      "rsi": 26.015319215002705,
-      "atr_pct": 2.8409978646945473,
-      "notes": [
-        "RSI: 26.0 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.03
-    },
-    {
-      "ticker": "BRK.B",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Berkshire Hathaway",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 490.85,
-      "stop_loss": 481.1994,
-      "target_price": 515.3925,
-      "risk_reward": 1.5,
-      "rsi": 27.528536824452956,
-      "atr_pct": 1.3060425478956417,
-      "notes": [
-        "RSI: 27.5 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.3
-    },
-    {
-      "ticker": "MCD",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "McDonald's",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 262.8,
-      "stop_loss": 258.3504,
-      "target_price": 275.94,
-      "risk_reward": 1.5,
-      "rsi": 27.86188792375674,
-      "atr_pct": 2.2105338071443583,
-      "notes": [
-        "RSI: 27.9 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.29
-    },
-    {
-      "ticker": "NVR",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "NVR Inc",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 6155.02,
-      "stop_loss": 5860.0575,
-      "target_price": 6462.771,
-      "risk_reward": 1.5,
-      "rsi": 28.549523413379163,
-      "atr_pct": 3.3426145567721126,
-      "notes": [
-        "RSI: 28.5 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -3.06
-    },
-    {
-      "ticker": "TSLA",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Tesla",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 319.69,
-      "stop_loss": 312.5826,
-      "target_price": 335.6745,
-      "risk_reward": 1.5,
-      "rsi": 28.968966240958792,
-      "atr_pct": 5.540188252938318,
-      "notes": [
-        "RSI: 29.0 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -14.52
-    }
-  ]
+  "oversold": []
 }
