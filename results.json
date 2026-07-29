@@ -1,192 +1,21 @@
 {
-  "last_updated": "28 July 2026, 05:18",
-  "last_updated_iso": "2026-07-28T05:18:27.119874",
+  "last_updated": "29 July 2026, 05:19",
+  "last_updated_iso": "2026-07-29T05:19:26.406552",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-07-28"
+    "last_run_date": "2026-07-29"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 6,
-    "sell": 44,
-    "oversold": 6
+    "buy": 0,
+    "sell": 49,
+    "oversold": 0
   },
-  "buy": [
-    {
-      "ticker": "NEE",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "NextEra Energy",
-      "signal_direction": "BUY",
-      "signal_type": "POSITION",
-      "confidence_score": 85,
-      "entry_price": 88.83,
-      "stop_loss": 85.7343,
-      "target_price": 101.2129,
-      "risk_reward": 4.0,
-      "rsi": 52.05949876480703,
-      "atr_pct": 1.742495345076817,
-      "notes": [
-        "Insider net alış",
-        "Savunma hissesi destek bölgesinde"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -1.06
-    },
-    {
-      "ticker": "AMGN",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Amgen",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 376.26,
-      "stop_loss": 359.34,
-      "target_price": 410.1,
-      "risk_reward": 2.0,
-      "rsi": 58.31635664908556,
-      "atr_pct": 2.2484463707184763,
-      "notes": [
-        "Insider net alış",
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.06
-    },
-    {
-      "ticker": "FAST",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Fastenal",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 47.64,
-      "stop_loss": 44.7771,
-      "target_price": 53.3657,
-      "risk_reward": 2.0,
-      "rsi": 52.86485826646959,
-      "atr_pct": 3.004676973563649,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 1.32
-    },
-    {
-      "ticker": "MRK",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Merck",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 130.76,
-      "stop_loss": 124.12,
-      "target_price": 144.04,
-      "risk_reward": 2.0,
-      "rsi": 53.63704659595361,
-      "atr_pct": 2.539002626411593,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.24
-    },
-    {
-      "ticker": "DUK",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "Duke Energy",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 128.83,
-      "stop_loss": 124.4157,
-      "target_price": 137.6586,
-      "risk_reward": 2.0,
-      "rsi": 51.77842648604066,
-      "atr_pct": 1.713221248749662,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -1.29
-    },
-    {
-      "ticker": "PPL",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "PPL Corp",
-      "signal_direction": "BUY",
-      "signal_type": "POSITION",
-      "confidence_score": 70,
-      "entry_price": 36.01,
-      "stop_loss": 34.7589,
-      "target_price": 41.2043,
-      "risk_reward": 4.15,
-      "rsi": 45.53989979717659,
-      "atr_pct": 1.8030699332696565,
-      "notes": [
-        "Insider net alış",
-        "Savunma hissesi destek bölgesinde"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.58
-    }
-  ],
+  "buy": [],
   "sell": [
     {
       "ticker": "AZN.LON",
@@ -231,10 +60,52 @@
       "price_change_pct": NaN
     },
     {
+      "ticker": "NG.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "National Grid",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
+      "risk_reward": 2.0,
+      "rsi": NaN,
+      "atr_pct": NaN,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": NaN
+    },
+    {
       "ticker": "STJ.LON",
       "exchange": "LSE",
       "group": "DEFENSIVE",
       "company_name": "St. James's Place",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
+      "risk_reward": 2.0,
+      "rsi": NaN,
+      "atr_pct": NaN,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": NaN
+    },
+    {
+      "ticker": "SSE.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "SSE",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -355,176 +226,7 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": NaN
-    },
-    {
-      "ticker": "ISCTR.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "İş Bankası",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": NaN,
-      "stop_loss": NaN,
-      "target_price": NaN,
-      "risk_reward": 2.0,
-      "rsi": NaN,
-      "atr_pct": NaN,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": NaN
-    },
-    {
-      "ticker": "HALKB.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Halkbank",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": NaN,
-      "stop_loss": NaN,
-      "target_price": NaN,
-      "risk_reward": 2.0,
-      "rsi": NaN,
-      "atr_pct": NaN,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": NaN
     }
   ],
-  "oversold": [
-    {
-      "ticker": "TSLA",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Tesla",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 309.22,
-      "stop_loss": 301.2372,
-      "target_price": 324.681,
-      "risk_reward": 1.5,
-      "rsi": 17.162078259727267,
-      "atr_pct": 5.306900988834438,
-      "notes": [
-        "RSI: 17.2 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.22
-    },
-    {
-      "ticker": "MOH",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Molina Healthcare",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 199.48,
-      "stop_loss": 190.3671,
-      "target_price": 209.454,
-      "risk_reward": 1.5,
-      "rsi": 26.44488003436348,
-      "atr_pct": 5.912516988101005,
-      "notes": [
-        "RSI: 26.4 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.98
-    },
-    {
-      "ticker": "ALGN",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Align Tech",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 168.05,
-      "stop_loss": 163.1025,
-      "target_price": 176.4525,
-      "risk_reward": 1.5,
-      "rsi": 29.33813535638201,
-      "atr_pct": 3.877672857976263,
-      "notes": [
-        "RSI: 29.3 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.62
-    },
-    {
-      "ticker": "GOOGL",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Alphabet",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 326.56,
-      "stop_loss": 311.751,
-      "target_price": 342.888,
-      "risk_reward": 1.5,
-      "rsi": 30.81444924987869,
-      "atr_pct": 3.6101449320637045,
-      "notes": [
-        "RSI: 30.8 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 2.13
-    },
-    {
-      "ticker": "UBER",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Uber",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 68.18,
-      "stop_loss": 64.7559,
-      "target_price": 71.589,
-      "risk_reward": 1.5,
-      "rsi": 31.284231857434804,
-      "atr_pct": 3.5277421111835503,
-      "notes": [
-        "RSI: 31.3 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 3.4
-    },
-    {
-      "ticker": "AMZN",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Amazon",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 231.39,
-      "stop_loss": 228.6801,
-      "target_price": 242.9595,
-      "risk_reward": 1.5,
-      "rsi": 34.20655344536539,
-      "atr_pct": 2.896161468667754,
-      "notes": [
-        "RSI: 34.2 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.31
-    }
-  ]
+  "oversold": []
 }
