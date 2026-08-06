@@ -1,240 +1,22 @@
 {
-  "last_updated": "05 August 2026, 05:19",
-  "last_updated_iso": "2026-08-05T05:19:39.126358",
+  "last_updated": "06 August 2026, 05:19",
+  "last_updated_iso": "2026-08-06T05:19:30.310471",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-08-05"
+    "last_run_date": "2026-08-06"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 6,
-    "sell": 73,
+    "buy": 0,
+    "sell": 74,
     "oversold": 0
   },
-  "buy": [
-    {
-      "ticker": "IDXX",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "IDEXX",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 80,
-      "entry_price": 588.09,
-      "stop_loss": 549.2658,
-      "target_price": 665.7386,
-      "risk_reward": 2.0,
-      "rsi": 62.289369480899786,
-      "atr_pct": 3.3008774654906516,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş",
-        "Hacim 2.4x"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 3.57
-    },
-    {
-      "ticker": "DUK",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "Duke Energy",
-      "signal_direction": "BUY",
-      "signal_type": "POSITION",
-      "confidence_score": 80,
-      "entry_price": 124.27,
-      "stop_loss": 120.582,
-      "target_price": 144.6471,
-      "risk_reward": 5.53,
-      "rsi": 49.77346406164741,
-      "atr_pct": 2.0496838316690424,
-      "notes": [
-        "Insider net alış",
-        "Savunma hissesi destek bölgesinde"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.01
-    },
-    {
-      "ticker": "SO",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "Southern Company",
-      "signal_direction": "BUY",
-      "signal_type": "POSITION",
-      "confidence_score": 80,
-      "entry_price": 93.25,
-      "stop_loss": 90.3375,
-      "target_price": 110.2271,
-      "risk_reward": 5.83,
-      "rsi": 44.68922670588412,
-      "atr_pct": 2.2757551762300725,
-      "notes": [
-        "Insider net alış",
-        "Savunma hissesi destek bölgesinde",
-        "Alt Bollinger bandına yakın",
-        "OBV yükseliş",
-        "Hacim 2.2x"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.33
-    },
-    {
-      "ticker": "C",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Citigroup",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 136.87,
-      "stop_loss": 129.6943,
-      "target_price": 151.2214,
-      "risk_reward": 2.0,
-      "rsi": 54.63341184968412,
-      "atr_pct": 2.6213509578404888,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 2.47
-    },
-    {
-      "ticker": "F",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Ford",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 14.24,
-      "stop_loss": 13.1443,
-      "target_price": 16.4314,
-      "risk_reward": 2.0,
-      "rsi": 50.94935868417082,
-      "atr_pct": 3.847311974944541,
-      "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -1.32
-    },
-    {
-      "ticker": "ISGSY.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "İş Girişim",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 18.33,
-      "stop_loss": 16.66,
-      "target_price": 21.67,
-      "risk_reward": 2.0,
-      "rsi": 44.444444444444436,
-      "atr_pct": 4.555375789527653,
-      "notes": [
-        "BIST güçlü hacim: 3.2x",
-        "OBV yükseliş",
-        "Hacim 3.2x"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 2.8
-    }
-  ],
+  "buy": [],
   "sell": [
-    {
-      "ticker": "PPL",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "PPL Corp",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 35.18,
-      "stop_loss": 34.3134,
-      "target_price": 33.7143,
-      "risk_reward": 2.0,
-      "rsi": 43.64511903280812,
-      "atr_pct": 2.083165325656889,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.06
-    },
-    {
-      "ticker": "CNP",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "CenterPoint Energy",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 41.58,
-      "stop_loss": 40.6494,
-      "target_price": 39.5443,
-      "risk_reward": 2.0,
-      "rsi": 40.86538637883624,
-      "atr_pct": 2.447948113409086,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.81
-    },
     {
       "ticker": "NEE",
       "exchange": "NYSE",
@@ -243,18 +25,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 87.2,
-      "stop_loss": 84.6252,
-      "target_price": 83.5286,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
       "risk_reward": 2.0,
-      "rsi": 38.581700239427725,
-      "atr_pct": 2.105176131903337,
+      "rsi": NaN,
+      "atr_pct": NaN,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.75
+      "price_change_pct": NaN
     },
     {
       "ticker": "AEP",
@@ -264,18 +46,39 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 128.35,
-      "stop_loss": 125.0073,
-      "target_price": 122.7286,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
       "risk_reward": 2.0,
-      "rsi": 37.55251783546883,
-      "atr_pct": 2.189885783184209,
+      "rsi": NaN,
+      "atr_pct": NaN,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.02
+      "price_change_pct": NaN
+    },
+    {
+      "ticker": "PPL",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "PPL Corp",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
+      "risk_reward": 2.0,
+      "rsi": NaN,
+      "atr_pct": NaN,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": NaN
     },
     {
       "ticker": "AZN.LON",
@@ -387,6 +190,27 @@
       "exchange": "LSE",
       "group": "DEFENSIVE",
       "company_name": "Centrica",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": NaN,
+      "stop_loss": NaN,
+      "target_price": NaN,
+      "risk_reward": 2.0,
+      "rsi": NaN,
+      "atr_pct": NaN,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": NaN
+    },
+    {
+      "ticker": "PNN.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "Pennon Group",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
