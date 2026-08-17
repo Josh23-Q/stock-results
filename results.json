@@ -1,18 +1,18 @@
 {
-  "last_updated": "16 August 2026, 05:19",
-  "last_updated_iso": "2026-08-16T05:19:45.875378",
+  "last_updated": "17 August 2026, 05:18",
+  "last_updated_iso": "2026-08-17T05:18:23.411561",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-08-16"
+    "last_run_date": "2026-08-17"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
-    "sell": 30,
+    "sell": 31,
     "oversold": 3
   },
   "buy": [
@@ -26,10 +26,10 @@
       "confidence_score": 85,
       "entry_price": 171.2,
       "stop_loss": 165.455,
-      "target_price": 187.8602,
-      "risk_reward": 2.9,
-      "rsi": 48.748430071816315,
-      "atr_pct": 2.432859827728275,
+      "target_price": 188.0975,
+      "risk_reward": 2.94,
+      "rsi": 48.41434359508034,
+      "atr_pct": 2.467511511717828,
       "notes": [],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -299,38 +299,17 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 62.1,
-      "stop_loss": 64.5786,
-      "target_price": 57.1429,
+      "stop_loss": 64.5571,
+      "target_price": 57.1857,
       "risk_reward": 2.0,
-      "rsi": 44.98713594165731,
-      "atr_pct": 3.99125808613606,
+      "rsi": 45.4746072546274,
+      "atr_pct": 3.956751616797214,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": -1.82
-    },
-    {
-      "ticker": "THYAO.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Türk Hava Yolları",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 305.25,
-      "stop_loss": 314.5,
-      "target_price": 286.75,
-      "risk_reward": 2.0,
-      "rsi": 44.98141263940521,
-      "atr_pct": 3.0303030303030303,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.89
     },
     {
       "ticker": "HALKB.IST",
@@ -341,11 +320,11 @@
       "signal_type": "SELL",
       "confidence_score": 65,
       "entry_price": 34.18,
-      "stop_loss": 35.7514,
-      "target_price": 31.0371,
+      "stop_loss": 35.7186,
+      "target_price": 31.1029,
       "risk_reward": 2.0,
-      "rsi": 42.449664053661806,
-      "atr_pct": 4.597508147804898,
+      "rsi": 43.33333545261094,
+      "atr_pct": 4.501378606643492,
       "notes": [
         "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
@@ -375,25 +354,46 @@
       "price_change_pct": 0.89
     },
     {
-      "ticker": "ORIT.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "Octopus Renewables",
+      "ticker": "KONTR.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Kontrolmatik",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 60.7,
-      "stop_loss": 62.8699,
-      "target_price": 56.3603,
+      "entry_price": 4.21,
+      "stop_loss": 4.475,
+      "target_price": 3.68,
       "risk_reward": 2.0,
-      "rsi": 39.3928280166096,
-      "atr_pct": 3.5747461969140937,
+      "rsi": 41.237112895273235,
+      "atr_pct": 6.294534802235553,
       "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.49
+      "price_change_pct": 9.64
+    },
+    {
+      "ticker": "THYAO.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Türk Hava Yolları",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 305.25,
+      "stop_loss": 313.3929,
+      "target_price": 288.9643,
+      "risk_reward": 2.0,
+      "rsi": 39.59183673469388,
+      "atr_pct": 2.6676026676026674,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.89
     }
   ],
   "oversold": [
