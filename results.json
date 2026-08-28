@@ -1,62 +1,35 @@
 {
-  "last_updated": "27 August 2026, 05:18",
-  "last_updated_iso": "2026-08-27T05:18:28.251067",
+  "last_updated": "28 August 2026, 05:20",
+  "last_updated_iso": "2026-08-28T05:20:04.306047",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-08-27"
+    "last_run_date": "2026-08-28"
   },
   "summary": {
     "analyzed": 396,
     "buy": 6,
-    "sell": 29,
-    "oversold": 0
+    "sell": 27,
+    "oversold": 10
   },
   "buy": [
     {
-      "ticker": "CSGP",
+      "ticker": "ADBE",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "CoStar",
+      "company_name": "Adobe",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 32.14,
-      "stop_loss": 29.2114,
-      "target_price": 37.9971,
+      "confidence_score": 80,
+      "entry_price": 289.15,
+      "stop_loss": 267.7614,
+      "target_price": 331.9271,
       "risk_reward": 2.0,
-      "rsi": 60.44045439702192,
-      "atr_pct": 4.555960192451463,
-      "notes": [
-        "Insider net alış",
-        "52H yüksüğünden %65 aşağıda"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.04
-    },
-    {
-      "ticker": "MELI",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 1950.4399,
-      "stop_loss": 1806.4242,
-      "target_price": 2238.4713,
-      "risk_reward": 2.0,
-      "rsi": 60.266633368712405,
-      "atr_pct": 3.691877193886581,
+      "rsi": 63.102021823953976,
+      "atr_pct": 3.6985230806632208,
       "notes": [
         "Insider net alış",
         "OBV yükseliş"
@@ -64,11 +37,68 @@
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
         "EMA20>EMA50": 15,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -2.33
+      "price_change_pct": 5.73
+    },
+    {
+      "ticker": "NOW",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "ServiceNow",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 80,
+      "entry_price": 138.43,
+      "stop_loss": 126.4514,
+      "target_price": 162.3871,
+      "risk_reward": 2.0,
+      "rsi": 64.80874063606313,
+      "atr_pct": 4.3265804935532985,
+      "notes": [
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 10.04
+    },
+    {
+      "ticker": "ADSK",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Autodesk",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 80,
+      "entry_price": 270.58,
+      "stop_loss": 250.9428,
+      "target_price": 309.8543,
+      "risk_reward": 2.0,
+      "rsi": 64.4839650013908,
+      "atr_pct": 3.6287120724542374,
+      "notes": [
+        "Insider net alış",
+        "OBV yükseliş",
+        "Hacim 2.2x"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 6.21
     },
     {
       "ticker": "BAC",
@@ -77,171 +107,129 @@
       "company_name": "Bank of America",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 62.23,
-      "stop_loss": 60.4197,
-      "target_price": 66.3329,
-      "risk_reward": 2.27,
-      "rsi": 44.76190871623414,
-      "atr_pct": 1.648263437017479,
-      "notes": [],
+      "confidence_score": 80,
+      "entry_price": 61.17,
+      "stop_loss": 60.489,
+      "target_price": 65.3586,
+      "risk_reward": 6.15,
+      "rsi": 37.864096996856595,
+      "atr_pct": 1.7118569193865594,
+      "notes": [
+        "Alt Bollinger bandına yakın"
+      ],
       "score_breakdown": {
         "RSI optimal bant": 20,
+        "Hacim >1.5x": 15,
         "EMA20>EMA50": 15,
         "EMA50>EMA200": 10,
         "Desteğe yakın": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.32
+      "price_change_pct": -1.7
     },
     {
-      "ticker": "WFC",
+      "ticker": "ELV",
       "exchange": "NYSE",
       "group": "VALUE",
-      "company_name": "Wells Fargo",
+      "company_name": "Elevance Health",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 85.23,
-      "stop_loss": 82.6452,
-      "target_price": 91.5729,
-      "risk_reward": 2.45,
-      "rsi": 40.84650140835763,
-      "atr_pct": 1.8605115631531703,
+      "confidence_score": 75,
+      "entry_price": 399.11,
+      "stop_loss": 380.8943,
+      "target_price": 435.5414,
+      "risk_reward": 2.0,
+      "rsi": 54.07195224915316,
+      "atr_pct": 2.282040994971591,
       "notes": [
         "Insider net alış",
         "OBV yükseliş"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
+        "MACD pozitif": 20,
         "EMA20>EMA50": 15,
         "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.52
+      "price_change_pct": -0.85
     },
     {
-      "ticker": "AXP",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "American Express",
+      "ticker": "OKTA",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Okta",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 336.15,
-      "stop_loss": 325.7793,
-      "target_price": 359.6957,
-      "risk_reward": 2.27,
-      "rsi": 41.29082131336957,
-      "atr_pct": 1.7511309713108305,
+      "confidence_score": 70,
+      "entry_price": 172.91,
+      "stop_loss": 154.3943,
+      "target_price": 209.9414,
+      "risk_reward": 2.0,
+      "rsi": 64.71926594108385,
+      "atr_pct": 5.354147501834592,
       "notes": [
-        "Insider net alış",
-        "OBV yükseliş"
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş",
+        "Hacim 4.7x"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
         "EMA20>EMA50": 15,
         "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
+        "Haber nötr": 10,
+        "Insider satış": -20
       },
       "veto_reasons": [],
-      "price_change_pct": 0.06
-    },
-    {
-      "ticker": "F",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Ford",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 13.9,
-      "stop_loss": 13.4667,
-      "target_price": 15.4409,
-      "risk_reward": 3.56,
-      "rsi": 53.66355927654362,
-      "atr_pct": 2.771399581494842,
-      "notes": [
-        "Insider net alış"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.36
+      "price_change_pct": 28.63
     }
   ],
   "sell": [
     {
-      "ticker": "PPL",
+      "ticker": "AEP",
       "exchange": "NYSE",
       "group": "DEFENSIVE",
-      "company_name": "PPL Corp",
+      "company_name": "American Electric Power",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 35.02,
-      "stop_loss": 35.6529,
-      "target_price": 33.7543,
+      "entry_price": 122.71,
+      "stop_loss": 124.8207,
+      "target_price": 118.4886,
       "risk_reward": 2.0,
-      "rsi": 54.23731005287243,
-      "atr_pct": 1.807132276236551,
+      "rsi": 42.75717437997158,
+      "atr_pct": 1.720083102019449,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.09
+      "price_change_pct": -0.53
     },
     {
-      "ticker": "D",
+      "ticker": "ES",
       "exchange": "NYSE",
       "group": "DEFENSIVE",
-      "company_name": "Dominion Energy",
+      "company_name": "Eversource Energy",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 66.91,
-      "stop_loss": 67.8407,
-      "target_price": 65.0486,
+      "entry_price": 70.92,
+      "stop_loss": 72.0929,
+      "target_price": 68.5743,
       "risk_reward": 2.0,
-      "rsi": 51.08056011055917,
-      "atr_pct": 1.3909957218576074,
+      "rsi": 41.37086080346637,
+      "atr_pct": 1.6537755038152968,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.03
-    },
-    {
-      "ticker": "FE",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "FirstEnergy",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 46.73,
-      "stop_loss": 47.5164,
-      "target_price": 45.1571,
-      "risk_reward": 2.0,
-      "rsi": 48.057722579700055,
-      "atr_pct": 1.682919878540299,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.24
+      "price_change_pct": -1.05
     },
     {
       "ticker": "DUK",
@@ -251,39 +239,39 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 121.89,
-      "stop_loss": 123.8939,
-      "target_price": 117.8822,
+      "entry_price": 120.84,
+      "stop_loss": 122.7551,
+      "target_price": 117.0098,
       "risk_reward": 2.0,
-      "rsi": 47.10163532849687,
-      "atr_pct": 1.6440398253693798,
+      "rsi": 40.956417837138346,
+      "atr_pct": 1.5848316651675816,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.25
+      "price_change_pct": -0.86
     },
     {
-      "ticker": "AEP",
+      "ticker": "D",
       "exchange": "NYSE",
       "group": "DEFENSIVE",
-      "company_name": "American Electric Power",
+      "company_name": "Dominion Energy",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 123.36,
-      "stop_loss": 125.5017,
-      "target_price": 119.0766,
+      "entry_price": 66.5,
+      "stop_loss": 67.3821,
+      "target_price": 64.7357,
       "risk_reward": 2.0,
-      "rsi": 46.62015403253721,
-      "atr_pct": 1.7361267534825586,
+      "rsi": 40.936848353383205,
+      "atr_pct": 1.326532906799644,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.48
+      "price_change_pct": -0.61
     },
     {
       "ticker": "NEE",
@@ -293,39 +281,39 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 84.22,
-      "stop_loss": 85.3786,
-      "target_price": 81.9029,
+      "entry_price": 83.47,
+      "stop_loss": 84.5971,
+      "target_price": 81.2157,
       "risk_reward": 2.0,
-      "rsi": 46.0084340033627,
-      "atr_pct": 1.3756495415918595,
+      "rsi": 39.19413458757248,
+      "atr_pct": 1.3503573720171014,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.0
+      "price_change_pct": -0.89
     },
     {
-      "ticker": "EXC",
+      "ticker": "PPL",
       "exchange": "NYSE",
       "group": "DEFENSIVE",
-      "company_name": "Exelon",
+      "company_name": "PPL Corp",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 44.44,
-      "stop_loss": 45.2386,
-      "target_price": 42.8429,
+      "entry_price": 34.44,
+      "stop_loss": 35.0307,
+      "target_price": 33.2586,
       "risk_reward": 2.0,
-      "rsi": 42.08632328453587,
-      "atr_pct": 1.796966128545565,
+      "rsi": 38.56500516182117,
+      "atr_pct": 1.715200020102006,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.29
+      "price_change_pct": -1.66
     },
     {
       "ticker": "CNP",
@@ -335,18 +323,60 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 39.59,
-      "stop_loss": 40.3956,
-      "target_price": 37.9787,
+      "entry_price": 39.29,
+      "stop_loss": 40.0703,
+      "target_price": 37.7293,
       "risk_reward": 2.0,
-      "rsi": 40.903205939033526,
-      "atr_pct": 2.0349769229798174,
+      "rsi": 38.278097730219734,
+      "atr_pct": 1.9860725835182262,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.7
+      "price_change_pct": -0.76
+    },
+    {
+      "ticker": "FE",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "FirstEnergy",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 46.25,
+      "stop_loss": 47.0107,
+      "target_price": 44.7286,
+      "risk_reward": 2.0,
+      "rsi": 36.19907549651499,
+      "atr_pct": 1.6447872913021842,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.03
+    },
+    {
+      "ticker": "EXC",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Exelon",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 43.96,
+      "stop_loss": 44.7386,
+      "target_price": 42.4029,
+      "risk_reward": 2.0,
+      "rsi": 35.65216064453125,
+      "atr_pct": 1.7710908866642407,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.08
     },
     {
       "ticker": "SO",
@@ -356,40 +386,230 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 89.76,
-      "stop_loss": 91.0608,
-      "target_price": 87.1584,
+      "entry_price": 89.05,
+      "stop_loss": 90.3269,
+      "target_price": 86.4962,
       "risk_reward": 2.0,
-      "rsi": 35.72825078121997,
-      "atr_pct": 1.449222275826759,
+      "rsi": 33.69979530045765,
+      "atr_pct": 1.4339123102854638,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.23
-    },
-    {
-      "ticker": "NG.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "National Grid",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -0.79
     }
   ],
-  "oversold": []
+  "oversold": [
+    {
+      "ticker": "ITW",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Illinois Tool Works",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 281.67,
+      "stop_loss": 277.1207,
+      "target_price": 295.7535,
+      "risk_reward": 1.5,
+      "rsi": 21.20635158836606,
+      "atr_pct": 1.6151118939890439,
+      "notes": [
+        "RSI: 21.2 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.34
+    },
+    {
+      "ticker": "HD",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Home Depot",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 328.61,
+      "stop_loss": 320.2493,
+      "target_price": 345.0405,
+      "risk_reward": 1.5,
+      "rsi": 25.360353137165816,
+      "atr_pct": 2.5442650640043034,
+      "notes": [
+        "RSI: 25.4 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.86
+    },
+    {
+      "ticker": "ROST",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Ross Stores",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 229.87,
+      "stop_loss": 223.0857,
+      "target_price": 241.3635,
+      "risk_reward": 1.5,
+      "rsi": 26.263570311114208,
+      "atr_pct": 2.9513589519988557,
+      "notes": [
+        "RSI: 26.3 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -2.71
+    },
+    {
+      "ticker": "PSA",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Public Storage",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 311.2,
+      "stop_loss": 305.7793,
+      "target_price": 326.76,
+      "risk_reward": 1.5,
+      "rsi": 26.438400947131058,
+      "atr_pct": 1.7418743379090926,
+      "notes": [
+        "RSI: 26.4 — Bollinger alt bandına yakın (DEFENSIVE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.94
+    },
+    {
+      "ticker": "EXR",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Extra Space Storage",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 142.79,
+      "stop_loss": 140.3943,
+      "target_price": 149.9295,
+      "risk_reward": 1.5,
+      "rsi": 26.708058836413883,
+      "atr_pct": 1.677788303660496,
+      "notes": [
+        "RSI: 26.7 — Bollinger alt bandına yakın (DEFENSIVE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.9
+    },
+    {
+      "ticker": "MCD",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "McDonald's",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 260.06,
+      "stop_loss": 255.0779,
+      "target_price": 273.063,
+      "risk_reward": 1.5,
+      "rsi": 28.51608855182573,
+      "atr_pct": 1.915766709188074,
+      "notes": [
+        "RSI: 28.5 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -2.57
+    },
+    {
+      "ticker": "ODFL",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Old Dominion",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 200.06,
+      "stop_loss": 194.2964,
+      "target_price": 210.063,
+      "risk_reward": 1.5,
+      "rsi": 28.664915767083755,
+      "atr_pct": 2.88092101538492,
+      "notes": [
+        "RSI: 28.7 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.32
+    },
+    {
+      "ticker": "MTB",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "M&T Bank",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 238.68,
+      "stop_loss": 234.8078,
+      "target_price": 250.614,
+      "risk_reward": 1.5,
+      "rsi": 29.69987162394395,
+      "atr_pct": 1.6223158436093348,
+      "notes": [
+        "RSI: 29.7 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.18
+    },
+    {
+      "ticker": "AMZN",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Amazon",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 256.26,
+      "stop_loss": 250.795,
+      "target_price": 269.073,
+      "risk_reward": 1.5,
+      "rsi": 29.800417502630538,
+      "atr_pct": 2.132599469042953,
+      "notes": [
+        "RSI: 29.8 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.54
+    },
+    {
+      "ticker": "LULU",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Lululemon",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 115.0,
+      "stop_loss": 110.8107,
+      "target_price": 120.75,
+      "risk_reward": 1.5,
+      "rsi": 30.699254323035305,
+      "atr_pct": 3.642856763756794,
+      "notes": [
+        "RSI: 30.7 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.16
+    }
+  ]
 }
