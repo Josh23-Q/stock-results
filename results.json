@@ -1,13 +1,13 @@
 {
-  "last_updated": "20 September 2026, 05:19",
-  "last_updated_iso": "2026-09-20T05:19:08.750466",
+  "last_updated": "21 September 2026, 05:18",
+  "last_updated_iso": "2026-09-21T05:18:40.787090",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-09-20"
+    "last_run_date": "2026-09-21"
   },
   "summary": {
     "analyzed": 396,
@@ -16,36 +16,6 @@
     "oversold": 37
   },
   "buy": [
-    {
-      "ticker": "BRK.B",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Berkshire Hathaway",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 100,
-      "entry_price": 509.77,
-      "stop_loss": 497.7328,
-      "target_price": 533.8443,
-      "risk_reward": 2.0,
-      "rsi": 56.64158803568287,
-      "atr_pct": 1.1806455098337836,
-      "notes": [
-        "OBV yükseliş",
-        "Hacim 2.7x"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.11
-    },
     {
       "ticker": "SBRY.LON",
       "exchange": "LSE",
@@ -189,6 +159,37 @@
       },
       "veto_reasons": [],
       "price_change_pct": -1.67
+    },
+    {
+      "ticker": "JPM",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "JPMorgan",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 80,
+      "entry_price": 349.67,
+      "stop_loss": 339.6393,
+      "target_price": 377.6729,
+      "risk_reward": 2.79,
+      "rsi": 38.99806149986697,
+      "atr_pct": 2.002091267365351,
+      "notes": [
+        "Insider net alış",
+        "Alt Bollinger bandına yakın",
+        "OBV yükseliş",
+        "Hacim 2.6x"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.1
     }
   ],
   "sell": [
