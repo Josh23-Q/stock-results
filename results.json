@@ -1,66 +1,65 @@
 {
-  "last_updated": "02 October 2026, 05:18",
-  "last_updated_iso": "2026-10-02T05:18:38.625606",
+  "last_updated": "03 October 2026, 05:18",
+  "last_updated_iso": "2026-10-03T05:18:39.392570",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-10-02"
+    "last_run_date": "2026-10-03"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 2,
-    "sell": 87,
-    "oversold": 19
+    "buy": 3,
+    "sell": 91,
+    "oversold": 18
   },
   "buy": [
     {
-      "ticker": "BIIB",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Biogen",
+      "ticker": "LLY",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Eli Lilly",
       "signal_direction": "BUY",
-      "signal_type": "SWING",
+      "signal_type": "POSITION",
       "confidence_score": 70,
-      "entry_price": 222.82,
-      "stop_loss": 212.2857,
-      "target_price": 243.8886,
-      "risk_reward": 2.0,
-      "rsi": 59.593925404964395,
-      "atr_pct": 2.3638565910621576,
+      "entry_price": 1142.85,
+      "stop_loss": 1102.1571,
+      "target_price": 1392.4214,
+      "risk_reward": 6.13,
+      "rsi": 51.743320229443796,
+      "atr_pct": 2.7297046189666503,
       "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)"
+        "Insider net alış",
+        "OBV yükseliş"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
         "EMA50>EMA200": 10,
-        "Haber nötr": 10,
-        "Insider satış": -20
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.35
+      "price_change_pct": -0.61
     },
     {
-      "ticker": "BRK.B",
+      "ticker": "PFE",
       "exchange": "NYSE",
       "group": "VALUE",
-      "company_name": "Berkshire Hathaway",
+      "company_name": "Pfizer",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 65,
-      "entry_price": 500.5,
-      "stop_loss": 491.0004,
-      "target_price": 524.5628,
-      "risk_reward": 2.53,
-      "rsi": 39.24601754845643,
-      "atr_pct": 1.2019404981179533,
+      "entry_price": 27.8,
+      "stop_loss": 26.9775,
+      "target_price": 29.6829,
+      "risk_reward": 2.29,
+      "rsi": 51.639342340081754,
+      "atr_pct": 1.6932169407612978,
       "notes": [
-        "Alt Bollinger bandına yakın",
+        "Insider net alış",
         "OBV yükseliş"
       ],
       "score_breakdown": {
@@ -71,31 +70,36 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.51
-    }
-  ],
-  "sell": [
+      "price_change_pct": -1.14
+    },
     {
       "ticker": "EXR",
       "exchange": "NYSE",
       "group": "DEFENSIVE",
       "company_name": "Extra Space Storage",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 133.08,
-      "stop_loss": 135.8104,
-      "target_price": 127.6192,
-      "risk_reward": 2.0,
-      "rsi": 43.31413660918217,
-      "atr_pct": 2.0516933703808036,
+      "signal_direction": "BUY",
+      "signal_type": "POSITION",
+      "confidence_score": 60,
+      "entry_price": 133.25,
+      "stop_loss": 129.3336,
+      "target_price": 154.7014,
+      "risk_reward": 5.48,
+      "rsi": 38.98885822799834,
+      "atr_pct": 2.0123304102766517,
       "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+        "Savunma hissesi destek bölgesinde"
       ],
-      "score_breakdown": {},
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
       "veto_reasons": [],
-      "price_change_pct": 1.19
-    },
+      "price_change_pct": 0.13
+    }
+  ],
+  "sell": [
     {
       "ticker": "PSA",
       "exchange": "NYSE",
@@ -104,39 +108,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 284.0,
-      "stop_loss": 289.723,
-      "target_price": 272.5539,
+      "entry_price": 283.81,
+      "stop_loss": 289.4414,
+      "target_price": 272.5471,
       "risk_reward": 2.0,
-      "rsi": 38.60853636197106,
-      "atr_pct": 2.0151508080505356,
+      "rsi": 39.46013508605202,
+      "atr_pct": 1.9842263197020447,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.41
-    },
-    {
-      "ticker": "PPL",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "PPL Corp",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 32.76,
-      "stop_loss": 33.2743,
-      "target_price": 31.7314,
-      "risk_reward": 2.0,
-      "rsi": 33.076884704243696,
-      "atr_pct": 1.5698581277550694,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.4
+      "price_change_pct": -0.07
     },
     {
       "ticker": "ES",
@@ -146,60 +129,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 64.31,
-      "stop_loss": 65.4657,
-      "target_price": 61.9986,
+      "entry_price": 64.5,
+      "stop_loss": 65.6617,
+      "target_price": 62.1767,
       "risk_reward": 2.0,
-      "rsi": 31.022179003514637,
-      "atr_pct": 1.7970665856802892,
+      "rsi": 33.12719027004741,
+      "atr_pct": 1.801033252270307,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.23
-    },
-    {
-      "ticker": "CNP",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "CenterPoint Energy",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 37.21,
-      "stop_loss": 37.8057,
-      "target_price": 36.0186,
-      "risk_reward": 2.0,
-      "rsi": 29.16667363796222,
-      "atr_pct": 1.6009529259579647,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 1.11
-    },
-    {
-      "ticker": "SO",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "Southern Company",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 83.47,
-      "stop_loss": 84.7157,
-      "target_price": 80.9786,
-      "risk_reward": 2.0,
-      "rsi": 28.686673006910397,
-      "atr_pct": 1.4924110839775275,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.7
+      "price_change_pct": 0.3
     },
     {
       "ticker": "D",
@@ -209,60 +150,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 60.76,
-      "stop_loss": 61.8064,
-      "target_price": 58.6671,
+      "entry_price": 61.31,
+      "stop_loss": 62.3693,
+      "target_price": 59.1914,
       "risk_reward": 2.0,
-      "rsi": 24.71908125788589,
-      "atr_pct": 1.7222324503763093,
+      "rsi": 29.194212346007504,
+      "atr_pct": 1.7277528566163887,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.4
-    },
-    {
-      "ticker": "FE",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "FirstEnergy",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 43.39,
-      "stop_loss": 44.0757,
-      "target_price": 42.0186,
-      "risk_reward": 2.0,
-      "rsi": 23.242125654255233,
-      "atr_pct": 1.5803507406513726,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.14
-    },
-    {
-      "ticker": "NEE",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "NextEra Energy",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 76.35,
-      "stop_loss": 77.6779,
-      "target_price": 73.6943,
-      "risk_reward": 2.0,
-      "rsi": 22.20148018882763,
-      "atr_pct": 1.7391715164011858,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.81
+      "price_change_pct": 0.91
     },
     {
       "ticker": "EXC",
@@ -272,62 +171,167 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 40.47,
-      "stop_loss": 41.1321,
-      "target_price": 39.1457,
+      "entry_price": 40.73,
+      "stop_loss": 41.3771,
+      "target_price": 39.4357,
       "risk_reward": 2.0,
-      "rsi": 21.07526934647231,
-      "atr_pct": 1.6361326164268355,
+      "rsi": 27.740460477750574,
+      "atr_pct": 1.588860029535773,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.17
+      "price_change_pct": 0.64
+    },
+    {
+      "ticker": "NEE",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "NextEra Energy",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 76.83,
+      "stop_loss": 78.1671,
+      "target_price": 74.1557,
+      "risk_reward": 2.0,
+      "rsi": 27.186326264054017,
+      "atr_pct": 1.7403916601176812,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.63
+    },
+    {
+      "ticker": "FE",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "FirstEnergy",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 43.34,
+      "stop_loss": 43.9993,
+      "target_price": 42.0214,
+      "risk_reward": 2.0,
+      "rsi": 24.435255385430025,
+      "atr_pct": 1.5211938319999434,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.12
+    },
+    {
+      "ticker": "DUK",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Duke Energy",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 114.13,
+      "stop_loss": 115.5829,
+      "target_price": 111.2243,
+      "risk_reward": 2.0,
+      "rsi": 23.394960773732933,
+      "atr_pct": 1.2729847202297588,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.34
+    },
+    {
+      "ticker": "AZN.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "AstraZeneca",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "GSK.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "GSK",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "DGE.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "Diageo",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
     }
   ],
   "oversold": [
     {
-      "ticker": "CCI",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Crown Castle",
+      "ticker": "BMRN",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "BioMarin",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 66.12,
-      "stop_loss": 64.3169,
-      "target_price": 69.426,
+      "entry_price": 57.18,
+      "stop_loss": 55.6136,
+      "target_price": 60.039,
       "risk_reward": 1.5,
-      "rsi": 9.854817614036264,
-      "atr_pct": 2.7270796621774807,
+      "rsi": 10.92297485338787,
+      "atr_pct": 2.7394693684271503,
       "notes": [
-        "RSI: 9.9 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 10.9 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.8
-    },
-    {
-      "ticker": "MS",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Morgan Stanley",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 188.01,
-      "stop_loss": 182.9293,
-      "target_price": 197.4105,
-      "risk_reward": 1.5,
-      "rsi": 13.01542271543029,
-      "atr_pct": 2.7023629610684696,
-      "notes": [
-        "RSI: 13.0 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.04
+      "price_change_pct": -2.16
     },
     {
       "ticker": "ELV",
@@ -337,39 +341,81 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 381.67,
-      "stop_loss": 372.6486,
-      "target_price": 400.7535,
+      "entry_price": 386.43,
+      "stop_loss": 377.4843,
+      "target_price": 405.7515,
       "risk_reward": 1.5,
-      "rsi": 14.022145251608563,
-      "atr_pct": 2.3636726915757293,
+      "rsi": 12.734070455748594,
+      "atr_pct": 2.3149641429365446,
       "notes": [
-        "RSI: 14.0 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 12.7 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.84
+      "price_change_pct": 1.25
     },
     {
-      "ticker": "PEP",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "PepsiCo",
+      "ticker": "VRSK",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Verisk",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 125.6,
-      "stop_loss": 123.2514,
-      "target_price": 131.88,
+      "entry_price": 163.88,
+      "stop_loss": 159.0707,
+      "target_price": 172.074,
       "risk_reward": 1.5,
-      "rsi": 14.967350734639638,
-      "atr_pct": 1.869882878813219,
+      "rsi": 14.598344477314072,
+      "atr_pct": 2.934639243163234,
       "notes": [
-        "RSI: 15.0 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 14.6 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.88
+      "price_change_pct": -2.67
+    },
+    {
+      "ticker": "NFLX",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Netflix",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 67.06,
+      "stop_loss": 65.1143,
+      "target_price": 70.413,
+      "risk_reward": 1.5,
+      "rsi": 15.576322259885032,
+      "atr_pct": 2.901453547449173,
+      "notes": [
+        "RSI: 15.6 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.16
+    },
+    {
+      "ticker": "SPGI",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "S&P Global",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 386.27,
+      "stop_loss": 378.0836,
+      "target_price": 405.5835,
+      "risk_reward": 1.5,
+      "rsi": 15.633640957374197,
+      "atr_pct": 2.1193543215310107,
+      "notes": [
+        "RSI: 15.6 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.49
     },
     {
       "ticker": "KHC",
@@ -379,18 +425,81 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 22.46,
-      "stop_loss": 21.8507,
-      "target_price": 23.583,
+      "entry_price": 22.19,
+      "stop_loss": 21.6021,
+      "target_price": 23.2995,
       "risk_reward": 1.5,
-      "rsi": 16.562467776227393,
-      "atr_pct": 2.7127589133066943,
+      "rsi": 16.878955549629666,
+      "atr_pct": 2.6491982695425533,
       "notes": [
-        "RSI: 16.6 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 16.9 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.14
+      "price_change_pct": -1.2
+    },
+    {
+      "ticker": "T",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "AT&T",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 24.3,
+      "stop_loss": 23.7579,
+      "target_price": 25.515,
+      "risk_reward": 1.5,
+      "rsi": 17.971024908848165,
+      "atr_pct": 2.2310423612389245,
+      "notes": [
+        "RSI: 18.0 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.0
+    },
+    {
+      "ticker": "APP",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 268.22,
+      "stop_loss": 252.6071,
+      "target_price": 281.631,
+      "risk_reward": 1.5,
+      "rsi": 20.05625154850935,
+      "atr_pct": 5.8209434741813215,
+      "notes": [
+        "RSI: 20.1 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -4.65
+    },
+    {
+      "ticker": "HD",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Home Depot",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 282.85,
+      "stop_loss": 276.2064,
+      "target_price": 296.9925,
+      "risk_reward": 1.5,
+      "rsi": 20.33041923806975,
+      "atr_pct": 2.3487953413834055,
+      "notes": [
+        "RSI: 20.3 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.14
     },
     {
       "ticker": "AMT",
@@ -400,102 +509,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 161.06,
-      "stop_loss": 157.435,
-      "target_price": 169.113,
+      "entry_price": 162.2,
+      "stop_loss": 158.5886,
+      "target_price": 170.31,
       "risk_reward": 1.5,
-      "rsi": 16.80737335717454,
-      "atr_pct": 2.2507250554158698,
+      "rsi": 21.659177278036395,
+      "atr_pct": 2.2265131109537064,
       "notes": [
-        "RSI: 16.8 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 21.7 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.61
-    },
-    {
-      "ticker": "BMRN",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "BioMarin",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 58.44,
-      "stop_loss": 56.9007,
-      "target_price": 61.362,
-      "risk_reward": 1.5,
-      "rsi": 17.9078447704743,
-      "atr_pct": 2.6339590964441526,
-      "notes": [
-        "RSI: 17.9 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.6
-    },
-    {
-      "ticker": "MELI",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 1685.12,
-      "stop_loss": 1632.725,
-      "target_price": 1769.376,
-      "risk_reward": 1.5,
-      "rsi": 19.691552306698995,
-      "atr_pct": 3.109274767598867,
-      "notes": [
-        "RSI: 19.7 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.51
-    },
-    {
-      "ticker": "RTX",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Raytheon",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 185.01,
-      "stop_loss": 181.3278,
-      "target_price": 194.2605,
-      "risk_reward": 1.5,
-      "rsi": 20.160149037359247,
-      "atr_pct": 1.9902412649477244,
-      "notes": [
-        "RSI: 20.2 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.34
-    },
-    {
-      "ticker": "MDLZ",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Mondelez",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 57.76,
-      "stop_loss": 56.6265,
-      "target_price": 60.648,
-      "risk_reward": 1.5,
-      "rsi": 21.164216638754056,
-      "atr_pct": 1.9624031121488652,
-      "notes": [
-        "RSI: 21.2 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.1
+      "price_change_pct": 0.71
     }
   ]
 }
