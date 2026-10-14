@@ -1,21 +1,49 @@
 {
-  "last_updated": "13 October 2026, 05:18",
-  "last_updated_iso": "2026-10-13T05:18:37.087056",
+  "last_updated": "14 October 2026, 05:18",
+  "last_updated_iso": "2026-10-14T05:18:32.177850",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-10-13"
+    "last_run_date": "2026-10-14"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 2,
-    "sell": 43,
-    "oversold": 8
+    "buy": 3,
+    "sell": 40,
+    "oversold": 9
   },
   "buy": [
+    {
+      "ticker": "JPM",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "JPMorgan",
+      "signal_direction": "BUY",
+      "signal_type": "POSITION",
+      "confidence_score": 85,
+      "entry_price": 331.43,
+      "stop_loss": 321.0098,
+      "target_price": 375.7102,
+      "risk_reward": 4.25,
+      "rsi": 42.781433476463235,
+      "atr_pct": 1.6700421761987938,
+      "notes": [
+        "Insider net alış"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.86
+    },
     {
       "ticker": "PWR",
       "exchange": "NYSE",
@@ -24,12 +52,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 694.79,
-      "stop_loss": 648.3254,
-      "target_price": 787.7192,
+      "entry_price": 688.88,
+      "stop_loss": 640.2665,
+      "target_price": 786.1071,
       "risk_reward": 2.0,
-      "rsi": 64.00720060111868,
-      "atr_pct": 3.3437873787215167,
+      "rsi": 64.63725679009002,
+      "atr_pct": 3.5284466762605424,
       "notes": [
         "Güçlü büyüme trendi (EMA20>50>200)",
         "OBV yükseliş"
@@ -42,7 +70,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.58
+      "price_change_pct": -0.85
     },
     {
       "ticker": "EXR",
@@ -52,15 +80,14 @@
       "signal_direction": "BUY",
       "signal_type": "POSITION",
       "confidence_score": 60,
-      "entry_price": 134.05,
+      "entry_price": 133.74,
       "stop_loss": 129.2346,
-      "target_price": 154.0729,
-      "risk_reward": 4.16,
-      "rsi": 47.40904051560111,
-      "atr_pct": 1.8671083820534007,
+      "target_price": 154.1057,
+      "risk_reward": 4.52,
+      "rsi": 49.711009680051156,
+      "atr_pct": 1.9034816190992867,
       "notes": [
-        "Savunma hissesi destek bölgesinde",
-        "OBV yükseliş"
+        "Savunma hissesi destek bölgesinde"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -69,7 +96,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.45
+      "price_change_pct": -0.23
     }
   ],
   "sell": [
@@ -242,6 +269,27 @@
       "price_change_pct": null
     },
     {
+      "ticker": "WIZZ.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
       "ticker": "AKBNK.IST",
       "exchange": "BIST",
       "group": "BIST",
@@ -261,30 +309,30 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": null
-    },
-    {
-      "ticker": "SAHOL.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Sabancı Holding",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
     }
   ],
   "oversold": [
+    {
+      "ticker": "INCY",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Incyte",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 108.62,
+      "stop_loss": 105.4486,
+      "target_price": 114.051,
+      "risk_reward": 1.5,
+      "rsi": 8.668733453403803,
+      "atr_pct": 2.9197474591605292,
+      "notes": [
+        "RSI: 8.7 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -2.46
+    },
     {
       "ticker": "PLUG",
       "exchange": "NASDAQ",
@@ -293,39 +341,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 1.62,
-      "stop_loss": 1.5286,
-      "target_price": 1.701,
+      "entry_price": 1.56,
+      "stop_loss": 1.4693,
+      "target_price": 1.638,
       "risk_reward": 1.5,
-      "rsi": 15.492961530150467,
-      "atr_pct": 5.6437372574704625,
+      "rsi": 15.714286687422714,
+      "atr_pct": 5.815017349318906,
       "notes": [
-        "RSI: 15.5 — Bollinger alt bandına yakın (SPECULATIVE)"
+        "RSI: 15.7 — Bollinger alt bandına yakın (SPECULATIVE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -3.57
-    },
-    {
-      "ticker": "NVR",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "NVR Inc",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 5749.96,
-      "stop_loss": 5601.6422,
-      "target_price": 6037.458,
-      "risk_reward": 1.5,
-      "rsi": 20.780479202175954,
-      "atr_pct": 2.579457984870964,
-      "notes": [
-        "RSI: 20.8 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.53
+      "price_change_pct": -3.7
     },
     {
       "ticker": "LCID",
@@ -335,18 +362,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 3.435,
-      "stop_loss": 3.2089,
-      "target_price": 3.6067,
+      "entry_price": 3.355,
+      "stop_loss": 3.1371,
+      "target_price": 3.5228,
       "risk_reward": 1.5,
-      "rsi": 21.359217308107773,
-      "atr_pct": 6.581409886828464,
+      "rsi": 22.525597047449708,
+      "atr_pct": 6.493506355070794,
       "notes": [
-        "RSI: 21.4 — Bollinger alt bandına yakın (SPECULATIVE)"
+        "RSI: 22.5 — Bollinger alt bandına yakın (SPECULATIVE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -9.37
+      "price_change_pct": -2.33
     },
     {
       "ticker": "SWKS",
@@ -356,60 +383,39 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 74.7,
-      "stop_loss": 70.1993,
-      "target_price": 78.435,
+      "entry_price": 76.56,
+      "stop_loss": 72.0529,
+      "target_price": 80.388,
       "risk_reward": 1.5,
-      "rsi": 21.96912981437471,
-      "atr_pct": 6.025052312202717,
+      "rsi": 23.01558288139512,
+      "atr_pct": 5.887072030984978,
       "notes": [
-        "RSI: 22.0 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 23.0 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.16
+      "price_change_pct": 2.49
     },
     {
-      "ticker": "PHM",
+      "ticker": "NVR",
       "exchange": "NYSE",
       "group": "VALUE",
-      "company_name": "PulteGroup",
+      "company_name": "NVR Inc",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 111.14,
-      "stop_loss": 108.1671,
-      "target_price": 116.697,
+      "entry_price": 5797.6099,
+      "stop_loss": 5648.8028,
+      "target_price": 6087.4904,
       "risk_reward": 1.5,
-      "rsi": 24.32056694420909,
-      "atr_pct": 2.674875661697829,
+      "rsi": 26.830572131824226,
+      "atr_pct": 2.5666972690155823,
       "notes": [
-        "RSI: 24.3 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 26.8 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.87
-    },
-    {
-      "ticker": "ALGN",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Align Tech",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 140.42,
-      "stop_loss": 136.6643,
-      "target_price": 147.441,
-      "risk_reward": 1.5,
-      "rsi": 24.393201378085905,
-      "atr_pct": 2.6746269731785186,
-      "notes": [
-        "RSI: 24.4 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.6
+      "price_change_pct": 0.83
     },
     {
       "ticker": "T",
@@ -419,39 +425,81 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 22.49,
-      "stop_loss": 21.9075,
-      "target_price": 23.6145,
+      "entry_price": 22.85,
+      "stop_loss": 22.2584,
+      "target_price": 23.9925,
       "risk_reward": 1.5,
-      "rsi": 26.16963320546192,
-      "atr_pct": 2.5900397051637336,
+      "rsi": 28.541632594015027,
+      "atr_pct": 2.589017007374006,
       "notes": [
-        "RSI: 26.2 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 28.5 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.4
+      "price_change_pct": 1.6
     },
     {
-      "ticker": "DE",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Deere",
+      "ticker": "VRTX",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Vertex Pharma",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 632.61,
-      "stop_loss": 612.3945,
-      "target_price": 664.2405,
+      "entry_price": 485.22,
+      "stop_loss": 473.69,
+      "target_price": 509.481,
       "risk_reward": 1.5,
-      "rsi": 26.3523946352923,
-      "atr_pct": 3.195570484129436,
+      "rsi": 29.001316663557247,
+      "atr_pct": 2.376244142708883,
       "notes": [
-        "RSI: 26.4 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 29.0 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.88
+      "price_change_pct": -4.3
+    },
+    {
+      "ticker": "BNTX",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "BioNTech",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 89.01,
+      "stop_loss": 85.5486,
+      "target_price": 93.4605,
+      "risk_reward": 1.5,
+      "rsi": 29.936327811664583,
+      "atr_pct": 3.888728270561758,
+      "notes": [
+        "RSI: 29.9 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -7.13
+    },
+    {
+      "ticker": "MU",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Micron",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 953.19,
+      "stop_loss": 909.0728,
+      "target_price": 1000.8495,
+      "risk_reward": 1.5,
+      "rsi": 30.929656880003023,
+      "atr_pct": 4.6283692138787185,
+      "notes": [
+        "RSI: 30.9 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -3.62
     }
   ]
 }
