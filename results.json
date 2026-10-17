@@ -1,19 +1,19 @@
 {
-  "last_updated": "16 October 2026, 05:18",
-  "last_updated_iso": "2026-10-16T05:18:24.554494",
+  "last_updated": "17 October 2026, 05:18",
+  "last_updated_iso": "2026-10-17T05:18:32.248795",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-10-16"
+    "last_run_date": "2026-10-17"
   },
   "summary": {
     "analyzed": 396,
     "buy": 2,
-    "sell": 41,
-    "oversold": 14
+    "sell": 39,
+    "oversold": 22
   },
   "buy": [
     {
@@ -24,12 +24,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 246.74,
-      "stop_loss": 229.87,
-      "target_price": 280.48,
+      "entry_price": 240.7,
+      "stop_loss": 223.5671,
+      "target_price": 274.9657,
       "risk_reward": 2.0,
-      "rsi": 60.8680767048536,
-      "atr_pct": 3.4185785201208305,
+      "rsi": 61.615625456958405,
+      "atr_pct": 3.5589652043184845,
       "notes": [
         "Insider net alış",
         "Güçlü büyüme trendi (EMA20>50>200)",
@@ -43,103 +43,40 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 4.57
+      "price_change_pct": -2.45
     },
     {
-      "ticker": "FAST",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Fastenal",
+      "ticker": "MTB",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "M&T Bank",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 70,
-      "entry_price": 50.38,
-      "stop_loss": 47.5243,
-      "target_price": 56.0914,
-      "risk_reward": 2.0,
-      "rsi": 49.65800837562459,
-      "atr_pct": 2.8341747369499326,
+      "confidence_score": 65,
+      "entry_price": 215.28,
+      "stop_loss": 209.5929,
+      "target_price": 232.7486,
+      "risk_reward": 3.07,
+      "rsi": 38.143362630797256,
+      "atr_pct": 2.028586839648753,
       "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
+        "Alt Bollinger bandına yakın",
+        "Hacim 2.0x"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
         "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
         "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
         "Haber nötr": 10,
         "Insider satış": -20
       },
       "veto_reasons": [],
-      "price_change_pct": -3.12
+      "price_change_pct": -1.54
     }
   ],
   "sell": [
-    {
-      "ticker": "AZN.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "AstraZeneca",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "GSK.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "GSK",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "PRU.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "Prudential",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
     {
       "ticker": "PNN.LON",
       "exchange": "LSE",
@@ -286,6 +223,69 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": null
+    },
+    {
+      "ticker": "VESBE.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Vestel Beyaz Eşya",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "TOASO.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Tofaş",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "FROTO.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Ford Otosan",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
     }
   ],
   "oversold": [
@@ -297,18 +297,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 13.02,
-      "stop_loss": 12.4651,
-      "target_price": 13.671,
+      "entry_price": 12.42,
+      "stop_loss": 11.8573,
+      "target_price": 13.041,
       "risk_reward": 1.5,
-      "rsi": 15.492980826859323,
-      "atr_pct": 4.26157525561589,
+      "rsi": 15.850167140251315,
+      "atr_pct": 4.530710407943346,
       "notes": [
-        "RSI: 15.5 — Bollinger alt bandına yakın (SPECULATIVE)"
+        "RSI: 15.9 — Bollinger alt bandına yakın (SPECULATIVE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.54
+      "price_change_pct": -4.61
     },
     {
       "ticker": "INTC",
@@ -318,18 +318,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 95.37,
-      "stop_loss": 89.795,
-      "target_price": 100.1385,
+      "entry_price": 89.85,
+      "stop_loss": 84.4257,
+      "target_price": 94.3425,
       "risk_reward": 1.5,
-      "rsi": 15.795998450320823,
-      "atr_pct": 5.845654401157345,
+      "rsi": 16.38418909294674,
+      "atr_pct": 6.037046773229439,
       "notes": [
-        "RSI: 15.8 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 16.4 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.8
+      "price_change_pct": -5.79
     },
     {
       "ticker": "AEHR",
@@ -339,18 +339,60 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 69.21,
-      "stop_loss": 61.0821,
-      "target_price": 72.6705,
+      "entry_price": 60.6,
+      "stop_loss": 52.5736,
+      "target_price": 63.63,
       "risk_reward": 1.5,
-      "rsi": 17.983251158330788,
-      "atr_pct": 11.743762260838116,
+      "rsi": 17.137898177679546,
+      "atr_pct": 13.24493274289276,
       "notes": [
-        "RSI: 18.0 — Bollinger alt bandına yakın (SPECULATIVE)"
+        "RSI: 17.1 — Bollinger alt bandına yakın (SPECULATIVE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -3.19
+      "price_change_pct": -12.44
+    },
+    {
+      "ticker": "PLUG",
+      "exchange": "NASDAQ",
+      "group": "SPECULATIVE",
+      "company_name": "Plug Power",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 1.38,
+      "stop_loss": 1.2864,
+      "target_price": 1.449,
+      "risk_reward": 1.5,
+      "rsi": 17.567566696791175,
+      "atr_pct": 6.780538029534361,
+      "notes": [
+        "RSI: 17.6 — Bollinger alt bandına yakın (SPECULATIVE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -7.38
+    },
+    {
+      "ticker": "BLNK",
+      "exchange": "NASDAQ",
+      "group": "SPECULATIVE",
+      "company_name": "Blink Charging",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 0.424,
+      "stop_loss": 0.3945,
+      "target_price": 0.4452,
+      "risk_reward": 1.5,
+      "rsi": 19.911492346536775,
+      "atr_pct": 6.957549051354814,
+      "notes": [
+        "RSI: 19.9 — Bollinger alt bandına yakın (SPECULATIVE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -4.29
     },
     {
       "ticker": "BAC",
@@ -360,18 +402,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 51.7,
-      "stop_loss": 50.4543,
-      "target_price": 54.285,
+      "entry_price": 51.23,
+      "stop_loss": 49.9771,
+      "target_price": 53.7915,
       "risk_reward": 1.5,
-      "rsi": 20.449196028389267,
-      "atr_pct": 2.409505689975584,
+      "rsi": 22.467551576384764,
+      "atr_pct": 2.445553815043549,
       "notes": [
-        "RSI: 20.4 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 22.5 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.6
+      "price_change_pct": -0.91
     },
     {
       "ticker": "MS",
@@ -381,60 +423,60 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 182.1,
-      "stop_loss": 177.4507,
-      "target_price": 191.205,
+      "entry_price": 180.57,
+      "stop_loss": 175.8286,
+      "target_price": 189.5985,
       "risk_reward": 1.5,
-      "rsi": 23.498738205896117,
-      "atr_pct": 2.5531495315071897,
+      "rsi": 24.54231114223232,
+      "atr_pct": 2.6258119997123988,
       "notes": [
-        "RSI: 23.5 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 24.5 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.33
+      "price_change_pct": -0.84
     },
     {
-      "ticker": "PNC",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "PNC Financial",
+      "ticker": "HOOD",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 214.94,
-      "stop_loss": 210.6107,
-      "target_price": 225.687,
+      "entry_price": 98.87,
+      "stop_loss": 93.2195,
+      "target_price": 103.8135,
       "risk_reward": 1.5,
-      "rsi": 26.45301276935355,
-      "atr_pct": 2.0142083110265667,
+      "rsi": 25.804665540551895,
+      "atr_pct": 5.715079310634523,
       "notes": [
-        "RSI: 26.5 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 25.8 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.4
+      "price_change_pct": -4.92
     },
     {
-      "ticker": "C",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Citigroup",
+      "ticker": "NET",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Cloudflare",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 123.21,
-      "stop_loss": 119.9357,
-      "target_price": 129.3705,
+      "entry_price": 296.3,
+      "stop_loss": 280.1729,
+      "target_price": 311.115,
       "risk_reward": 1.5,
-      "rsi": 28.079215148558617,
-      "atr_pct": 2.6574844306062615,
+      "rsi": 26.74726460982251,
+      "atr_pct": 5.442818596039504,
       "notes": [
-        "RSI: 28.1 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 26.7 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.77
+      "price_change_pct": -6.33
     },
     {
       "ticker": "MU",
@@ -444,60 +486,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 931.24,
-      "stop_loss": 884.2454,
-      "target_price": 977.802,
+      "entry_price": 878.84,
+      "stop_loss": 831.5998,
+      "target_price": 922.782,
       "risk_reward": 1.5,
-      "rsi": 28.855735011381995,
-      "atr_pct": 5.046455230452267,
+      "rsi": 27.029513982648112,
+      "atr_pct": 5.375289767700623,
       "notes": [
-        "RSI: 28.9 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 27.0 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.87
-    },
-    {
-      "ticker": "CAT",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Caterpillar",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 735.64,
-      "stop_loss": 705.3964,
-      "target_price": 772.422,
-      "risk_reward": 1.5,
-      "rsi": 29.84521634127468,
-      "atr_pct": 4.111190874401123,
-      "notes": [
-        "RSI: 29.8 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.78
-    },
-    {
-      "ticker": "AMD",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "AMD",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 562.23,
-      "stop_loss": 536.0121,
-      "target_price": 590.3415,
-      "risk_reward": 1.5,
-      "rsi": 30.89384792903283,
-      "atr_pct": 4.663191494825951,
-      "notes": [
-        "RSI: 30.9 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.5
+      "price_change_pct": -5.63
     }
   ]
 }
