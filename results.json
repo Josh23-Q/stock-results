@@ -1,43 +1,22 @@
 {
-  "last_updated": "21 October 2026, 05:18",
-  "last_updated_iso": "2026-10-21T05:18:44.069332",
+  "last_updated": "22 October 2026, 05:18",
+  "last_updated_iso": "2026-10-22T05:18:25.723777",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-10-21"
+    "last_run_date": "2026-10-22"
   },
   "summary": {
     "analyzed": 396,
     "buy": 0,
-    "sell": 71,
-    "oversold": 11
+    "sell": 69,
+    "oversold": 2
   },
   "buy": [],
   "sell": [
-    {
-      "ticker": "AES",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "AES Corp",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 14.97,
-      "stop_loss": 15.015,
-      "target_price": 14.88,
-      "risk_reward": 2.0,
-      "rsi": 66.66666666666666,
-      "atr_pct": 0.3005994314848904,
-      "notes": [
-        "[DEFENSIVE] Sat: RSI 66.7, MACD negatif"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.07
-    },
     {
       "ticker": "PNN.LON",
       "exchange": "LSE",
@@ -144,27 +123,6 @@
       "price_change_pct": null
     },
     {
-      "ticker": "EREGL.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Ereğli Demir Çelik",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
       "ticker": "BIMAS.IST",
       "exchange": "BIST",
       "group": "BIST",
@@ -186,10 +144,10 @@
       "price_change_pct": null
     },
     {
-      "ticker": "SAHOL.IST",
+      "ticker": "KCHOL.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "Sabancı Holding",
+      "company_name": "Koç Holding",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -226,197 +184,71 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": null
+    },
+    {
+      "ticker": "TTKOM.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Türk Telekom",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "ARCLK.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Arçelik",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
     }
   ],
   "oversold": [
     {
-      "ticker": "KLAC",
+      "ticker": "CMG",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "KLA Corp",
+      "company_name": "Chipotle",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 161.74,
-      "stop_loss": 153.5529,
-      "target_price": 169.827,
+      "entry_price": 28.12,
+      "stop_loss": 26.8857,
+      "target_price": 29.526,
       "risk_reward": 1.5,
-      "rsi": 21.598493915415148,
-      "atr_pct": 5.061916909940735,
+      "rsi": 25.750578206488385,
+      "atr_pct": 4.389351801191023,
       "notes": [
-        "RSI: 21.6 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 25.8 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.8
-    },
-    {
-      "ticker": "LRCX",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Lam Research",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 263.45,
-      "stop_loss": 249.2507,
-      "target_price": 276.6225,
-      "risk_reward": 1.5,
-      "rsi": 22.787347533344928,
-      "atr_pct": 5.389745107945491,
-      "notes": [
-        "RSI: 22.8 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -3.21
-    },
-    {
-      "ticker": "BAC",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Bank of America",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 50.64,
-      "stop_loss": 49.31,
-      "target_price": 53.172,
-      "risk_reward": 1.5,
-      "rsi": 25.548405261225284,
-      "atr_pct": 2.626382187472787,
-      "notes": [
-        "RSI: 25.5 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.5
-    },
-    {
-      "ticker": "ETN",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Eaton",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 381.98,
-      "stop_loss": 366.3264,
-      "target_price": 401.079,
-      "risk_reward": 1.5,
-      "rsi": 26.573077768797205,
-      "atr_pct": 4.09800903242037,
-      "notes": [
-        "RSI: 26.6 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.43
-    },
-    {
-      "ticker": "NET",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Cloudflare",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 291.69,
-      "stop_loss": 275.2917,
-      "target_price": 306.2745,
-      "risk_reward": 1.5,
-      "rsi": 27.676478654960945,
-      "atr_pct": 5.6218193201199655,
-      "notes": [
-        "RSI: 27.7 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.98
-    },
-    {
-      "ticker": "CAT",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Caterpillar",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 725.24,
-      "stop_loss": 694.5686,
-      "target_price": 761.502,
-      "risk_reward": 1.5,
-      "rsi": 28.551373681277298,
-      "atr_pct": 4.229140975261181,
-      "notes": [
-        "RSI: 28.6 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.08
-    },
-    {
-      "ticker": "CRWD",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "CrowdStrike",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 227.37,
-      "stop_loss": 215.6696,
-      "target_price": 238.7385,
-      "risk_reward": 1.5,
-      "rsi": 29.479572686830565,
-      "atr_pct": 5.1459852335100305,
-      "notes": [
-        "RSI: 29.5 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.32
-    },
-    {
-      "ticker": "AMD",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "AMD",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 534.74,
-      "stop_loss": 507.375,
-      "target_price": 561.477,
-      "risk_reward": 1.5,
-      "rsi": 30.534767277203443,
-      "atr_pct": 5.117440149125379,
-      "notes": [
-        "RSI: 30.5 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.62
-    },
-    {
-      "ticker": "PANW",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Palo Alto Networks",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 340.28,
-      "stop_loss": 322.4743,
-      "target_price": 357.294,
-      "risk_reward": 1.5,
-      "rsi": 31.580650979781453,
-      "atr_pct": 5.232666169690706,
-      "notes": [
-        "RSI: 31.6 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.92
+      "price_change_pct": -5.16
     },
     {
       "ticker": "HWM",
@@ -426,18 +258,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 211.63,
-      "stop_loss": 205.085,
-      "target_price": 222.2115,
+      "entry_price": 208.15,
+      "stop_loss": 201.1736,
+      "target_price": 218.5575,
       "risk_reward": 1.5,
-      "rsi": 32.854136413427725,
-      "atr_pct": 3.0926607843578346,
+      "rsi": 26.85884143574276,
+      "atr_pct": 3.3516341414265938,
       "notes": [
-        "RSI: 32.9 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 26.9 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -3.82
+      "price_change_pct": -1.64
     }
   ]
 }
