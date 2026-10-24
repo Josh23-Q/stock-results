@@ -1,47 +1,132 @@
 {
-  "last_updated": "23 October 2026, 05:18",
-  "last_updated_iso": "2026-10-23T05:18:31.531838",
+  "last_updated": "24 October 2026, 05:20",
+  "last_updated_iso": "2026-10-24T05:20:56.245660",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-10-23"
+    "last_run_date": "2026-10-24"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 1,
-    "sell": 73,
-    "oversold": 19
+    "buy": 4,
+    "sell": 78,
+    "oversold": 15
   },
   "buy": [
     {
-      "ticker": "LULU",
+      "ticker": "SWKS",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "Lululemon",
+      "company_name": "Skyworks",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 104.06,
-      "stop_loss": 96.8343,
-      "target_price": 118.5114,
+      "confidence_score": 75,
+      "entry_price": 83.43,
+      "stop_loss": 76.11,
+      "target_price": 98.07,
       "risk_reward": 2.0,
-      "rsi": 67.36611927737215,
-      "atr_pct": 3.4718982879203395,
+      "rsi": 48.75129257047362,
+      "atr_pct": 4.386910984087642,
       "notes": [
-        "OBV yükseliş",
-        "52H yüksüğünden %54 aşağıda"
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 7.8
+      "price_change_pct": 1.26
+    },
+    {
+      "ticker": "VRTX",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Vertex Pharma",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 523.93,
+      "stop_loss": 496.2186,
+      "target_price": 579.3529,
+      "risk_reward": 2.0,
+      "rsi": 58.67073809488037,
+      "atr_pct": 2.6445745851164193,
+      "notes": [
+        "Insider net alış",
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -2.1
+    },
+    {
+      "ticker": "HUM",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Humana",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 422.07,
+      "stop_loss": 383.3086,
+      "target_price": 499.5929,
+      "risk_reward": 2.0,
+      "rsi": 56.95302829901757,
+      "atr_pct": 4.591824856090723,
+      "notes": [
+        "Insider net alış",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.26
+    },
+    {
+      "ticker": "TGT",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Target",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 65,
+      "entry_price": 152.76,
+      "stop_loss": 148.9554,
+      "target_price": 169.3914,
+      "risk_reward": 4.37,
+      "rsi": 49.64883818881202,
+      "atr_pct": 2.7218243400411533,
+      "notes": [],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10,
+        "Insider satış": -20
+      },
+      "veto_reasons": [],
+      "price_change_pct": -3.38
     }
   ],
   "sell": [
@@ -53,18 +138,18 @@
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 14.97,
-      "stop_loss": 15.0129,
-      "target_price": 14.8843,
+      "entry_price": 15.0,
+      "stop_loss": 15.0457,
+      "target_price": 14.9086,
       "risk_reward": 2.0,
-      "rsi": 66.66666666666666,
-      "atr_pct": 0.28628567122066245,
+      "rsi": 75.0,
+      "atr_pct": 0.30476070585704984,
       "notes": [
-        "[DEFENSIVE] Sat: RSI 66.7, MACD negatif"
+        "[DEFENSIVE] Sat: RSI 75.0, MACD negatif"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.0
+      "price_change_pct": 0.2
     },
     {
       "ticker": "PNN.LON",
@@ -172,6 +257,27 @@
       "price_change_pct": null
     },
     {
+      "ticker": "EREGL.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Ereğli Demir Çelik",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
       "ticker": "BIMAS.IST",
       "exchange": "BIST",
       "group": "BIST",
@@ -214,31 +320,10 @@
       "price_change_pct": null
     },
     {
-      "ticker": "TCELL.IST",
+      "ticker": "ISCTR.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "Turkcell",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "TTKOM.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Türk Telekom",
+      "company_name": "İş Bankası",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -265,39 +350,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 147.83,
-      "stop_loss": 139.3107,
-      "target_price": 155.2215,
+      "entry_price": 145.61,
+      "stop_loss": 137.2521,
+      "target_price": 152.8905,
       "risk_reward": 1.5,
-      "rsi": 3.6856610344395193,
-      "atr_pct": 5.762894543633396,
+      "rsi": 3.563811237964387,
+      "atr_pct": 5.7398927308346,
       "notes": [
-        "RSI: 3.7 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 3.6 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -9.55
-    },
-    {
-      "ticker": "AMAT",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Applied Materials",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 375.58,
-      "stop_loss": 354.9678,
-      "target_price": 394.359,
-      "risk_reward": 1.5,
-      "rsi": 5.430903996677301,
-      "atr_pct": 5.488083528735987,
-      "notes": [
-        "RSI: 5.4 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -8.16
+      "price_change_pct": -1.5
     },
     {
       "ticker": "LRCX",
@@ -307,39 +371,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 230.15,
-      "stop_loss": 214.565,
-      "target_price": 241.6575,
+      "entry_price": 230.1,
+      "stop_loss": 214.5686,
+      "target_price": 241.605,
       "risk_reward": 1.5,
-      "rsi": 6.170632591064276,
-      "atr_pct": 6.771669957796692,
+      "rsi": 6.247171146094061,
+      "atr_pct": 6.7498597322566205,
       "notes": [
         "RSI: 6.2 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -11.76
-    },
-    {
-      "ticker": "COHU",
-      "exchange": "NASDAQ",
-      "group": "SPECULATIVE",
-      "company_name": "Cohu",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 46.26,
-      "stop_loss": 41.6329,
-      "target_price": 48.573,
-      "risk_reward": 1.5,
-      "rsi": 15.048785316686988,
-      "atr_pct": 10.002467737669683,
-      "notes": [
-        "RSI: 15.0 — Bollinger alt bandına yakın (SPECULATIVE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -16.33
+      "price_change_pct": -0.02
     },
     {
       "ticker": "HWM",
@@ -349,18 +392,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 193.29,
-      "stop_loss": 185.5021,
-      "target_price": 202.9545,
+      "entry_price": 185.91,
+      "stop_loss": 177.6893,
+      "target_price": 195.2055,
       "risk_reward": 1.5,
-      "rsi": 15.894400892726495,
-      "atr_pct": 4.029103448927623,
+      "rsi": 14.423083139987426,
+      "atr_pct": 4.4218759090673405,
       "notes": [
-        "RSI: 15.9 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 14.4 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -7.14
+      "price_change_pct": -3.82
     },
     {
       "ticker": "CAT",
@@ -370,81 +413,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 704.05,
-      "stop_loss": 673.3114,
-      "target_price": 739.2525,
+      "entry_price": 687.0,
+      "stop_loss": 657.2086,
+      "target_price": 721.35,
       "risk_reward": 1.5,
-      "rsi": 17.264863624209184,
-      "atr_pct": 4.365963377667165,
+      "rsi": 15.009118428237443,
+      "atr_pct": 4.3364520280171295,
       "notes": [
-        "RSI: 17.3 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 15.0 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -4.89
-    },
-    {
-      "ticker": "ENTG",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Entegris",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 128.31,
-      "stop_loss": 119.6486,
-      "target_price": 134.7255,
-      "risk_reward": 1.5,
-      "rsi": 22.625540187308715,
-      "atr_pct": 6.750394410917327,
-      "notes": [
-        "RSI: 22.6 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -13.12
-    },
-    {
-      "ticker": "AMD",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "AMD",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 507.93,
-      "stop_loss": 478.805,
-      "target_price": 533.3265,
-      "risk_reward": 1.5,
-      "rsi": 23.58466805633479,
-      "atr_pct": 5.734056637822894,
-      "notes": [
-        "RSI: 23.6 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -8.1
-    },
-    {
-      "ticker": "ETN",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Eaton",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 368.99,
-      "stop_loss": 352.5978,
-      "target_price": 387.4395,
-      "risk_reward": 1.5,
-      "rsi": 24.19254154044873,
-      "atr_pct": 4.44243604792999,
-      "notes": [
-        "RSI: 24.2 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -6.33
+      "price_change_pct": -2.42
     },
     {
       "ticker": "MPWR",
@@ -454,18 +434,123 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 1167.9301,
-      "stop_loss": 1104.6929,
-      "target_price": 1226.3266,
+      "entry_price": 1140.12,
+      "stop_loss": 1077.4614,
+      "target_price": 1197.126,
       "risk_reward": 1.5,
-      "rsi": 25.410734933093025,
-      "atr_pct": 5.414461369591781,
+      "rsi": 18.55903148032344,
+      "atr_pct": 5.495786486069748,
       "notes": [
-        "RSI: 25.4 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 18.6 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -8.99
+      "price_change_pct": -2.38
+    },
+    {
+      "ticker": "NVDA",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "NVIDIA",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 210.96,
+      "stop_loss": 204.9821,
+      "target_price": 221.508,
+      "risk_reward": 1.5,
+      "rsi": 22.026437371271115,
+      "atr_pct": 2.833644826979595,
+      "notes": [
+        "RSI: 22.0 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.59
+    },
+    {
+      "ticker": "PWR",
+      "exchange": "NYSE",
+      "group": "GROWTH",
+      "company_name": "",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 546.43,
+      "stop_loss": 514.1607,
+      "target_price": 573.7515,
+      "risk_reward": 1.5,
+      "rsi": 23.73356214786061,
+      "atr_pct": 5.905476687080333,
+      "notes": [
+        "RSI: 23.7 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.09
+    },
+    {
+      "ticker": "ETN",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Eaton",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 366.11,
+      "stop_loss": 349.4021,
+      "target_price": 384.4155,
+      "risk_reward": 1.5,
+      "rsi": 24.310312097262,
+      "atr_pct": 4.563616965648293,
+      "notes": [
+        "RSI: 24.3 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.78
+    },
+    {
+      "ticker": "META",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Meta",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 642.62,
+      "stop_loss": 617.3364,
+      "target_price": 674.751,
+      "risk_reward": 1.5,
+      "rsi": 24.34360743197587,
+      "atr_pct": 3.934450401231726,
+      "notes": [
+        "RSI: 24.3 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.96
+    },
+    {
+      "ticker": "PH",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Parker Hannifin",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 880.57,
+      "stop_loss": 856.1864,
+      "target_price": 924.5985,
+      "risk_reward": 1.5,
+      "rsi": 25.937347126345912,
+      "atr_pct": 2.7690667268912867,
+      "notes": [
+        "RSI: 25.9 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -1.42
     }
   ]
 }
