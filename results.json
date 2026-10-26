@@ -1,13 +1,13 @@
 {
-  "last_updated": "25 October 2026, 06:18",
-  "last_updated_iso": "2026-10-25T06:18:31.227334",
+  "last_updated": "26 October 2026, 06:19",
+  "last_updated_iso": "2026-10-26T06:19:20.228984",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-10-25"
+    "last_run_date": "2026-10-26"
   },
   "summary": {
     "analyzed": 396,
@@ -72,6 +72,35 @@
       },
       "veto_reasons": [],
       "price_change_pct": -2.1
+    },
+    {
+      "ticker": "MNST",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Monster Beverage",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 46.19,
+      "stop_loss": 44.1129,
+      "target_price": 50.3443,
+      "risk_reward": 2.0,
+      "rsi": 66.96204035276801,
+      "atr_pct": 2.2484764069408683,
+      "notes": [
+        "Insider net alış",
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -2.35
     },
     {
       "ticker": "HUM",
@@ -152,31 +181,6 @@
       },
       "veto_reasons": [],
       "price_change_pct": -0.26
-    },
-    {
-      "ticker": "SOKM.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Şok Market",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 57.4,
-      "stop_loss": 53.5429,
-      "target_price": 65.1143,
-      "risk_reward": 2.0,
-      "rsi": 55.294126622817096,
-      "atr_pct": 3.3598804482643234,
-      "notes": [],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.0
     }
   ],
   "sell": [
