@@ -1,21 +1,77 @@
 {
-  "last_updated": "03 November 2026, 06:18",
-  "last_updated_iso": "2026-11-03T06:18:49.409830",
+  "last_updated": "04 November 2026, 06:18",
+  "last_updated_iso": "2026-11-04T06:18:41.020921",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-03"
+    "last_run_date": "2026-11-04"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 1,
-    "sell": 80,
-    "oversold": 18
+    "buy": 5,
+    "sell": 82,
+    "oversold": 3
   },
   "buy": [
+    {
+      "ticker": "ADSK",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Autodesk",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 80,
+      "entry_price": 252.32,
+      "stop_loss": 234.5243,
+      "target_price": 287.9115,
+      "risk_reward": 2.0,
+      "rsi": 64.8402457228474,
+      "atr_pct": 3.5264191017253843,
+      "notes": [
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -2.17
+    },
+    {
+      "ticker": "VRTX",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Vertex Pharma",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 530.76,
+      "stop_loss": 494.6014,
+      "target_price": 603.0771,
+      "risk_reward": 2.0,
+      "rsi": 61.36876538461869,
+      "atr_pct": 3.4063003948429067,
+      "notes": [
+        "Insider net alış",
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -4.05
+    },
     {
       "ticker": "BIIB",
       "exchange": "NASDAQ",
@@ -24,12 +80,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 249.01,
-      "stop_loss": 232.69,
-      "target_price": 281.65,
+      "entry_price": 248.93,
+      "stop_loss": 232.5114,
+      "target_price": 281.7671,
       "risk_reward": 2.0,
-      "rsi": 66.05460174280995,
-      "atr_pct": 3.276977058101517,
+      "rsi": 63.69512334098349,
+      "atr_pct": 3.297829318515635,
       "notes": [
         "Güçlü büyüme trendi (EMA20>50>200)",
         "OBV yükseliş"
@@ -42,10 +98,88 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.82
+      "price_change_pct": -0.03
+    },
+    {
+      "ticker": "MNST",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Monster Beverage",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 47.18,
+      "stop_loss": 44.9629,
+      "target_price": 51.6143,
+      "risk_reward": 2.0,
+      "rsi": 65.28925098736815,
+      "atr_pct": 2.3496645328033123,
+      "notes": [
+        "Insider net alış",
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -1.75
+    },
+    {
+      "ticker": "PFE",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Pfizer",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 70,
+      "entry_price": 30.0,
+      "stop_loss": 28.7343,
+      "target_price": 32.5314,
+      "risk_reward": 2.0,
+      "rsi": 58.07772628235182,
+      "atr_pct": 2.10952395484561,
+      "notes": [
+        "Insider net alış",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -2.18
     }
   ],
   "sell": [
+    {
+      "ticker": "GSK.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "GSK",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
     {
       "ticker": "VOD.LON",
       "exchange": "LSE",
@@ -234,51 +368,9 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": null
-    },
-    {
-      "ticker": "ISCTR.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "İş Bankası",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
     }
   ],
   "oversold": [
-    {
-      "ticker": "GOOGL",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Alphabet",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 278.99,
-      "stop_loss": 268.0607,
-      "target_price": 292.9395,
-      "risk_reward": 1.5,
-      "rsi": 13.088546136474477,
-      "atr_pct": 3.917449849053674,
-      "notes": [
-        "RSI: 13.1 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.3
-    },
     {
       "ticker": "FTNT",
       "exchange": "NASDAQ",
@@ -287,81 +379,39 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 126.21,
-      "stop_loss": 115.5257,
-      "target_price": 132.5205,
+      "entry_price": 128.11,
+      "stop_loss": 117.6143,
+      "target_price": 134.5155,
       "risk_reward": 1.5,
-      "rsi": 17.585625324835377,
-      "atr_pct": 8.465481568583217,
+      "rsi": 20.48333280463264,
+      "atr_pct": 8.192735399408676,
       "notes": [
-        "RSI: 17.6 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 20.5 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -7.25
+      "price_change_pct": 1.51
     },
     {
-      "ticker": "CAT",
+      "ticker": "MPC",
       "exchange": "NYSE",
       "group": "VALUE",
-      "company_name": "Caterpillar",
+      "company_name": "Marathon Petroleum",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 613.62,
-      "stop_loss": 583.2595,
-      "target_price": 644.301,
+      "entry_price": 427.34,
+      "stop_loss": 408.095,
+      "target_price": 448.707,
       "risk_reward": 1.5,
-      "rsi": 17.656977286940204,
-      "atr_pct": 4.947768336810377,
+      "rsi": 26.67692160117403,
+      "atr_pct": 4.503440820287468,
       "notes": [
-        "RSI: 17.7 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 26.7 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.47
-    },
-    {
-      "ticker": "HOOD",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 83.84,
-      "stop_loss": 77.989,
-      "target_price": 88.032,
-      "risk_reward": 1.5,
-      "rsi": 21.66524682342147,
-      "atr_pct": 6.978768213607248,
-      "notes": [
-        "RSI: 21.7 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.35
-    },
-    {
-      "ticker": "VLO",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Valero Energy",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 381.46,
-      "stop_loss": 362.7664,
-      "target_price": 400.533,
-      "risk_reward": 1.5,
-      "rsi": 22.675614987674223,
-      "atr_pct": 4.900532490160577,
-      "notes": [
-        "RSI: 22.7 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -4.55
+      "price_change_pct": -0.71
     },
     {
       "ticker": "MRVL",
@@ -371,102 +421,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 171.41,
-      "stop_loss": 152.135,
-      "target_price": 179.9805,
+      "entry_price": 171.97,
+      "stop_loss": 153.675,
+      "target_price": 180.5685,
       "risk_reward": 1.5,
-      "rsi": 24.053530253152402,
-      "atr_pct": 11.24496631142986,
+      "rsi": 27.737621055558137,
+      "atr_pct": 10.638481682367582,
       "notes": [
-        "RSI: 24.1 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 27.7 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -12.72
-    },
-    {
-      "ticker": "COIN",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 137.83,
-      "stop_loss": 127.2243,
-      "target_price": 144.7215,
-      "risk_reward": 1.5,
-      "rsi": 25.163846635549078,
-      "atr_pct": 7.694778959328808,
-      "notes": [
-        "RSI: 25.2 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -3.98
-    },
-    {
-      "ticker": "CSCO",
-      "exchange": "NASDAQ",
-      "group": "VALUE",
-      "company_name": "Cisco",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 101.61,
-      "stop_loss": 98.3407,
-      "target_price": 106.6905,
-      "risk_reward": 1.5,
-      "rsi": 25.929900705991884,
-      "atr_pct": 3.2174834267395243,
-      "notes": [
-        "RSI: 25.9 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.77
-    },
-    {
-      "ticker": "NET",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Cloudflare",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 265.17,
-      "stop_loss": 244.0786,
-      "target_price": 278.4285,
-      "risk_reward": 1.5,
-      "rsi": 26.09904381787024,
-      "atr_pct": 7.953927516698813,
-      "notes": [
-        "RSI: 26.1 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -5.53
-    },
-    {
-      "ticker": "NVDA",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "NVIDIA",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 202.06,
-      "stop_loss": 195.3243,
-      "target_price": 212.163,
-      "risk_reward": 1.5,
-      "rsi": 26.927088031852406,
-      "atr_pct": 3.3335220157783834,
-      "notes": [
-        "RSI: 26.9 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.26
+      "price_change_pct": 0.33
     }
   ]
 }
