@@ -1,21 +1,79 @@
 {
-  "last_updated": "04 November 2026, 06:18",
-  "last_updated_iso": "2026-11-04T06:18:41.020921",
+  "last_updated": "05 November 2026, 06:19",
+  "last_updated_iso": "2026-11-05T06:19:04.398047",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-04"
+    "last_run_date": "2026-11-05"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 5,
-    "sell": 82,
-    "oversold": 3
+    "buy": 6,
+    "sell": 72,
+    "oversold": 6
   },
   "buy": [
+    {
+      "ticker": "SWKS",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Skyworks",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 90,
+      "entry_price": 82.92,
+      "stop_loss": 75.2714,
+      "target_price": 98.2171,
+      "risk_reward": 2.0,
+      "rsi": 60.92676094574712,
+      "atr_pct": 4.612019306664101,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)",
+        "OBV yükseliş",
+        "Hacim 2.0x"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -2.9
+    },
+    {
+      "ticker": "UHS",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Universal Health Services",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 90,
+      "entry_price": 196.46,
+      "stop_loss": 180.58,
+      "target_price": 228.22,
+      "risk_reward": 2.0,
+      "rsi": 57.02377430381512,
+      "atr_pct": 4.041535167584209,
+      "notes": [
+        "Hacim 2.5x"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 10.91
+    },
     {
       "ticker": "ADSK",
       "exchange": "NASDAQ",
@@ -24,14 +82,15 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 80,
-      "entry_price": 252.32,
-      "stop_loss": 234.5243,
-      "target_price": 287.9115,
+      "entry_price": 270.09,
+      "stop_loss": 251.4657,
+      "target_price": 307.3386,
       "risk_reward": 2.0,
-      "rsi": 64.8402457228474,
-      "atr_pct": 3.5264191017253843,
+      "rsi": 66.59565131713937,
+      "atr_pct": 3.447793662991234,
       "notes": [
-        "OBV yükseliş"
+        "OBV yükseliş",
+        "Hacim 2.1x"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -41,7 +100,33 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -2.17
+      "price_change_pct": 7.04
+    },
+    {
+      "ticker": "XOM",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "ExxonMobil",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 80,
+      "entry_price": 169.27,
+      "stop_loss": 165.0429,
+      "target_price": 188.55,
+      "risk_reward": 4.56,
+      "rsi": 43.567191513712785,
+      "atr_pct": 2.8475227464949078,
+      "notes": [],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -4.62
     },
     {
       "ticker": "VRTX",
@@ -51,12 +136,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 530.76,
-      "stop_loss": 494.6014,
-      "target_price": 603.0771,
+      "entry_price": 549.04,
+      "stop_loss": 512.28,
+      "target_price": 622.56,
       "risk_reward": 2.0,
-      "rsi": 61.36876538461869,
-      "atr_pct": 3.4063003948429067,
+      "rsi": 63.43805791643341,
+      "atr_pct": 3.3476608077871317,
       "notes": [
         "Insider net alış",
         "Güçlü büyüme trendi (EMA20>50>200)",
@@ -70,92 +155,35 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -4.05
+      "price_change_pct": 3.44
     },
     {
-      "ticker": "BIIB",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Biogen",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 248.93,
-      "stop_loss": 232.5114,
-      "target_price": 281.7671,
-      "risk_reward": 2.0,
-      "rsi": 63.69512334098349,
-      "atr_pct": 3.297829318515635,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.03
-    },
-    {
-      "ticker": "MNST",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Monster Beverage",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 47.18,
-      "stop_loss": 44.9629,
-      "target_price": 51.6143,
-      "risk_reward": 2.0,
-      "rsi": 65.28925098736815,
-      "atr_pct": 2.3496645328033123,
-      "notes": [
-        "Insider net alış",
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -1.75
-    },
-    {
-      "ticker": "PFE",
+      "ticker": "C",
       "exchange": "NYSE",
       "group": "VALUE",
-      "company_name": "Pfizer",
+      "company_name": "Citigroup",
       "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 70,
-      "entry_price": 30.0,
-      "stop_loss": 28.7343,
-      "target_price": 32.5314,
-      "risk_reward": 2.0,
-      "rsi": 58.07772628235182,
-      "atr_pct": 2.10952395484561,
+      "signal_type": "POSITION",
+      "confidence_score": 75,
+      "entry_price": 124.74,
+      "stop_loss": 118.5904,
+      "target_price": 149.3382,
+      "risk_reward": 4.0,
+      "rsi": 55.314935992390346,
+      "atr_pct": 2.4649474634894366,
       "notes": [
         "Insider net alış",
         "OBV yükseliş"
       ],
       "score_breakdown": {
+        "RSI optimal bant": 20,
         "MACD pozitif": 20,
         "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
         "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -2.18
+      "price_change_pct": 1.65
     }
   ],
   "sell": [
@@ -372,25 +400,25 @@
   ],
   "oversold": [
     {
-      "ticker": "FTNT",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Fortinet",
+      "ticker": "CAT",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Caterpillar",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 128.11,
-      "stop_loss": 117.6143,
-      "target_price": 134.5155,
+      "entry_price": 591.3,
+      "stop_loss": 562.3288,
+      "target_price": 620.865,
       "risk_reward": 1.5,
-      "rsi": 20.48333280463264,
-      "atr_pct": 8.192735399408676,
+      "rsi": 21.380758038064087,
+      "atr_pct": 4.899574823285265,
       "notes": [
-        "RSI: 20.5 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 21.4 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.51
+      "price_change_pct": -5.23
     },
     {
       "ticker": "MPC",
@@ -400,18 +428,39 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 427.34,
-      "stop_loss": 408.095,
-      "target_price": 448.707,
+      "entry_price": 392.68,
+      "stop_loss": 371.1214,
+      "target_price": 412.314,
       "risk_reward": 1.5,
-      "rsi": 26.67692160117403,
-      "atr_pct": 4.503440820287468,
+      "rsi": 21.938701756661658,
+      "atr_pct": 5.490112695748391,
       "notes": [
-        "RSI: 26.7 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 21.9 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.71
+      "price_change_pct": -8.11
+    },
+    {
+      "ticker": "VLO",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Valero Energy",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 365.34,
+      "stop_loss": 345.1436,
+      "target_price": 383.607,
+      "risk_reward": 1.5,
+      "rsi": 23.16974154926487,
+      "atr_pct": 5.528118080157468,
+      "notes": [
+        "RSI: 23.2 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -5.76
     },
     {
       "ticker": "MRVL",
@@ -421,18 +470,60 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 171.97,
-      "stop_loss": 153.675,
-      "target_price": 180.5685,
+      "entry_price": 159.8,
+      "stop_loss": 141.5607,
+      "target_price": 167.79,
       "risk_reward": 1.5,
-      "rsi": 27.737621055558137,
-      "atr_pct": 10.638481682367582,
+      "rsi": 26.432452424680136,
+      "atr_pct": 11.413818856188044,
       "notes": [
-        "RSI: 27.7 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 26.4 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.33
+      "price_change_pct": -7.08
+    },
+    {
+      "ticker": "CVS",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "CVS Health",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 79.96,
+      "stop_loss": 76.9443,
+      "target_price": 83.958,
+      "risk_reward": 1.5,
+      "rsi": 27.564800827930284,
+      "atr_pct": 3.7714947474291876,
+      "notes": [
+        "RSI: 27.6 — Bollinger alt bandına yakın (VALUE)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -12.53
+    },
+    {
+      "ticker": "DDOG",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Datadog",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 188.72,
+      "stop_loss": 169.5931,
+      "target_price": 198.156,
+      "risk_reward": 1.5,
+      "rsi": 29.844536943757873,
+      "atr_pct": 10.135084359374002,
+      "notes": [
+        "RSI: 29.8 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -14.42
     }
   ]
 }
