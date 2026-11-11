@@ -1,19 +1,19 @@
 {
-  "last_updated": "10 November 2026, 06:18",
-  "last_updated_iso": "2026-11-10T06:18:30.104587",
+  "last_updated": "11 November 2026, 06:19",
+  "last_updated_iso": "2026-11-11T06:19:05.788074",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-10"
+    "last_run_date": "2026-11-11"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 5,
-    "sell": 13,
-    "oversold": 7
+    "buy": 4,
+    "sell": 8,
+    "oversold": 6
   },
   "buy": [
     {
@@ -24,12 +24,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 550.87,
-      "stop_loss": 511.5772,
-      "target_price": 629.4557,
+      "entry_price": 547.89,
+      "stop_loss": 509.9786,
+      "target_price": 623.7128,
       "risk_reward": 2.0,
-      "rsi": 62.853085807951814,
-      "atr_pct": 3.5664351542394903,
+      "rsi": 58.71950403030036,
+      "atr_pct": 3.459764808333258,
       "notes": [
         "Insider net alış",
         "Güçlü büyüme trendi (EMA20>50>200)",
@@ -43,7 +43,34 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.69
+      "price_change_pct": -0.54
+    },
+    {
+      "ticker": "MRK",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Merck",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 148.05,
+      "stop_loss": 137.8986,
+      "target_price": 168.3529,
+      "risk_reward": 2.0,
+      "rsi": 47.518307836519654,
+      "atr_pct": 3.4283775189387655,
+      "notes": [
+        "Insider net alış"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.48
     },
     {
       "ticker": "KHC",
@@ -53,12 +80,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 24.42,
-      "stop_loss": 22.8889,
-      "target_price": 27.4823,
+      "entry_price": 24.24,
+      "stop_loss": 22.6703,
+      "target_price": 27.3794,
       "risk_reward": 2.0,
-      "rsi": 54.490107914713356,
-      "atr_pct": 3.1350182457299924,
+      "rsi": 55.76323802433148,
+      "atr_pct": 3.2378592250573277,
       "notes": [],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -68,64 +95,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.77
-    },
-    {
-      "ticker": "NXPI",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "NXP Semi",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 70,
-      "entry_price": 256.42,
-      "stop_loss": 230.46,
-      "target_price": 308.34,
-      "risk_reward": 2.0,
-      "rsi": 59.80208091603538,
-      "atr_pct": 5.062006562535401,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10,
-        "Insider satış": -20
-      },
-      "veto_reasons": [],
-      "price_change_pct": 3.27
-    },
-    {
-      "ticker": "HUM",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Humana",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 70,
-      "entry_price": 423.22,
-      "stop_loss": 395.3565,
-      "target_price": 487.0465,
-      "risk_reward": 2.29,
-      "rsi": 47.848486719424976,
-      "atr_pct": 3.770293052217419,
-      "notes": [
-        "Insider net alış"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "Hacim >1.5x": 15,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.43
+      "price_change_pct": -0.74
     },
     {
       "ticker": "ADSK",
@@ -135,12 +105,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 65,
-      "entry_price": 263.35,
-      "stop_loss": 244.1729,
-      "target_price": 301.7043,
+      "entry_price": 260.11,
+      "stop_loss": 240.8757,
+      "target_price": 298.5786,
       "risk_reward": 2.0,
-      "rsi": 61.979240064145756,
-      "atr_pct": 3.6409996919023393,
+      "rsi": 59.95825377548985,
+      "atr_pct": 3.6973378705069213,
       "notes": [],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -149,7 +119,7 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.62
+      "price_change_pct": -1.23
     }
   ],
   "sell": [
@@ -169,27 +139,6 @@
       "atr_pct": null,
       "notes": [
         "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "EREGL.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Ereğli Demir Çelik",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
@@ -221,48 +170,6 @@
       "exchange": "BIST",
       "group": "BIST",
       "company_name": "Halkbank",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "TCELL.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Turkcell",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "OTKAR.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Otokar",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -322,10 +229,10 @@
       "price_change_pct": null
     },
     {
-      "ticker": "DGATE.IST",
+      "ticker": "TURSG.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "Datagate",
+      "company_name": "Türkiye Sigorta",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -343,10 +250,31 @@
       "price_change_pct": null
     },
     {
-      "ticker": "TURSG.IST",
+      "ticker": "ISDMR.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "Türkiye Sigorta",
+      "company_name": "İskenderun Demir",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "KRDMD.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Kardemir",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -373,81 +301,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 154.9,
-      "stop_loss": 143.422,
-      "target_price": 162.645,
+      "entry_price": 148.6,
+      "stop_loss": 136.9165,
+      "target_price": 156.03,
       "risk_reward": 1.5,
-      "rsi": 15.407518900091603,
-      "atr_pct": 7.409941548267156,
+      "rsi": 10.603957702793963,
+      "atr_pct": 7.8623811895312565,
       "notes": [
-        "RSI: 15.4 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 10.6 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 0.79
-    },
-    {
-      "ticker": "OXY",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Occidental Petroleum",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 55.76,
-      "stop_loss": 53.8921,
-      "target_price": 58.548,
-      "risk_reward": 1.5,
-      "rsi": 22.62996585145484,
-      "atr_pct": 3.349815832270516,
-      "notes": [
-        "RSI: 22.6 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.1
-    },
-    {
-      "ticker": "DVN",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Devon Energy",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 42.4,
-      "stop_loss": 40.5721,
-      "target_price": 44.52,
-      "risk_reward": 1.5,
-      "rsi": 23.955634007453597,
-      "atr_pct": 4.310982412781025,
-      "notes": [
-        "RSI: 24.0 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.45
-    },
-    {
-      "ticker": "CRM",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Salesforce",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 214.94,
-      "stop_loss": 205.7814,
-      "target_price": 225.687,
-      "risk_reward": 1.5,
-      "rsi": 26.840785672011407,
-      "atr_pct": 4.260990277123816,
-      "notes": [
-        "RSI: 26.8 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.6
+      "price_change_pct": -4.07
     },
     {
       "ticker": "NVDA",
@@ -457,18 +322,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 178.67,
-      "stop_loss": 169.885,
-      "target_price": 187.6035,
+      "entry_price": 168.89,
+      "stop_loss": 159.6007,
+      "target_price": 177.3345,
       "risk_reward": 1.5,
-      "rsi": 26.979289118772314,
-      "atr_pct": 4.91688614898961,
+      "rsi": 19.275290456684402,
+      "atr_pct": 5.50019892583277,
       "notes": [
-        "RSI: 27.0 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 19.3 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -4.27
+      "price_change_pct": -5.47
     },
     {
       "ticker": "AXON",
@@ -478,18 +343,39 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 303.18,
-      "stop_loss": 279.2207,
-      "target_price": 318.339,
+      "entry_price": 302.54,
+      "stop_loss": 278.46,
+      "target_price": 317.667,
       "risk_reward": 1.5,
-      "rsi": 27.735175346281267,
-      "atr_pct": 7.902659670858336,
+      "rsi": 23.88556937344788,
+      "atr_pct": 7.959276330885078,
       "notes": [
-        "RSI: 27.7 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 23.9 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -3.14
+      "price_change_pct": -0.21
+    },
+    {
+      "ticker": "CRM",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Salesforce",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 213.48,
+      "stop_loss": 204.385,
+      "target_price": 224.154,
+      "risk_reward": 1.5,
+      "rsi": 26.479393158961486,
+      "atr_pct": 4.26035291489837,
+      "notes": [
+        "RSI: 26.5 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.68
     },
     {
       "ticker": "TRIP",
@@ -499,18 +385,39 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 7.12,
-      "stop_loss": 6.5407,
-      "target_price": 7.476,
+      "entry_price": 7.09,
+      "stop_loss": 6.4814,
+      "target_price": 7.4445,
       "risk_reward": 1.5,
-      "rsi": 28.69875510687355,
-      "atr_pct": 8.136036056084393,
+      "rsi": 28.90485498929985,
+      "atr_pct": 8.5835178295011,
       "notes": [
-        "RSI: 28.7 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 28.9 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.71
+      "price_change_pct": -0.42
+    },
+    {
+      "ticker": "WDAY",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Workday",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 188.89,
+      "stop_loss": 181.15,
+      "target_price": 198.3345,
+      "risk_reward": 1.5,
+      "rsi": 32.953705997404484,
+      "atr_pct": 4.097623568489572,
+      "notes": [
+        "RSI: 33.0 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -0.69
     }
   ]
 }
