@@ -1,37 +1,63 @@
 {
-  "last_updated": "12 November 2026, 06:19",
-  "last_updated_iso": "2026-11-12T06:19:00.271065",
+  "last_updated": "13 November 2026, 06:19",
+  "last_updated_iso": "2026-11-13T06:19:11.196487",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-12"
+    "last_run_date": "2026-11-13"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 4,
+    "buy": 6,
     "sell": 5,
     "oversold": 2
   },
   "buy": [
     {
-      "ticker": "FAST",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Fastenal",
+      "ticker": "MRK",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Merck",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 55.49,
-      "stop_loss": 52.8866,
-      "target_price": 60.6967,
+      "entry_price": 146.95,
+      "stop_loss": 138.0243,
+      "target_price": 164.8014,
       "risk_reward": 2.0,
-      "rsi": 67.13762077579096,
-      "atr_pct": 2.345789771765164,
+      "rsi": 52.517971132753104,
+      "atr_pct": 3.036989343619882,
       "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
+        "Insider net alış"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.16
+    },
+    {
+      "ticker": "UHS",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Universal Health Services",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 193.84,
+      "stop_loss": 176.7257,
+      "target_price": 228.0686,
+      "risk_reward": 2.0,
+      "rsi": 55.784915820092074,
+      "atr_pct": 4.414538870654816,
+      "notes": [
         "OBV yükseliş"
       ],
       "score_breakdown": {
@@ -42,47 +68,51 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 1.19
+      "price_change_pct": -1.49
     },
     {
-      "ticker": "ADSK",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Autodesk",
+      "ticker": "PHM",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "PulteGroup",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 260.01,
-      "stop_loss": 241.6514,
-      "target_price": 296.7272,
+      "confidence_score": 75,
+      "entry_price": 126.9,
+      "stop_loss": 116.7643,
+      "target_price": 147.1714,
       "risk_reward": 2.0,
-      "rsi": 53.79538981222713,
-      "atr_pct": 3.5303584389659193,
-      "notes": [],
+      "rsi": 56.595057722759805,
+      "atr_pct": 3.99358345854527,
+      "notes": [
+        "OBV yükseliş"
+      ],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
         "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -0.04
+      "price_change_pct": -2.01
     },
     {
-      "ticker": "UHS",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Universal Health Services",
+      "ticker": "SWKS",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Skyworks",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 65,
-      "entry_price": 196.77,
-      "stop_loss": 180.2514,
-      "target_price": 229.8071,
+      "entry_price": 90.03,
+      "stop_loss": 80.9457,
+      "target_price": 108.1986,
       "risk_reward": 2.0,
-      "rsi": 57.39979524259204,
-      "atr_pct": 4.197430906037981,
+      "rsi": 63.7959712877303,
+      "atr_pct": 5.045144065429967,
       "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)",
         "OBV yükseliş"
       ],
       "score_breakdown": {
@@ -92,23 +122,25 @@
         "EMA50>EMA200": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.7
+      "price_change_pct": 2.73
     },
     {
-      "ticker": "DHI",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "D.R. Horton",
+      "ticker": "ALGN",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Align Tech",
       "signal_direction": "BUY",
-      "signal_type": "POSITION",
+      "signal_type": "SWING",
       "confidence_score": 65,
-      "entry_price": 147.48,
-      "stop_loss": 135.2986,
-      "target_price": 196.2057,
-      "risk_reward": 4.0,
-      "rsi": 49.831956785387575,
-      "atr_pct": 4.129857389085371,
-      "notes": [],
+      "entry_price": 166.97,
+      "stop_loss": 153.1343,
+      "target_price": 194.6414,
+      "risk_reward": 2.0,
+      "rsi": 61.13295677176851,
+      "atr_pct": 4.143173287616454,
+      "notes": [
+        "OBV yükseliş"
+      ],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
@@ -116,30 +148,57 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.48
+      "price_change_pct": -2.97
+    },
+    {
+      "ticker": "SO",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Southern Company",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 60,
+      "entry_price": 92.47,
+      "stop_loss": 88.7043,
+      "target_price": 100.0014,
+      "risk_reward": 2.0,
+      "rsi": 47.94118483036559,
+      "atr_pct": 2.0361822283494058,
+      "notes": [
+        "Insider net alış",
+        "Hacim 2.2x"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "Hacim >1.5x": 15,
+        "EMA20>EMA50": 15,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -1.46
     }
   ],
   "sell": [
     {
-      "ticker": "VOD.LON",
-      "exchange": "LSE",
+      "ticker": "FE",
+      "exchange": "NYSE",
       "group": "DEFENSIVE",
-      "company_name": "Vodafone",
+      "company_name": "FirstEnergy",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
+      "entry_price": 46.5,
+      "stop_loss": 47.2477,
+      "target_price": 45.0047,
+      "risk_reward": 2.0,
+      "rsi": 65.46204262846231,
+      "atr_pct": 1.607854976580626,
       "notes": [
-        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+        "[DEFENSIVE] Sat: RSI 65.5, MACD negatif"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": null
+      "price_change_pct": -0.06
     },
     {
       "ticker": "DOCS.LON",
@@ -205,10 +264,10 @@
       "price_change_pct": null
     },
     {
-      "ticker": "KRDMD.IST",
+      "ticker": "INDES.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "Kardemir",
+      "company_name": "İndeks Bilgisayar",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -235,18 +294,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 173.73,
-      "stop_loss": 164.5879,
-      "target_price": 182.4165,
+      "entry_price": 166.19,
+      "stop_loss": 155.5293,
+      "target_price": 174.4995,
       "risk_reward": 1.5,
-      "rsi": 26.38103669115391,
-      "atr_pct": 5.262270410652542,
+      "rsi": 24.49002161966466,
+      "atr_pct": 6.414773421551595,
       "notes": [
-        "RSI: 26.4 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 24.5 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 2.87
+      "price_change_pct": -4.34
     },
     {
       "ticker": "VEEV",
@@ -256,18 +315,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 304.77,
-      "stop_loss": 296.0771,
-      "target_price": 320.0085,
+      "entry_price": 302.42,
+      "stop_loss": 293.4457,
+      "target_price": 317.541,
       "risk_reward": 1.5,
-      "rsi": 33.194725598798684,
-      "atr_pct": 2.8522683755446763,
+      "rsi": 31.172396420817037,
+      "atr_pct": 2.9674910264320697,
       "notes": [
-        "RSI: 33.2 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 31.2 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.26
+      "price_change_pct": -0.77
     }
   ]
 }
