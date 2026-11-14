@@ -1,102 +1,21 @@
 {
-  "last_updated": "13 November 2026, 06:19",
-  "last_updated_iso": "2026-11-13T06:19:11.196487",
+  "last_updated": "14 November 2026, 06:18",
+  "last_updated_iso": "2026-11-14T06:18:26.452747",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-13"
+    "last_run_date": "2026-11-14"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 6,
-    "sell": 5,
-    "oversold": 2
+    "buy": 2,
+    "sell": 6,
+    "oversold": 1
   },
   "buy": [
-    {
-      "ticker": "MRK",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Merck",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 146.95,
-      "stop_loss": 138.0243,
-      "target_price": 164.8014,
-      "risk_reward": 2.0,
-      "rsi": 52.517971132753104,
-      "atr_pct": 3.036989343619882,
-      "notes": [
-        "Insider net alış"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.16
-    },
-    {
-      "ticker": "UHS",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Universal Health Services",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 193.84,
-      "stop_loss": 176.7257,
-      "target_price": 228.0686,
-      "risk_reward": 2.0,
-      "rsi": 55.784915820092074,
-      "atr_pct": 4.414538870654816,
-      "notes": [
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -1.49
-    },
-    {
-      "ticker": "PHM",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "PulteGroup",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 126.9,
-      "stop_loss": 116.7643,
-      "target_price": 147.1714,
-      "risk_reward": 2.0,
-      "rsi": 56.595057722759805,
-      "atr_pct": 3.99358345854527,
-      "notes": [
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.01
-    },
     {
       "ticker": "SWKS",
       "exchange": "NASDAQ",
@@ -105,15 +24,14 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 65,
-      "entry_price": 90.03,
-      "stop_loss": 80.9457,
-      "target_price": 108.1986,
+      "entry_price": 89.94,
+      "stop_loss": 80.6714,
+      "target_price": 108.4771,
       "risk_reward": 2.0,
-      "rsi": 63.7959712877303,
-      "atr_pct": 5.045144065429967,
+      "rsi": 63.795991635738716,
+      "atr_pct": 5.152641691417744,
       "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş"
+        "Güçlü büyüme trendi (EMA20>50>200)"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
@@ -122,83 +40,58 @@
         "EMA50>EMA200": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 2.73
+      "price_change_pct": -0.1
     },
     {
-      "ticker": "ALGN",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Align Tech",
+      "ticker": "PFE",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "Pfizer",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 65,
-      "entry_price": 166.97,
-      "stop_loss": 153.1343,
-      "target_price": 194.6414,
-      "risk_reward": 2.0,
-      "rsi": 61.13295677176851,
-      "atr_pct": 4.143173287616454,
-      "notes": [
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.97
-    },
-    {
-      "ticker": "SO",
-      "exchange": "NYSE",
-      "group": "DEFENSIVE",
-      "company_name": "Southern Company",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 60,
-      "entry_price": 92.47,
-      "stop_loss": 88.7043,
-      "target_price": 100.0014,
-      "risk_reward": 2.0,
-      "rsi": 47.94118483036559,
-      "atr_pct": 2.0361822283494058,
+      "entry_price": 28.89,
+      "stop_loss": 28.2546,
+      "target_price": 31.9331,
+      "risk_reward": 4.79,
+      "rsi": 45.29940414794602,
+      "atr_pct": 2.633312741773413,
       "notes": [
         "Insider net alış",
-        "Hacim 2.2x"
+        "Alt Bollinger bandına yakın"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
-        "Hacim >1.5x": 15,
         "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Desteğe yakın": 10,
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -1.46
+      "price_change_pct": 0.21
     }
   ],
   "sell": [
     {
-      "ticker": "FE",
+      "ticker": "EXC",
       "exchange": "NYSE",
       "group": "DEFENSIVE",
-      "company_name": "FirstEnergy",
+      "company_name": "Exelon",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 46.5,
-      "stop_loss": 47.2477,
-      "target_price": 45.0047,
+      "entry_price": 46.25,
+      "stop_loss": 47.1493,
+      "target_price": 44.4514,
       "risk_reward": 2.0,
-      "rsi": 65.46204262846231,
-      "atr_pct": 1.607854976580626,
+      "rsi": 65.07934158527084,
+      "atr_pct": 1.9444021571096766,
       "notes": [
-        "[DEFENSIVE] Sat: RSI 65.5, MACD negatif"
+        "[DEFENSIVE] Sat: RSI 65.1, MACD negatif"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.06
+      "price_change_pct": 1.36
     },
     {
       "ticker": "DOCS.LON",
@@ -222,10 +115,10 @@
       "price_change_pct": null
     },
     {
-      "ticker": "TUPRS.IST",
+      "ticker": "SOKM.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "Tüpraş",
+      "company_name": "Şok Market",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -243,10 +136,10 @@
       "price_change_pct": null
     },
     {
-      "ticker": "SOKM.IST",
+      "ticker": "NETAS.IST",
       "exchange": "BIST",
       "group": "BIST",
-      "company_name": "Şok Market",
+      "company_name": "Netaş Telekomünikasyon",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
@@ -283,30 +176,30 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": null
-    }
-  ],
-  "oversold": [
+    },
     {
-      "ticker": "NVDA",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "NVIDIA",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 166.19,
-      "stop_loss": 155.5293,
-      "target_price": 174.4995,
-      "risk_reward": 1.5,
-      "rsi": 24.49002161966466,
-      "atr_pct": 6.414773421551595,
+      "ticker": "DOAS.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Doğuş Otomotiv",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
       "notes": [
-        "RSI: 24.5 — Bollinger alt bandına yakın (GROWTH)"
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -4.34
-    },
+      "price_change_pct": null
+    }
+  ],
+  "oversold": [
     {
       "ticker": "VEEV",
       "exchange": "NASDAQ",
@@ -315,18 +208,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 302.42,
-      "stop_loss": 293.4457,
-      "target_price": 317.541,
+      "entry_price": 301.53,
+      "stop_loss": 292.7671,
+      "target_price": 316.6065,
       "risk_reward": 1.5,
-      "rsi": 31.172396420817037,
-      "atr_pct": 2.9674910264320697,
+      "rsi": 33.60898691151225,
+      "atr_pct": 2.906131673465629,
       "notes": [
-        "RSI: 31.2 — Bollinger alt bandına yakın (GROWTH)"
+        "RSI: 33.6 — Bollinger alt bandına yakın (GROWTH)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.77
+      "price_change_pct": -0.29
     }
   ]
 }
