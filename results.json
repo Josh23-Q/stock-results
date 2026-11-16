@@ -1,13 +1,13 @@
 {
-  "last_updated": "15 November 2026, 06:19",
-  "last_updated_iso": "2026-11-15T06:19:06.057334",
+  "last_updated": "16 November 2026, 06:20",
+  "last_updated_iso": "2026-11-16T06:20:27.114013",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-15"
+    "last_run_date": "2026-11-16"
   },
   "summary": {
     "analyzed": 396,
@@ -16,6 +16,60 @@
     "oversold": 2
   },
   "buy": [
+    {
+      "ticker": "AAPL",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Apple",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 356.27,
+      "stop_loss": 337.3717,
+      "target_price": 394.0665,
+      "risk_reward": 2.0,
+      "rsi": 58.67592897942538,
+      "atr_pct": 2.6522379458879306,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 0.39
+    },
+    {
+      "ticker": "AMZN",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Amazon",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 266.66,
+      "stop_loss": 245.17,
+      "target_price": 309.64,
+      "risk_reward": 2.0,
+      "rsi": 62.46276759707266,
+      "atr_pct": 4.0294738504551715,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.29
+    },
     {
       "ticker": "SWKS",
       "exchange": "NASDAQ",
@@ -99,34 +153,6 @@
       "price_change_pct": -0.93
     },
     {
-      "ticker": "PFE",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Pfizer",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 28.89,
-      "stop_loss": 28.2546,
-      "target_price": 31.9331,
-      "risk_reward": 4.79,
-      "rsi": 45.29940414794602,
-      "atr_pct": 2.633312741773413,
-      "notes": [
-        "Insider net alış",
-        "Alt Bollinger bandına yakın"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.21
-    },
-    {
       "ticker": "GSK.LON",
       "exchange": "LSE",
       "group": "DEFENSIVE",
@@ -151,34 +177,6 @@
       },
       "veto_reasons": [],
       "price_change_pct": 0.55
-    },
-    {
-      "ticker": "VESBE.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Vestel Beyaz Eşya",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 3.68,
-      "stop_loss": 3.2057,
-      "target_price": 4.6286,
-      "risk_reward": 2.0,
-      "rsi": 62.2950853844826,
-      "atr_pct": 6.4440982068692625,
-      "notes": [
-        "BIST güçlü hacim: 2.1x",
-        "Hacim 2.1x",
-        "52H yüksüğünden %59 aşağıda"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -2.39
     }
   ],
   "sell": [
