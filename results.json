@@ -1,171 +1,35 @@
 {
-  "last_updated": "16 November 2026, 06:20",
-  "last_updated_iso": "2026-11-16T06:20:27.114013",
+  "last_updated": "17 November 2026, 06:19",
+  "last_updated_iso": "2026-11-17T06:19:05.971331",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-16"
+    "last_run_date": "2026-11-17"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 6,
-    "sell": 18,
+    "buy": 1,
+    "sell": 8,
     "oversold": 2
   },
   "buy": [
     {
-      "ticker": "AAPL",
+      "ticker": "ALGN",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "Apple",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 356.27,
-      "stop_loss": 337.3717,
-      "target_price": 394.0665,
-      "risk_reward": 2.0,
-      "rsi": 58.67592897942538,
-      "atr_pct": 2.6522379458879306,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.39
-    },
-    {
-      "ticker": "AMZN",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Amazon",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 266.66,
-      "stop_loss": 245.17,
-      "target_price": 309.64,
-      "risk_reward": 2.0,
-      "rsi": 62.46276759707266,
-      "atr_pct": 4.0294738504551715,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.29
-    },
-    {
-      "ticker": "SWKS",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Skyworks",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 89.94,
-      "stop_loss": 80.6714,
-      "target_price": 108.4771,
-      "risk_reward": 2.0,
-      "rsi": 63.795991635738716,
-      "atr_pct": 5.152641691417744,
-      "notes": [
-        "Güçlü büyüme trendi (EMA20>50>200)"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.1
-    },
-    {
-      "ticker": "SPX.LON",
-      "exchange": "LSE",
-      "group": "VALUE",
-      "company_name": "SPX Technologies",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 75,
-      "entry_price": 7540.0,
-      "stop_loss": 7149.6639,
-      "target_price": 8320.6723,
-      "risk_reward": 2.0,
-      "rsi": 57.08661417322834,
-      "atr_pct": 2.5884359864946473,
-      "notes": [
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA20>EMA50": 15,
-        "EMA50>EMA200": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 1.21
-    },
-    {
-      "ticker": "VOD.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "Vodafone",
-      "signal_direction": "BUY",
-      "signal_type": "POSITION",
-      "confidence_score": 70,
-      "entry_price": 116.95,
-      "stop_loss": 113.157,
-      "target_price": 139.9146,
-      "risk_reward": 6.05,
-      "rsi": 46.962610991599824,
-      "atr_pct": 2.4545286116980574,
-      "notes": [
-        "Savunma hissesi destek bölgesinde",
-        "OBV yükseliş"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "EMA50>EMA200": 10,
-        "Desteğe yakın": 10,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": -0.93
-    },
-    {
-      "ticker": "GSK.LON",
-      "exchange": "LSE",
-      "group": "DEFENSIVE",
-      "company_name": "GSK",
+      "company_name": "Align Tech",
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 65,
-      "entry_price": 1911.5,
-      "stop_loss": 1810.8876,
-      "target_price": 2112.7248,
+      "entry_price": 165.98,
+      "stop_loss": 151.7214,
+      "target_price": 194.4971,
       "risk_reward": 2.0,
-      "rsi": 49.505778040147675,
-      "atr_pct": 2.631765982507922,
+      "rsi": 62.28760919557434,
+      "atr_pct": 4.295267937952282,
       "notes": [
         "OBV yükseliş"
       ],
@@ -176,263 +40,221 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 0.55
+      "price_change_pct": -1.39
     }
   ],
   "sell": [
     {
-      "ticker": "DOGUB.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Doğuş Holding",
+      "ticker": "PSA",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Public Storage",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 41.66,
-      "stop_loss": 44.7643,
-      "target_price": 35.4514,
+      "entry_price": 333.71,
+      "stop_loss": 340.8921,
+      "target_price": 319.3457,
       "risk_reward": 2.0,
-      "rsi": 96.90756276875985,
-      "atr_pct": 7.4514778210776695,
+      "rsi": 72.21754031125344,
+      "atr_pct": 2.1522113059074757,
       "notes": [
-        "[BIST] Sat: RSI 96.9, EMA20<EMA50"
+        "[DEFENSIVE] Sat: RSI 72.2, MACD negatif"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 9.98
+      "price_change_pct": 0.34
     },
     {
-      "ticker": "ENKAI.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Enka İnşaat",
+      "ticker": "EXC",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Exelon",
       "signal_direction": "SELL",
       "signal_type": "SELL",
       "confidence_score": 65,
-      "entry_price": 83.4,
-      "stop_loss": 85.9714,
-      "target_price": 78.2571,
+      "entry_price": 46.46,
+      "stop_loss": 47.3593,
+      "target_price": 44.6614,
       "risk_reward": 2.0,
-      "rsi": 82.24639303668248,
-      "atr_pct": 3.0832463243027117,
+      "rsi": 65.38458716942375,
+      "atr_pct": 1.9356134640213,
       "notes": [
-        "[BIST] Sat: RSI 82.2, EMA20<EMA50"
+        "[DEFENSIVE] Sat: RSI 65.4, MACD negatif"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.28
+      "price_change_pct": 0.45
     },
-    {
-      "ticker": "CIMSA.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Çimsa",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 42.32,
-      "stop_loss": 43.7057,
-      "target_price": 39.5486,
-      "risk_reward": 2.0,
-      "rsi": 80.65323249638539,
-      "atr_pct": 3.2743704803003157,
-      "notes": [
-        "[BIST] Sat: RSI 80.7, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.05
-    },
-    {
-      "ticker": "EGPRO.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Ege Profil",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 33.48,
-      "stop_loss": 35.0357,
-      "target_price": 30.3686,
-      "risk_reward": 2.0,
-      "rsi": 77.97426735748245,
-      "atr_pct": 4.646696784805577,
-      "notes": [
-        "[BIST] Sat: RSI 78.0, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.16
-    },
-    {
-      "ticker": "PGSUS.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Pegasus",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 155.3,
-      "stop_loss": 161.4643,
-      "target_price": 142.9714,
-      "risk_reward": 2.0,
-      "rsi": 77.41936630617997,
-      "atr_pct": 3.9692757670180163,
-      "notes": [
-        "[BIST] Sat: RSI 77.4, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.83
-    },
-    {
-      "ticker": "KAPLM.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Kaplamin Ambalaj",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 133.0,
-      "stop_loss": 144.025,
-      "target_price": 110.95,
-      "risk_reward": 2.0,
-      "rsi": 77.20503914062783,
-      "atr_pct": 8.289473602262143,
-      "notes": [
-        "[BIST] Sat: RSI 77.2, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 3.74
-    },
-    {
-      "ticker": "SELEC.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Selçuk Ecza",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 101.6,
-      "stop_loss": 109.2571,
-      "target_price": 86.2857,
-      "risk_reward": 2.0,
-      "rsi": 76.67285810433097,
-      "atr_pct": 7.536558365271322,
-      "notes": [
-        "[BIST] Sat: RSI 76.7, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 9.96
-    },
-    {
-      "ticker": "EMNIS.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Emniş Ambalaj",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 139.5,
-      "stop_loss": 144.6929,
-      "target_price": 129.1143,
-      "risk_reward": 2.0,
-      "rsi": 75.69621632103886,
-      "atr_pct": 3.72247808234727,
-      "notes": [
-        "[BIST] Sat: RSI 75.7, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.36
-    },
-    {
-      "ticker": "FONET.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Fonet Bilgi",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 3.97,
-      "stop_loss": 4.1829,
-      "target_price": 3.5443,
-      "risk_reward": 2.0,
-      "rsi": 75.43859612431731,
-      "atr_pct": 5.361640873691612,
-      "notes": [
-        "[BIST] Sat: RSI 75.4, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -1.49
-    },
-    {
-      "ticker": "KONTR.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Kontrolmatik",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": 2.36,
-      "stop_loss": 2.5286,
-      "target_price": 2.0229,
-      "risk_reward": 2.0,
-      "rsi": 75.3488312778513,
-      "atr_pct": 7.142858586068944,
-      "notes": [
-        "[BIST] Sat: RSI 75.3, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.84
-    }
-  ],
-  "oversold": [
     {
       "ticker": "DOCS.LON",
       "exchange": "LSE",
       "group": "DEFENSIVE",
       "company_name": "",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 52.8,
-      "stop_loss": 48.8506,
-      "target_price": 55.44,
-      "risk_reward": 1.5,
-      "rsi": 11.764668923323413,
-      "atr_pct": 7.479845295445572,
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
       "notes": [
-        "RSI: 11.8 — Bollinger alt bandına yakın (DEFENSIVE)"
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -2.4
+      "price_change_pct": null
     },
     {
-      "ticker": "VEEV",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Veeva",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 301.53,
-      "stop_loss": 292.7671,
-      "target_price": 316.6065,
-      "risk_reward": 1.5,
-      "rsi": 33.60898691151225,
-      "atr_pct": 2.906131673465629,
+      "ticker": "SOKM.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Şok Market",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
       "notes": [
-        "RSI: 33.6 — Bollinger alt bandına yakın (GROWTH)"
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -0.29
+      "price_change_pct": null
+    },
+    {
+      "ticker": "NETAS.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Netaş Telekomünikasyon",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "INDES.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "İndeks Bilgisayar",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "BRSAN.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Borçelik",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "DOAS.IST",
+      "exchange": "BIST",
+      "group": "BIST",
+      "company_name": "Doğuş Otomotiv",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[BIST] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    }
+  ],
+  "oversold": [
+    {
+      "ticker": "HOOD",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 72.06,
+      "stop_loss": 66.759,
+      "target_price": 75.663,
+      "risk_reward": 1.5,
+      "rsi": 25.712439073562365,
+      "atr_pct": 7.356369632606874,
+      "notes": [
+        "RSI: 25.7 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -7.45
+    },
+    {
+      "ticker": "CDNS",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Cadence",
+      "signal_direction": "OVERSOLD",
+      "signal_type": "OVERSOLD",
+      "confidence_score": 70,
+      "entry_price": 309.43,
+      "stop_loss": 294.885,
+      "target_price": 324.9015,
+      "risk_reward": 1.5,
+      "rsi": 34.324048212832054,
+      "atr_pct": 4.700577298063817,
+      "notes": [
+        "RSI: 34.3 — Bollinger alt bandına yakın (GROWTH)"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": -4.2
     }
   ]
 }
