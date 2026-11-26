@@ -1,68 +1,64 @@
 {
-  "last_updated": "25 November 2026, 06:18",
-  "last_updated_iso": "2026-11-25T06:18:56.392360",
+  "last_updated": "26 November 2026, 06:18",
+  "last_updated_iso": "2026-11-26T06:18:55.384286",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-25"
+    "last_run_date": "2026-11-26"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 3,
-    "sell": 37,
-    "oversold": 6
+    "buy": 2,
+    "sell": 49,
+    "oversold": 1
   },
   "buy": [
     {
-      "ticker": "ZS",
+      "ticker": "BIIB",
       "exchange": "NASDAQ",
       "group": "GROWTH",
-      "company_name": "Zscaler",
+      "company_name": "Biogen",
       "signal_direction": "BUY",
       "signal_type": "SWING",
-      "confidence_score": 70,
-      "entry_price": 231.62,
-      "stop_loss": 200.6883,
-      "target_price": 293.4834,
+      "confidence_score": 75,
+      "entry_price": 261.44,
+      "stop_loss": 245.7443,
+      "target_price": 292.8314,
       "risk_reward": 2.0,
-      "rsi": 53.25711966260651,
-      "atr_pct": 6.677252972948311,
+      "rsi": 65.7153312181184,
+      "atr_pct": 3.001780764567646,
       "notes": [
         "Güçlü büyüme trendi (EMA20>50>200)",
-        "OBV yükseliş",
-        "Hacim 2.0x"
+        "OBV yükseliş"
       ],
       "score_breakdown": {
         "RSI optimal bant": 20,
         "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
         "EMA20>EMA50": 15,
         "EMA50>EMA200": 10,
-        "Haber nötr": 10,
-        "Insider satış": -20
+        "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 1.04
+      "price_change_pct": -2.85
     },
     {
-      "ticker": "CMG",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Chipotle",
+      "ticker": "DHI",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "D.R. Horton",
       "signal_direction": "BUY",
-      "signal_type": "SWING",
+      "signal_type": "POSITION",
       "confidence_score": 65,
-      "entry_price": 37.05,
-      "stop_loss": 34.7214,
-      "target_price": 41.7071,
-      "risk_reward": 2.0,
-      "rsi": 59.487171662159454,
-      "atr_pct": 3.142470745713393,
+      "entry_price": 156.87,
+      "stop_loss": 146.8438,
+      "target_price": 196.9748,
+      "risk_reward": 4.0,
+      "rsi": 49.71270521125737,
+      "atr_pct": 3.1957006206105447,
       "notes": [
-        "Insider net alış",
         "OBV yükseliş"
       ],
       "score_breakdown": {
@@ -72,39 +68,52 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 2.21
-    },
-    {
-      "ticker": "ISGSY.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "İş Girişim",
-      "signal_direction": "BUY",
-      "signal_type": "SWING",
-      "confidence_score": 65,
-      "entry_price": 11.11,
-      "stop_loss": 10.0357,
-      "target_price": 13.2586,
-      "risk_reward": 2.0,
-      "rsi": 48.45069612829844,
-      "atr_pct": 4.834768408640273,
-      "notes": [
-        "BIST güçlü hacim: 5.0x",
-        "OBV yükseliş",
-        "Hacim 5.0x",
-        "52H yüksüğünden %58 aşağıda"
-      ],
-      "score_breakdown": {
-        "RSI optimal bant": 20,
-        "MACD pozitif": 20,
-        "Hacim >1.5x": 15,
-        "Haber nötr": 10
-      },
-      "veto_reasons": [],
-      "price_change_pct": 0.27
+      "price_change_pct": 3.09
     }
   ],
   "sell": [
+    {
+      "ticker": "PRU.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "Prudential",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
+    {
+      "ticker": "STJ.LON",
+      "exchange": "LSE",
+      "group": "DEFENSIVE",
+      "company_name": "St. James's Place",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": null,
+      "stop_loss": null,
+      "target_price": null,
+      "risk_reward": null,
+      "rsi": null,
+      "atr_pct": null,
+      "notes": [
+        "[DEFENSIVE] Sat: MACD negatif, EMA20<EMA50"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": null
+    },
     {
       "ticker": "VOD.LON",
       "exchange": "LSE",
@@ -272,114 +281,9 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": null
-    },
-    {
-      "ticker": "HALKB.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Halkbank",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "TCELL.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Turkcell",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
     }
   ],
   "oversold": [
-    {
-      "ticker": "MNST",
-      "exchange": "NASDAQ",
-      "group": "GROWTH",
-      "company_name": "Monster Beverage",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 42.17,
-      "stop_loss": 40.7979,
-      "target_price": 44.2785,
-      "risk_reward": 1.5,
-      "rsi": 16.29098160425181,
-      "atr_pct": 3.2538377905723226,
-      "notes": [
-        "RSI: 16.3 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.61
-    },
-    {
-      "ticker": "AXP",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "American Express",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 308.63,
-      "stop_loss": 300.9186,
-      "target_price": 324.0615,
-      "risk_reward": 1.5,
-      "rsi": 25.81753399037902,
-      "atr_pct": 2.4985988592321235,
-      "notes": [
-        "RSI: 25.8 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.56
-    },
-    {
-      "ticker": "JPM",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "JPMorgan",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 317.1,
-      "stop_loss": 308.3021,
-      "target_price": 332.955,
-      "risk_reward": 1.5,
-      "rsi": 25.92491860649109,
-      "atr_pct": 2.774474277086268,
-      "notes": [
-        "RSI: 25.9 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": 0.14
-    },
     {
       "ticker": "CI",
       "exchange": "NYSE",
@@ -388,60 +292,18 @@
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 275.0,
-      "stop_loss": 265.4714,
-      "target_price": 288.75,
+      "entry_price": 271.42,
+      "stop_loss": 262.7972,
+      "target_price": 284.991,
       "risk_reward": 1.5,
-      "rsi": 27.083667753830326,
-      "atr_pct": 3.464934113737825,
+      "rsi": 27.227295636452737,
+      "atr_pct": 3.1769423047155145,
       "notes": [
-        "RSI: 27.1 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 27.2 — Bollinger alt bandına yakın (VALUE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": 1.68
-    },
-    {
-      "ticker": "MS",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Morgan Stanley",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 168.79,
-      "stop_loss": 161.9807,
-      "target_price": 177.2295,
-      "risk_reward": 1.5,
-      "rsi": 29.134899655906025,
-      "atr_pct": 4.03417561823036,
-      "notes": [
-        "RSI: 29.1 — Bollinger alt bandına yakın (VALUE)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -2.21
-    },
-    {
-      "ticker": "TDG",
-      "exchange": "NYSE",
-      "group": "GROWTH",
-      "company_name": "",
-      "signal_direction": "OVERSOLD",
-      "signal_type": "OVERSOLD",
-      "confidence_score": 70,
-      "entry_price": 1129.3199,
-      "stop_loss": 1089.8171,
-      "target_price": 1185.7859,
-      "risk_reward": 1.5,
-      "rsi": 33.538879704196816,
-      "atr_pct": 3.4979334300117375,
-      "notes": [
-        "RSI: 33.5 — Bollinger alt bandına yakın (GROWTH)"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": -0.97
+      "price_change_pct": -1.3
     }
   ]
 }
