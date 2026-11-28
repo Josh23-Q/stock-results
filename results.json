@@ -1,21 +1,48 @@
 {
-  "last_updated": "27 November 2026, 06:19",
-  "last_updated_iso": "2026-11-27T06:19:02.948583",
+  "last_updated": "28 November 2026, 06:18",
+  "last_updated_iso": "2026-11-28T06:18:52.593077",
   "run_type": "scheduled",
   "cycle_info": {
     "current_index": 396,
     "total_tickers": 396,
     "cycle_progress_pct": 100.0,
     "days_per_full_cycle": 1,
-    "last_run_date": "2026-11-27"
+    "last_run_date": "2026-11-28"
   },
   "summary": {
     "analyzed": 396,
-    "buy": 2,
-    "sell": 69,
+    "buy": 5,
+    "sell": 74,
     "oversold": 1
   },
   "buy": [
+    {
+      "ticker": "AMGN",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Amgen",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 474.08,
+      "stop_loss": 450.6327,
+      "target_price": 520.9746,
+      "risk_reward": 2.0,
+      "rsi": 59.56050146597338,
+      "atr_pct": 2.4729274087631192,
+      "notes": [
+        "Güçlü büyüme trendi (EMA20>50>200)"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": 1.03
+    },
     {
       "ticker": "BIIB",
       "exchange": "NASDAQ",
@@ -24,12 +51,12 @@
       "signal_direction": "BUY",
       "signal_type": "SWING",
       "confidence_score": 75,
-      "entry_price": 261.44,
-      "stop_loss": 245.7443,
-      "target_price": 292.8314,
+      "entry_price": 264.2,
+      "stop_loss": 249.1743,
+      "target_price": 294.2514,
       "risk_reward": 2.0,
-      "rsi": 65.7153312181184,
-      "atr_pct": 3.001780764567646,
+      "rsi": 64.66236691248251,
+      "atr_pct": 2.8436242175106203,
       "notes": [
         "Güçlü büyüme trendi (EMA20>50>200)",
         "OBV yükseliş"
@@ -42,7 +69,61 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": -2.85
+      "price_change_pct": 1.06
+    },
+    {
+      "ticker": "PHM",
+      "exchange": "NYSE",
+      "group": "VALUE",
+      "company_name": "PulteGroup",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 75,
+      "entry_price": 134.49,
+      "stop_loss": 126.2771,
+      "target_price": 150.9157,
+      "risk_reward": 2.0,
+      "rsi": 53.27225157031726,
+      "atr_pct": 3.0533355460626894,
+      "notes": [
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "EMA50>EMA200": 10,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.26
+    },
+    {
+      "ticker": "CMG",
+      "exchange": "NASDAQ",
+      "group": "GROWTH",
+      "company_name": "Chipotle",
+      "signal_direction": "BUY",
+      "signal_type": "SWING",
+      "confidence_score": 65,
+      "entry_price": 37.32,
+      "stop_loss": 35.0429,
+      "target_price": 41.8743,
+      "risk_reward": 2.0,
+      "rsi": 66.0377286595047,
+      "atr_pct": 3.0508327835821643,
+      "notes": [
+        "Insider net alış",
+        "OBV yükseliş"
+      ],
+      "score_breakdown": {
+        "RSI optimal bant": 20,
+        "MACD pozitif": 20,
+        "EMA20>EMA50": 15,
+        "Haber nötr": 10
+      },
+      "veto_reasons": [],
+      "price_change_pct": -0.21
     },
     {
       "ticker": "DHI",
@@ -52,12 +133,12 @@
       "signal_direction": "BUY",
       "signal_type": "POSITION",
       "confidence_score": 65,
-      "entry_price": 156.87,
-      "stop_loss": 146.8438,
-      "target_price": 196.9748,
+      "entry_price": 156.8,
+      "stop_loss": 147.3206,
+      "target_price": 194.7175,
       "risk_reward": 4.0,
-      "rsi": 49.71270521125737,
-      "atr_pct": 3.1957006206105447,
+      "rsi": 57.40605610201149,
+      "atr_pct": 3.0227630137517445,
       "notes": [
         "OBV yükseliş"
       ],
@@ -68,10 +149,52 @@
         "Haber nötr": 10
       },
       "veto_reasons": [],
-      "price_change_pct": 3.09
+      "price_change_pct": -0.04
     }
   ],
   "sell": [
+    {
+      "ticker": "DUK",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Duke Energy",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 131.91,
+      "stop_loss": 133.9623,
+      "target_price": 127.8053,
+      "risk_reward": 2.0,
+      "rsi": 75.03381133713937,
+      "atr_pct": 1.5558666278921967,
+      "notes": [
+        "[DEFENSIVE] Sat: RSI 75.0, MACD negatif"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.01
+    },
+    {
+      "ticker": "SO",
+      "exchange": "NYSE",
+      "group": "DEFENSIVE",
+      "company_name": "Southern Company",
+      "signal_direction": "SELL",
+      "signal_type": "SELL",
+      "confidence_score": 65,
+      "entry_price": 95.04,
+      "stop_loss": 96.6789,
+      "target_price": 91.7622,
+      "risk_reward": 2.0,
+      "rsi": 65.90144863931152,
+      "atr_pct": 1.7244174822257974,
+      "notes": [
+        "[DEFENSIVE] Sat: RSI 65.9, MACD negatif"
+      ],
+      "score_breakdown": {},
+      "veto_reasons": [],
+      "price_change_pct": 0.04
+    },
     {
       "ticker": "PRU.LON",
       "exchange": "LSE",
@@ -239,71 +362,29 @@
       "score_breakdown": {},
       "veto_reasons": [],
       "price_change_pct": null
-    },
-    {
-      "ticker": "BIMAS.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "BİM",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
-    },
-    {
-      "ticker": "KCHOL.IST",
-      "exchange": "BIST",
-      "group": "BIST",
-      "company_name": "Koç Holding",
-      "signal_direction": "SELL",
-      "signal_type": "SELL",
-      "confidence_score": 65,
-      "entry_price": null,
-      "stop_loss": null,
-      "target_price": null,
-      "risk_reward": null,
-      "rsi": null,
-      "atr_pct": null,
-      "notes": [
-        "[BIST] Sat: MACD negatif, EMA20<EMA50"
-      ],
-      "score_breakdown": {},
-      "veto_reasons": [],
-      "price_change_pct": null
     }
   ],
   "oversold": [
     {
-      "ticker": "CI",
-      "exchange": "NYSE",
-      "group": "VALUE",
-      "company_name": "Cigna",
+      "ticker": "BLNK",
+      "exchange": "NASDAQ",
+      "group": "SPECULATIVE",
+      "company_name": "Blink Charging",
       "signal_direction": "OVERSOLD",
       "signal_type": "OVERSOLD",
       "confidence_score": 70,
-      "entry_price": 271.42,
-      "stop_loss": 262.7972,
-      "target_price": 284.991,
+      "entry_price": 0.285,
+      "stop_loss": 0.2467,
+      "target_price": 0.2992,
       "risk_reward": 1.5,
-      "rsi": 27.227295636452737,
-      "atr_pct": 3.1769423047155145,
+      "rsi": 13.183288740062594,
+      "atr_pct": 13.433585956942352,
       "notes": [
-        "RSI: 27.2 — Bollinger alt bandına yakın (VALUE)"
+        "RSI: 13.2 — Bollinger alt bandına yakın (SPECULATIVE)"
       ],
       "score_breakdown": {},
       "veto_reasons": [],
-      "price_change_pct": -1.3
+      "price_change_pct": -18.8
     }
   ]
 }
